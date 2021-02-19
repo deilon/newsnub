@@ -1,20 +1,77 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+
+
+<mat-sidenav-container>
+
+  <mat-sidenav #sidenav mode="side" opened>
+    <div class="profile-image">
+      <img src="assets/me.jpg" alt="">
+    </div>
+    <div class="date-and-time">
+      <span class="sidenav-date">Feb 02, 2020</span>
+      <span class="sidenav-time">08:43 am</span>
+    </div>
+    <!-- Change to categories instead :) -->
+    <div class="categories">
+      <a routerLink="/articles/general" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#house"/></svg></span>
+        Home
+      </a>
+      <a routerLink="/articles/business" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#building"/></svg></span>
+        Business
+      </a>
+      <a routerLink="/articles/entertainment" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#play"/></svg></span>
+        Enterntainment
+      </a>
+      <a routerLink="/articles/health" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#heart"/></svg></span>
+        Health
+      </a>
+      <a routerLink="/articles/science" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#lightbulb"/></svg></span>
+        Science
+      </a>
+      <a routerLink="/articles/sports" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#trophy"/></svg></span>
+        Sports
+      </a>
+      <a routerLink="/articles/technology" routerLinkActive="active-category" class="category">
+        <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#cpu"/></svg></span>
+        Technology
+      </a>
+    </div>
+
+    <button id="more-settings" (click)="openDialog()">Settings</button>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+
+    <section class="header">
+      <div class="container">
+        <div class="row d-flex flex-row justify-content-between align-items-center">
+            <div class="col greetings">
+              <button (click)="sidenav.toggle()"><svg class="bi" width="25" height="25" fill="currentColor"><use xlink:href="bootstrap-icons.svg#three-dots-vertical"/></svg></button>
+              <p>
+                Good Morning, <span>Rose</span>
+              </p> 
+            </div>
+            <div class="col search d-flex flex-row justify-content-end align-items-center">
+                <input type="text" placeholder="Search for articles">
+                <button><img src="assets/search.png" alt=""></button>
+            </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <router-outlet></router-outlet>
+
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>
+
+
 

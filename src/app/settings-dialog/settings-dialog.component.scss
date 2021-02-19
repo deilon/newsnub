@@ -1,0 +1,20 @@
+@import "../../variables";
+
+.sources {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.source {
+    
+    .source-image {
+        height: 50px;
+        width: 50px;
+        margin-bottom: 15px;
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        // border: 1px solid $lightFont;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+}

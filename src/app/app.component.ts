@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material';
+import { NewsApiService } from './news-api.service';
+import { SettingsDialogComponent } from './settings-dialog/settings-dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +9,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'news-api';
+  
+  articles: Array<any>;
+  sources: Array<any>;
+
+  constructor(private newsapi: NewsApiService, public dialog: MatDialog) { }
+
+  openDialog() {
+    const dialogRef = this.dialog.open(SettingsDialogComponent, {
+      height: '500px',
+      width: '900px',
+    });
+  }
+
+  ngOnInit() {
+
+  }
+
 }
