@@ -1,11 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ArticlesComponent } from './articles/articles.component';
+// Components
+import { ArticlesCategoryComponent } from './articles-category/articles-category.component';
 
 const appRoutes: Routes = [
     { path: '', redirectTo: 'articles/general', pathMatch: 'full' },
-    { path: 'articles/:category', component: ArticlesComponent }
+    { path: 'articles/:category', component: ArticlesCategoryComponent }
 ];
 
 @NgModule({

@@ -3,11 +3,11 @@ import { ActivatedRoute, Params } from '@angular/router';
 import { NewsApiService } from '../news-api.service';
 
 @Component({
-  selector: 'app-articles',
-  templateUrl: './articles.component.html',
-  styleUrls: ['./articles.component.scss']
+  selector: 'app-articles-category',
+  templateUrl: './articles-category.component.html',
+  styleUrls: ['./articles-category.component.scss']
 })
-export class ArticlesComponent implements OnInit {
+export class ArticlesCategoryComponent implements OnInit {
 
   constructor(private newsapi: NewsApiService, private route: ActivatedRoute) { }
 

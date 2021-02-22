@@ -8,14 +8,16 @@ import { AppRoutingModule } from './app-routing.module';
 // Angular material
 import { MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatListModule, MatMenuModule, MatSidenavModule, MatTabsModule, MatToolbarModule, MatTooltipModule } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
-import { ArticlesComponent } from './articles/articles.component';
 import { SettingsDialogComponent } from './settings-dialog/settings-dialog.component';
+import { ArticlesSourceComponent } from './articles-source/articles-source.component';
+import { ArticlesCategoryComponent } from './articles-category/articles-category.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArticlesComponent,
-    SettingsDialogComponent
+    SettingsDialogComponent,
+    ArticlesSourceComponent,
+    ArticlesCategoryComponent
   ],
   imports: [
     BrowserModule,
