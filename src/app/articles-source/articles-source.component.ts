@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params} from '@angular/router';
+import { NewsApiService } from '../news-api.service';
 
 @Component({
   selector: 'app-articles-source',
@@ -7,9 +9,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ArticlesSourceComponent implements OnInit {
 
-  constructor() { }
+  articles: Array<any>;
+  category = "Top Headline";
+
+  constructor(private newsapi: NewsApiService, private route: ActivatedRoute) { }
 
   ngOnInit() {
+      //load articles
+      this.route.params.subscribe(
+        (params: Params) => {
+              this.newsapi.initSourceArticles(params['source']).subscribe(data => this.articles = data['articles']);
+        }
+      );
   }
 
 }

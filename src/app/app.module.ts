@@ -1,13 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppRoutingModule } from './app-routing.module';
 
-// Angular material
-import { MatButtonModule, MatCardModule, MatDialogModule, MatIconModule, MatListModule, MatMenuModule, MatSidenavModule, MatTabsModule, MatToolbarModule, MatTooltipModule } from '@angular/material';
-import { HttpClientModule } from '@angular/common/http';
+// Modules
+import { MaterialModule } from './material.module';
+import { AppRoutingModule } from './app-routing.module';
+import { SharedModule } from './shared/shared.module';
+
+// Components
 import { SettingsDialogComponent } from './settings-dialog/settings-dialog.component';
 import { ArticlesSourceComponent } from './articles-source/articles-source.component';
 import { ArticlesCategoryComponent } from './articles-category/articles-category.component';
@@ -22,18 +25,10 @@ import { ArticlesCategoryComponent } from './articles-category/articles-category
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    MaterialModule,
     AppRoutingModule,
     HttpClientModule,
-    MatSidenavModule,
-    MatButtonModule,
-    MatMenuModule,
-    MatCardModule,
-    MatToolbarModule,
-    MatIconModule,
-    MatListModule,
-    MatDialogModule,
-    MatTabsModule,
-    MatTooltipModule
+    SharedModule
 
   ],
   providers: [],

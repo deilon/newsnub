@@ -1,0 +1,26 @@
+<section class="articles">
+    <div class="articles-background"></div>
+  
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-6 col-md-6 mb-4" *ngFor="let article of articles">
+          <div class="article row g-0">
+            <div class="article-image col" [ngStyle]="{'background-image': 'url(' + article.urlToImage + ')'}"></div>
+            <div class="article-details col">
+              <span class="article-category">{{ category | titlecase }}</span>
+              <p class="article-title pt-2">{{article.title}}</p>
+              <div class="article-source d-flex flex-row align-items-center">
+                <img *ngIf="article.source.id != null" [src]="'assets/source-images/' + article.source.id + '.png'" alt="">
+                <img *ngIf="article.source.id == null" src="assets/source-images/cnn.png" alt="">
+                <div>
+                  <span class="article-source-name d-block text-truncate" style="max-width: 150px">{{article.source.name}}</span>
+                  <span class="article-source-date d-block">{{ article.publishedAt | date }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
