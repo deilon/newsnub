@@ -6,7 +6,7 @@
                     <div class="source col-md-1 col-lg-1" *ngFor="let source of sources">
                         <a routerLink="/articles/source/{{source.id}}">
                             <div class="source-image" 
-                            matTooltip="{{source.id | uppercase}}" 
+                            matTooltip="{{source.name | uppercase}}" 
                             [ngStyle]="{'background-image': 'url(../../../../assets/source-images/'+ source.id +'.png)'}">
                             </div>
                         </a>
