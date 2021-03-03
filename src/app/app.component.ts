@@ -17,7 +17,6 @@ export class AppComponent {
 
   openDialog() {
     const dialogRef = this.dialog.open(SettingsDialogComponent, {
-      height: '500px',
       width: '900px',
     });
   }

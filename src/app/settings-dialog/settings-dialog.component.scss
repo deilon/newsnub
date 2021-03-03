@@ -3,18 +3,44 @@
 .sources {
     padding-top: 15px;
     padding-bottom: 15px;
-}
-.source {
-    
-    .source-image {
-        height: 50px;
-        width: 50px;
-        margin-bottom: 15px;
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        // border: 1px solid $lightFont;
-        border-radius: 6px;
-        cursor: pointer;
+    font-family: $defaultFont;
+
+    .source-notice p {
+        font-size: 16px;
+        font-weight: 600;
+        color: $darkFont;
     }
+    .source-info-box {
+        background: $blueBg;
+        color: $whiteThemeBg;
+        padding: 10px;
+        border-radius: 5px;
+        p {
+            margin: 0;
+            font-size: 14px;
+            color: $whiteThemeBg;
+        }
+    }
+
+    .source-background-theme {
+        background: $lightMat;
+    }
+
+    .source {
+
+        .source-image {
+            height: 50px;
+            width: 50px;
+            margin-bottom: 15px;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            display: block;
+            margin: 5px auto;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        
+    }
+
 }
