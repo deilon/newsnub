@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="sources row">
                     <div class="source col-md-1 col-lg-1" *ngFor="let source of sources">
-                        <a routerLink="/articles/source/{{source.id}}">
+                        <a routerLink="/articles/source/{{source.id}}" (click)="closeOnSourceClick()">
                             <div class="source-image" 
                             matTooltip="{{source.name | uppercase}}" 
                             [ngStyle]="{'background-image': 'url(../../../../assets/source-images/'+ source.id +'.png)'}">
