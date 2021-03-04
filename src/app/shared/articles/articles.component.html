@@ -8,7 +8,7 @@
             <div class="article-image col" [ngStyle]="{'background-image': 'url(' + article.urlToImage + ')'}"></div>
             <div class="article-details col">
               <span class="article-category">{{ category | titlecase }}</span>
-              <p class="article-title pt-2">{{article.title}}</p>
+              <a href={{article.url}} target="_blank" class="article-title pt-2">{{article.title}}</a>
               <div class="article-source d-flex flex-row align-items-center">
                 <img *ngIf="article.source.id != null" [src]="'assets/source-images/' + article.source.id + '.png'" alt="">
                 <img *ngIf="article.source.id == null" src="assets/source-images/cnn.png" alt="">

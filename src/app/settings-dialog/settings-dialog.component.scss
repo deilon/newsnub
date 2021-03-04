@@ -5,10 +5,11 @@
     padding-bottom: 15px;
     font-family: $defaultFont;
 
-    .source-notice p {
+    .source-notice > p {
         font-size: 16px;
         font-weight: 600;
         color: $darkFont;
+        padding: 5px;
     }
     .source-info-box {
         background: $blueBg;

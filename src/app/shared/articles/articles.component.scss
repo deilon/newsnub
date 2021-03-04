@@ -62,6 +62,10 @@
                 overflow: hidden !important;
                 text-overflow: ellipsis;
                 -webkit-line-clamp: 3;
+                text-decoration: none;
+            }
+            .article-title:hover {
+                text-decoration: underline;
             }
             .article-source {
                 padding-top: 20px;
