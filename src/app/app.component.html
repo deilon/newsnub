@@ -57,9 +57,11 @@
                 Good Morning, <span>Rose</span>
               </p> 
             </div>
-            <div class="col search d-flex flex-row justify-content-end align-items-center">
-                <input type="text" placeholder="Search for articles">
-                <button><img src="assets/search.png" alt=""></button>
+            <div class="col search">
+              <form #f="ngForm" (ngSubmit)="onSubmit(f)" class="d-flex flex-row justify-content-end align-items-center">
+                <input type="text" name="search" ngModel required #search="ngModel" placeholder="Search for articles">
+                <button type="submit"><img src="assets/search.png" alt=""></button>
+              </form>
             </div>
         </div>
       </div>

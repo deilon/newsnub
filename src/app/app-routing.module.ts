@@ -3,12 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Components
 import { ArticlesCategoryComponent } from './articles-category/articles-category.component';
+import { ArticlesSearchComponent } from './articles-search/articles-search.component';
 import { ArticlesSourceComponent } from './articles-source/articles-source.component';
 
 const appRoutes: Routes = [
     { path: '', redirectTo: 'articles/general', pathMatch: 'full' },
     { path: 'articles/:category', component: ArticlesCategoryComponent },
-    { path: 'articles/source/:source', component: ArticlesSourceComponent }
+    { path: 'articles/source/:source', component: ArticlesSourceComponent },
+    { path: 'articles/search/:query', component: ArticlesSearchComponent }
 ];
 
 @NgModule({

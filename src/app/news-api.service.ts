@@ -10,16 +10,20 @@ export class NewsApiService {
 
   constructor(private http: HttpClient) { }
 
-  initSources(){
-    return this.http.get('https://newsapi.org/v2/sources?language=en&apiKey='+this.api_key);
-   }
+  initSources() {
+      return this.http.get('https://newsapi.org/v2/sources?language=en&apiKey='+this.api_key);
+  }
 
-  initArticles(category: string){
-    return this.http.get('https://newsapi.org/v2/top-headlines?category=' + category + '&country=us&apiKey='+this.api_key);
-   }
+  initArticles(category: string) {
+      return this.http.get('https://newsapi.org/v2/top-headlines?category=' + category + '&country=us&apiKey='+this.api_key);
+  }
 
    initSourceArticles(source: string) {
-    return this.http.get('https://newsapi.org/v2/top-headlines?sources='+source+'&apiKey='+this.api_key);
+      return this.http.get('https://newsapi.org/v2/top-headlines?sources='+source+'&apiKey='+this.api_key);
+   }
+
+   searchArticle(query: string) {
+      return this.http.get('https://newsapi.org/v2/everything?q='+query+'&apiKey='+this.api_key);
    }
 
 }
