@@ -14,19 +14,31 @@ export class ArticlesCategoryComponent implements OnInit {
   articles: Array<any>;
   category: string;
 
+  p: number = 1;
+  totalItems: number;
+  itemsPerPage = 20
+
   ngOnInit() {
-      //load articles
       this.route.params.subscribe(
         (params: Params) => {
             this.category = params['category'];
+            this.p = 1; // reset page 
             if (this.category != null) {
-              this.newsapi.initArticles(this.category).subscribe(data => this.articles = data['articles']);
+              this.newsapi.initArticles(this.category, this.p, this.itemsPerPage)
+                .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
             } else {
               this.category = 'general';
-              this.newsapi.initArticles(this.category).subscribe(data => this.articles = data['articles']);
+              this.newsapi.initArticles(this.category, this.p, this.itemsPerPage)
+                .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
             }
         }
       );
+  }
+
+  getPage(page) {
+    this.p = page;
+    this.newsapi.initArticles(this.category, this.p, this.itemsPerPage)
+    .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
   }
 
 }

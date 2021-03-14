@@ -14,6 +14,8 @@ export class AppComponent {
   
   articles: Array<any>;
   sources: Array<any>;
+  initialPage = 1;
+  initialPageSize = 20;
 
   constructor(private newsapi: NewsApiService, public dialog: MatDialog, private router: Router) { }
 
@@ -28,7 +30,7 @@ export class AppComponent {
   }
 
   onSubmit(f: NgForm) {
-    this.router.navigate(['/articles/search/' + f.value.search]);
+    this.router.navigate(['/articles/search/' + f.value.search ]);
   }
 
 }

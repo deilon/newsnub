@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -31,6 +32,7 @@ import { ArticlesSearchComponent } from './articles-search/articles-search.compo
     BrowserAnimationsModule,
     FormsModule,
     MaterialModule,
+    NgxPaginationModule,
     AppRoutingModule,
     HttpClientModule,
     SharedModule

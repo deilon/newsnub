@@ -11,16 +11,38 @@ export class ArticlesSourceComponent implements OnInit {
 
   articles: Array<any>;
   category = "Top Headline";
+  source: string;
+
+  p: number = 1;
+  totalItems: number;
+  itemsPerPage = 20;
 
   constructor(private newsapi: NewsApiService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-      //load articles
       this.route.params.subscribe(
         (params: Params) => {
-              this.newsapi.initSourceArticles(params['source']).subscribe(data => this.articles = data['articles']);
+            this.newsapi.initSourceArticles(params['source'], this.p, this.itemsPerPage)
+            .subscribe(
+              (data: any) => {
+                this.articles = data.articles,
+                this.totalItems = data.totalResults
+              }
+            );
+            this.source = params['source']
         }
       );
+  }
+
+  getPage(page) {
+    this.p = page;
+    this.newsapi.initSourceArticles(this.source, this.p, this.itemsPerPage)
+    .subscribe(
+      (data: any) => {
+        this.articles = data.articles, 
+        this.totalItems = data.totalResults
+      }
+    );
   }
 
 }
