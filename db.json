@@ -1,0 +1,1733 @@
+{
+  "category": [
+
+    {
+      "name": "general",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": "the-wall-street-journal",
+              "name": "The Wall Street Journal"
+          },
+          "author": "Joe Wallace",
+          "title": "Stock Futures Edge Down After Indexes Hit Records - The Wall Street Journal",
+          "description": "The S&P 500 is on track to ease lower after strong economic data powered the benchmark gauge to its 17th all-time high of 2021",
+          "url": "https://www.wsj.com/articles/global-stock-markets-dow-update-04-06-2021-11617695063",
+          "urlToImage": "https://images.wsj.net/im-320887/social",
+          "publishedAt": "2021-04-06T12:05:00Z",
+          "content": "U.S. stock futures wavered Tuesday, signaling that major indexes may take a breather after signs of a rapid economic recovery powered them to record highs.\r\nFutures tied to the S&amp;P 500 ticked dow… [+1463 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Amelia Lucas",
+          "title": "Topps to go public through SPAC deal as baseball card company ventures into NFTs - CNBC",
+          "description": "Topps, which is best known for its baseball cards and Bazooka candy line, has agreed to go public through a merger with a special purpose acquisition company.",
+          "url": "https://www.cnbc.com/2021/04/06/baseball-card-company-topps-to-go-public-through-spac-deal.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/106863991-1617708103263-gettyimages-94610985-pdir0798PHi_j0241JPG.jpeg?v=1617708144",
+          "publishedAt": "2021-04-06T11:30:00Z",
+          "content": "Topps, which is best known for its baseball cards and Bazooka candy line, has agreed to go public through a merger with Mudrick Capital Acquisition Corporation II, a special purpose acquisition compa… [+1894 chars]"
+      }, {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Kaitlan Collins, CNN",
+          "title": "Biden set to announce he's moving deadline for all US adults to be eligible for Covid vaccine to April 19 - CNN ",
+          "description": "President Joe Biden plans to announce Tuesday that he is moving up his deadline for states to make all American adults eligible for a coronavirus vaccine by almost two weeks.",
+          "url": "https://www.cnn.com/2021/04/06/politics/coronavirus-vaccine-deadline-biden/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210404164255-01-joe-biden-0324-super-tease.jpg",
+          "publishedAt": "2021-04-06T11:19:00Z",
+          "content": null
+      }, {
+          "source": {
+              "id": "the-washington-post",
+              "name": "The Washington Post"
+          },
+          "author": "Loveday Morris, Anne Gearan, Kareem Fahim",
+          "title": "U.S. and Iran set to begin indirect talks on reviving nuclear deal in Vienna - The Washington Post",
+          "description": "While both sides want the United States to rejoin the deal, they are at odds over how.",
+          "url": "https://www.washingtonpost.com/world/europe/iran-nuclear-deal-vienna-talks/2021/04/06/02ac1afe-93e4-11eb-aadc-af78701a30ca_story.html",
+          "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/QONJTZEWVAI6XFRLPDA5QIUIDE.jpg&w=1440",
+          "publishedAt": "2021-04-06T10:54:00Z",
+          "content": "It wont be easy, but we are past the procedural roadblock, he said on a call with reporters ahead of the meetings.\r\nU.S. officials and other signatories to Iran nuclear deal to meet in Vienna next we… [+6052 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "HuffPost"
+          },
+          "author": "Lee Moran",
+          "title": "'Jeopardy!' Contestant Trolls Guest Host Aaron Rodgers With Green Bay Packers Ding - HuffPost",
+          "description": "“That is a great question, should be correct,\" the Packers quarterback said with a laugh.",
+          "url": "https://www.huffpost.com/entry/aaron-rodgers-jeopardy-host-joke_n_606c339fc5b6832c793b6572",
+          "urlToImage": "https://img.huffingtonpost.com/asset/606c38bb270000b735c852e2.png?cache=dpc9e4qkut&ops=1778_1000",
+          "publishedAt": "2021-04-06T10:48:00Z",
+          "content": "Aaron Rodgers was amusingly reminded of a controversial Green Bay Packers moment during his debut as guest host of Jeopardy!\r\nIn the episode that aired Monday, Packers quarterback Rodgers asked conte… [+1551 chars]"
+      }, {
+          "source": {
+              "id": "cbs-news",
+              "name": "CBS News"
+          },
+          "author": "Kathryn Watson",
+          "title": "Senate parliamentarian ruling clears way for Democrats to use reconciliation for infrastructure bill - CBS News",
+          "description": "The determination could be key for Democrats with a 50-50 Senate.",
+          "url": "https://www.cbsnews.com/news/infrastrucutre-bill-american-jobs-plan-reconciliation-senate-parliamentarian/",
+          "urlToImage": "https://cbsnews3.cbsistatic.com/hub/i/r/2021/03/25/9cae5818-8a59-4895-b7b3-043827db64f5/thumbnail/1200x630/715b9965c2cc7d60f9872aee9b90ad30/gettyimages-1231927141.jpg",
+          "publishedAt": "2021-04-06T10:47:28Z",
+          "content": "The Senate parliamentarian has advised that a revised budget resolution can include reconciliation instructions, opening a path for Democrats to pass spending legislation by a simple majority vote, a… [+1828 chars]"
+      }, {
+          "source": {
+              "id": "associated-press",
+              "name": "Associated Press"
+          },
+          "author": "Hyung-jin Kim",
+          "title": "EXPLAINER: Why is North Korea skipping the Tokyo Olympics? - Associated Press",
+          "description": "SEOUL, South Korea (AP) — North Korea, citing the coronavirus, has become the world's first country to drop out of the Tokyo Olympics.  It's true that the North is extremely sensitive about...",
+          "url": "https://apnews.com/article/public-health-seoul-tokyo-health-south-korea-adb2cf84470dfcf7118d18e292449fd7",
+          "urlToImage": "https://storage.googleapis.com/afs-prod/media/23cad8af38d04a21918422ab31ebf067/2907.jpeg",
+          "publishedAt": "2021-04-06T10:41:08Z",
+          "content": "SEOUL, South Korea (AP) North Korea, citing the coronavirus, has become the worlds first country to drop out of the Tokyo Olympics. \r\nIts true that the North is extremely sensitive about COVID-19, kn… [+4692 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "HuffPost"
+          },
+          "author": "Lee Moran",
+          "title": "Infectious Disease Expert Explains Why Next COVID-19 Wave In US Is Inevitable - HuffPost",
+          "description": "It's likely too late to stop this upcoming surge, warned Michael Osterholm.",
+          "url": "https://www.huffpost.com/entry/michael-osterholm-inevitable-new-wave-coronavirus_n_606c1818c5b6c00165c52ac1",
+          "urlToImage": "https://img.huffingtonpost.com/asset/5f8c7c2a24000029019acdfe.png?cache=czgiwx1aqk&ops=1778_1000",
+          "publishedAt": "2021-04-06T10:08:00Z",
+          "content": "Infectious disease expert Michael Osterholm on Monday warned of the inevitability of another wave of coronavirus infections in the United States.\r\nWhile vaccination is important, it is obviously a cr… [+1756 chars]"
+      }, {
+          "source": {
+              "id": "the-washington-post",
+              "name": "The Washington Post"
+          },
+          "author": "Katie Shepherd",
+          "title": "Gaetz backed Katie Hill over nude pics leaked without her consent. She calls claims against him ‘reprehensible.’ - The Washington Post",
+          "description": "Former California congresswoman Katie Hill calls for unlikely ally Rep. Matt Gaetz (R-Fla.) to resign if allegations are true that he showed colleagues photos of women he had slept with.",
+          "url": "https://www.washingtonpost.com/nation/2021/04/06/katie-hill-matt-gaetz-scandal/",
+          "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://d1i4t8bqe7zgj6.cloudfront.net/04-02-2021/t_14290fedce1e45edb015f14f4c9401f0_name_thumb.jpg&w=1440",
+          "publishedAt": "2021-04-06T10:05:00Z",
+          "content": "Now, asGaetz faceshis own turmoil overallegations that he paid for sex with multiple women, including a 17-year-old girl, and reports that he showed colleagues nude photos of women he had slept with,… [+4722 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "nj.com"
+          },
+          "author": "Darryl Slater | NJ Advance Media for NJ.com",
+          "title": "NFL Draft 2021: UPDATED 1st-round mock after Jets trade Sam Darnold to Panthers, target Zach Wilson; Justin F - NJ.com",
+          "description": "The 2021 NFL Draft is fast approaching, and it looks like the New York Jets will pick BYU quarterback Zach Wilson, after they traded Sam Darnold to the Carolina Panthers.",
+          "url": "https://www.nj.com/jets/2021/04/nfl-draft-2021-updated-1st-round-mock-after-jets-trade-sam-darnold-to-panthers-target-zach-wilson-justin-fields-jamarr-chase-sliding.html",
+          "urlToImage": "https://www.nj.com/resizer/de9SMiyudXe3lSsGFGPsnyNygnY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/MGUDFQ2BMZBYTOLFDHDTOUBLJI.jpg",
+          "publishedAt": "2021-04-06T10:01:39Z",
+          "content": "The Jets on Monday traded quarterback Sam Darnold to the Panthers.\r\nSo they wont be trading down from the No. 2 overall pick in the 2021 NFL Draft. Theyll surely take BYU quarterback Zach Wilson ther… [+4534 chars]"
+      }, {
+          "source": {
+              "id": "axios",
+              "name": "Axios"
+          },
+          "author": "Barak Ravid",
+          "title": "Netanyahu tapped to form new Israeli government, despite no majority - Axios",
+          "description": "His path to forming a coalition is very, very narrow.",
+          "url": "https://www.axios.com/netanyahu-israel-election-coalition-mandate-4d5f179a-2fbe-4485-9703-fdade77095f7.html",
+          "urlToImage": "https://images.axios.com/JtpkfN9q5QK0r_vlggUfw0sEzks=/0x0:2978x1675/1366x768/2021/04/06/1617701895459.jpg",
+          "publishedAt": "2021-04-06T09:49:49Z",
+          "content": "Two weeks after Israel's fourth consecutive election, Israeli President Reuven Rivlin on Monday gave the mandate for forming a new government to Prime Minister Benjamin Netanyahu.\r\nWhy it matters: Ne… [+2324 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Ben Beaumont-Thomas",
+          "title": "TI and Tiny deny sexual assault allegations from three further women - The Guardian",
+          "description": "Rapper and wife reject ‘scurrilous accusations’ by women who allege the couple drugged and raped them, following similar allegations earlier this year",
+          "url": "https://amp.theguardian.com/music/2021/apr/06/ti-and-tiny-deny-sexual-assault-allegations-from-three-further-women",
+          "urlToImage": null,
+          "publishedAt": "2021-04-06T09:17:00Z",
+          "content": "RapRapper and wife reject scurrilous accusations by women who allege the couple drugged and raped them, following similar allegations earlier this year\r\nRapper TI and his wife Tiny have denied allega… [+3795 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Times"
+          },
+          "author": "Vanessa Friedman",
+          "title": "Will.i.am. and Honeywell Unveil $299 Face Mask - The New York Times",
+          "description": "Will.i.am and Honeywell introduce the first connected mask. Think sneakers meet smartphones.",
+          "url": "https://www.nytimes.com/2021/04/06/style/william-face-mask.html",
+          "urlToImage": "https://static01.nyt.com/images/2021/04/06/fashion/06WILLIAM-MASK-1/06WILLIAM-MASK-1-facebookJumbo.jpg",
+          "publishedAt": "2021-04-06T09:00:16Z",
+          "content": "After all, what are shoes, Will.i.am said, but protective equipment for the feet? Weve just forgotten that was their original purpose because shoes have become a form of self-expression. You could no… [+2099 chars]"
+      }, {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Zahra Ullah and Anna Chernova, CNN",
+          "title": "Putin signs law allowing him to run for two more terms as Russian President - CNN ",
+          "description": "Russian President Vladimir Putin has signed a law paving the way for him to run for two more presidential terms, potentially extending his rule until 2036.",
+          "url": "https://www.cnn.com/2021/04/05/europe/putin-russia-presidential-term-intl-hnk/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210406095814-russia-putin-0321-01-super-tease.jpg",
+          "publishedAt": "2021-04-06T08:50:00Z",
+          "content": null
+      }, {
+          "source": {
+              "id": null,
+              "name": "Eonline.com"
+          },
+          "author": "Ryan Gajewski",
+          "title": "Watch Jimmy Fallon Respond to Backlash Over Addison Rae's TikTok Dance Segment - E! NEWS",
+          "description": "On the April 5 Tonight Show episode, Jimmy Fallon obliquely addressed criticism over a previous segment in which Addison Rae performed viral TikTok dances without crediting the moves' creators.",
+          "url": "https://www.eonline.com/news/1255911/watch-jimmy-fallon-respond-to-backlash-over-addison-raes-tiktok-dance-segment",
+          "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2021230/rs_1200x1200-210330122714-1200-Addison_Rae-THE_TONIGHT_SHOW_STARRING_JIMMY_FALLON_2021-gj.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "publishedAt": "2021-04-06T08:13:21Z",
+          "content": "After returning from a week-long vacation, Jimmy Fallon devoted a full segment of The Tonight Show to correcting his previous mistake surrounding TikTok dances.\r\nOn Monday, April 5, Jimmy addressed b… [+1033 chars]"
+      }, {
+          "source": {
+              "id": "engadget",
+              "name": "Engadget"
+          },
+          "author": "https://www.engadget.com/about/editors/steve-dent",
+          "title": "Apple TV might support game-friendly 120Hz refresh rates at 4K | Engadget - Engadget",
+          "description": "The next Apple TV model might support 120Hz refresh rates, presumably at 4K.",
+          "url": "https://www.engadget.com/apple-tv-might-support-game-friendly-120-hz-refresh-rates-075827098.html",
+          "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/980f3e20-96a8-11eb-bfff-7a2f6301e5a1",
+          "publishedAt": "2021-04-06T07:58:54Z",
+          "content": "The next Apple TV model might support 120Hz refresh rates, presumably at 4K, according to a report from 9to5Mac. References to \"120Hz\" and \"supports120Hz\" appear in the latest tvOS 14.5 beta, suggest… [+1031 chars]"
+      }, {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Madeline Holcombe, CNN",
+          "title": "A dangerous Covid-19 variant has spread to all 50 US states. Experts worry it could send cases surging - CNN ",
+          "description": "The highly contagious Covid-19 variant first identified in the UK has now been reported in every state in the US, and experts are concerned spreading variants could send cases surging.",
+          "url": "https://www.cnn.com/2021/04/06/health/us-coronavirus-tuesday/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210406015427-01-covid-testing-mi-0404-restricted-super-tease.jpg",
+          "publishedAt": "2021-04-06T07:54:00Z",
+          "content": "(CNN)The highly contagious Covid-19 variant first identified in the UK has now been reported in every state in the US, and experts are concerned spreading variants could send cases surging.\r\n\"America… [+5491 chars]"
+      }, {
+          "source": {
+              "id": "newsweek",
+              "name": "Newsweek"
+          },
+          "author": "James Walker",
+          "title": "Mitch McConnell Reminded of Citizens United Backing After Warning to CEOs - Newsweek",
+          "description": "The Republican Senate minority leader told corporations to \"stay out of politics\" late last week.",
+          "url": "https://www.newsweek.com/mitch-mcconnell-citizens-united-ceo-warning-1581174",
+          "urlToImage": "https://d.newsweek.com/en/full/1771815/republican-senate-leader-mitch-mcconnell.jpg",
+          "publishedAt": "2021-04-06T07:42:19Z",
+          "content": "Senate Minority Leader Mitch McConnell has been reminded of his support of the Citizens United ruling after he warned big businesses to \"stay out of politics\" as they denounced a controversial new vo… [+3014 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Www.rfi.fr"
+          },
+          "author": "RFI",
+          "title": "NASA's Ingenuity helicopter survives first night alone on Mars - RFI",
+          "description": "",
+          "url": "https://www.rfi.fr/en/nasa-s-ingenuity-helicopter-survives-first-night-alone-on-mars",
+          "urlToImage": "https://s.rfi.fr/media/display/f3f1cdf8-96a2-11eb-af6c-005056a964fe/w:1280/p:16x9/4438e7677198de0102e057eeb1081fb7b080cfd2.jpg",
+          "publishedAt": "2021-04-06T06:40:19Z",
+          "content": "Washington (AFP)\r\nNASA's Ingenuity mini-helicopter has survived its first night alone on the frigid surface of Mars, the US space agency said, hailing it as \"a major milestone\" for the tiny craft as … [+2965 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "NPR"
+          },
+          "author": null,
+          "title": "Baylor Defeats Gonzaga To Win Its 1st Men's NCAA Basketball Championship - NPR",
+          "description": "The Gonzaga Bulldogs went into the championship game undefeated. But after the final buzzer, it was the Baylor Bears who were victorious. Baylor beat Gonzaga 86-70.",
+          "url": "https://www.npr.org/2021/04/06/984641991/baylor-defeats-gonzaga-to-win-its-1st-mens-ncaa-basketball-championship",
+          "urlToImage": "https://media.npr.org/assets/img/2021/04/06/gettyimages-1311026400_wide-2a493540ba71cd87cf40832027c33e66f6d7cedd.jpg?s=1400",
+          "publishedAt": "2021-04-06T06:12:00Z",
+          "content": "Baylor players Adam Flagler #10, Matthew Mayer #24 and Jackson Moffatt #13 celebrate after defeating the Gonzaga Bulldogs in the National Championship game of the 2021 NCAA Men's Basketball Tournamen… [+1232 chars]"
+      }]
+    },
+
+    {
+      "name": "business",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": "the-wall-street-journal",
+              "name": "The Wall Street Journal"
+          },
+          "author": "Joe Wallace",
+          "title": "Stock Futures Edge Down After Indexes Hit Records - The Wall Street Journal",
+          "description": "The S&P 500 is on track to ease lower after strong economic data powered the benchmark gauge to its 17th all-time high of 2021",
+          "url": "https://www.wsj.com/articles/global-stock-markets-dow-update-04-06-2021-11617695063",
+          "urlToImage": "https://images.wsj.net/im-320887/social",
+          "publishedAt": "2021-04-06T12:05:00Z",
+          "content": "U.S. stock futures wavered Tuesday, signaling that major indexes may take a breather after signs of a rapid economic recovery powered them to record highs.\r\nFutures tied to the S&amp;P 500 ticked dow… [+1463 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Peter Schacknow",
+          "title": "Stocks making the biggest moves in the premarket: Illumina, Cara Therapeutics, Snap & more - CNBC",
+          "description": "The stocks making the biggest moves in premarket trading include Illumina, Cara Therapeutics, Snap, and more.",
+          "url": "https://www.cnbc.com/2021/04/06/stocks-making-the-biggest-moves-in-the-premarket-illumina-cara-therapeutics-snap-more.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/103560002-RTR3G517.jpg?v=1562878740",
+          "publishedAt": "2021-04-06T11:47:00Z",
+          "content": "Take a look at some of the biggest movers in the premarket:\r\nIllumina (ILMN) Illumina issued preliminary current-quarter and full-year guidance that exceeded current analyst estimates. The life scien… [+3007 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Amelia Lucas",
+          "title": "Topps to go public through SPAC deal as baseball card company ventures into NFTs - CNBC",
+          "description": "Topps, which is best known for its baseball cards and Bazooka candy line, has agreed to go public through a merger with a special purpose acquisition company.",
+          "url": "https://www.cnbc.com/2021/04/06/baseball-card-company-topps-to-go-public-through-spac-deal.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/106863991-1617708103263-gettyimages-94610985-pdir0798PHi_j0241JPG.jpeg?v=1617708144",
+          "publishedAt": "2021-04-06T11:30:00Z",
+          "content": "Topps, which is best known for its baseball cards and Bazooka candy line, has agreed to go public through a merger with Mudrick Capital Acquisition Corporation II, a special purpose acquisition compa… [+1894 chars]"
+      }, {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Clare Duffy, CNN Business",
+          "title": "So you're one of 533 million in the Facebook leak. What now? - CNN ",
+          "description": "If you were a Facebook user in 2019, it's possible that your information is among the millions of records posted on a website used by hackers.",
+          "url": "https://www.cnn.com/2021/04/06/tech/facebook-data-leaked-what-to-do/index.html",
+          "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/210111170512-facebook-phone-stock-super-tease.jpg",
+          "publishedAt": "2021-04-06T10:42:00Z",
+          "content": null
+      }, {
+          "source": {
+              "id": "the-wall-street-journal",
+              "name": "The Wall Street Journal"
+          },
+          "author": "The Wall Street Journal",
+          "title": "Merchant groups target Amazon in new political campaign - Fox Business",
+          "description": "Merchant groups are forming a national coalition to campaign for stricter antitrust laws, including measures that could force Amazon.com Inc. to spin off some of its business lines.",
+          "url": "https://www.wsj.com/articles/merchant-groups-target-amazon-in-new-political-campaign-11617701401",
+          "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2020/11/0/0/Amzon-Bezos-black-leadership.jpg?ve=1&tl=1",
+          "publishedAt": "2021-04-06T10:32:31Z",
+          "content": "WASHINGTON -- Merchant groups are forming a national coalition to campaign for stricter antitrust laws, including measures that could force Amazon.com Inc. to spin off some of its business lines.\r\nTh… [+4981 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "nj.com"
+          },
+          "author": "Anthony G. Attrino | NJ Advance Media for NJ.com",
+          "title": "Burger King customer attacks, chokes worker after face-mask argument, cops say - NJ.com",
+          "description": "David Siversten, 47, of Wayne, attacked a female employee and “wrapped both hands around her neck and began strangling her,” police said in a statement.",
+          "url": "https://www.nj.com/coronavirus/2021/04/burger-king-customer-attacks-chokes-worker-after-face-mask-argument-cops-say.html",
+          "urlToImage": "https://www.nj.com/resizer/eTEjOjBbKSvcm3jSXRIZ6Ke8eHU=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/BRCEGIRRFNEQLLXSPT7DNDEJOY.jpg",
+          "publishedAt": "2021-04-06T10:23:38Z",
+          "content": "A New Jersey man who argued with Burger King employees over not wearing a mask returned later in the day and choked one of the workers, authorities said Monday.\r\nThe attack occurred shortly after 4 p… [+1751 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "WCVB Boston"
+          },
+          "author": null,
+          "title": "Wild video shows man driving vehicle inside Attleboro store - WCVB Boston",
+          "description": "A bizarre incident that happened inside an Attleboro store earlier this year was captured on video.",
+          "url": "https://www.wcvb.com/article/wild-video-shows-man-driving-vehicle-inside-attleboro-store/36034778",
+          "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/hobby-lobby-crash-1617702673.png?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+          "publishedAt": "2021-04-06T09:56:00Z",
+          "content": "ATTLEBORO, Mass. —A bizarre incident that happened inside an Attleboro store earlier this year was captured on video. \r\nThe multi-surveillance camera video allegedly shows Rick Woodruff crashing his … [+476 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Myles Udland",
+          "title": "The record-setting U.S. economy is here: Morning Brief - Yahoo Finance",
+          "description": "Top news and what to watch in the markets on Tuesday, April 6, 2021.",
+          "url": "https://finance.yahoo.com/news/record-setting-us-economy-is-here-morning-brief-095356752.html",
+          "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/7a363540-9638-11eb-87cb-e28499e81415",
+          "publishedAt": "2021-04-06T09:53:56Z",
+          "content": "Get the Morning Brief sent directly to your inbox every Monday to Friday by 6:30 a.m. ET. Subscribe\r\nTuesday, April 6, 2021\r\nJobs growth soars, service activity hits a record, and it is still only Ap… [+4081 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "WTOP"
+          },
+          "author": "Acacia James, Alejandro Alvarez",
+          "title": "Power outage affecting thousands in Fairfax, Loudoun counties - WTOP",
+          "description": "Thousands of customers are in the dark across Northern Virginia Tuesday morning.",
+          "url": "http://wtop.com/local/2021/04/power-outage-affecting-thousands-in-fairfax-loudoun-counties/",
+          "urlToImage": "https://wtop.com/wp-content/uploads/2021/04/GettyImages-1252617520-e1617702234996.jpg",
+          "publishedAt": "2021-04-06T09:50:49Z",
+          "content": "Thousands of customers are in the dark across Northern Virginia Tuesday morning.\r\nDominion Energy reports widespread power outages affecting around 5,000 customers in Fairfax County and about 600 in … [+760 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Gizmodo.com"
+          },
+          "author": "Matt Novak",
+          "title": "Japan's Central Bank Launches One-Year Test of Digital Currency - Gizmodo",
+          "description": "Japan’s central bank has started trials of a new digital currency in an effort to experiment with how it might be used, the Bank of Japan announced on Monday. The announcement comes after the Chinese government revealed it was doing something very similar wit…",
+          "url": "https://gizmodo.com/japans-central-bank-launches-one-year-test-of-digital-c-1846625549",
+          "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/ouwloq6einkqoqfubhi8.jpg",
+          "publishedAt": "2021-04-06T09:45:00Z",
+          "content": "Japans central bank has started trials of a new digital currency in an effort to experiment with how it might be used, the Bank of Japan announced on Monday. The announcement comes after the Chinese … [+1844 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Motley Fool"
+          },
+          "author": "Selena Maranjian",
+          "title": "The 1 Stock I'd Buy Right Now - Motley Fool",
+          "description": "This company has a hard-to-beat combination of attractive attributes.",
+          "url": "https://www.fool.com/investing/2021/04/06/the-1-stock-id-buy-right-now/",
+          "urlToImage": "https://g.foolcdn.com/editorial/images/620440/getty-dream-retirement-income-money-hope-goals-plan-career-wish.jpg",
+          "publishedAt": "2021-04-06T09:05:00Z",
+          "content": "If I could only buy shares of one stock, the one I'd choose is Amazon.com(NASDAQ:AMZN). There are certainly other companies that seem likely to grow much more briskly, and companies that pay dividend… [+4251 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Natasha Turak",
+          "title": "Qatar Airways CEO says Covid vaccines likely to be required for travel: 'This will be the trend' - CNBC",
+          "description": "When asked whether coronavirus vaccinations will be necessary in order to fly, the CEO said: \"I think this will be the trend initially.\"",
+          "url": "https://www.cnbc.com/2021/04/06/qatar-airways-ceo-says-covid-vaccines-likely-to-be-required-for-travel.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/104821595-GettyImages-820029054.jpg?v=1532563732",
+          "publishedAt": "2021-04-06T08:10:00Z",
+          "content": "The CEO of a flagship Middle Eastern airline has said the requirement for Covid-19 vaccinations will likely be a trend in air travel, as the industry attempts to rebound from the impact of the corona… [+3480 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Yen Nee Lee",
+          "title": "A Roth Capital analyst says Tesla’s stock is worth $150 — which would be a 78% discount - CNBC",
+          "description": "Craig Irwin of Roth Capital said he's bullish on sales of electric vehicles, but the possibility of Tesla beating estimates is \"clearly already in valuation.\"",
+          "url": "https://www.cnbc.com/2021/04/06/tesla-tlsa-stock-is-overvalued-and-worth-150-says-analyst.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/106339120-1579148717179gettyimages-1192716103.jpeg?v=1617689575",
+          "publishedAt": "2021-04-06T07:32:00Z",
+          "content": "Tesla's stock is overvalued and worth only $150, according to Craig Irwin, senior research analyst at Roth Capital, who said the electric carmaker must do more to justify its share price of nearly $7… [+1749 chars]"
+      }, {
+          "source": {
+              "id": "reuters",
+              "name": "Reuters"
+          },
+          "author": "Joyce Lee, Heekyong Yang",
+          "title": "LG Electronics fans bemoan end of era as firm exits smartphone business - Reuters",
+          "description": "Fans of LG Electronics smartphones rued the loss of more affordable Android-based devices after the South Korean tech company said on Monday it would quit the business, with some praising LG for the innovation it brought to the industry.",
+          "url": "https://www.reuters.com/article/us-lg-elec-smartphones-customers-idUSKBN2BT0OI",
+          "urlToImage": "https://static.reuters.com/resources/r/?m=02&d=20210406&t=2&i=1557431791&r=LYNXMPEH350CZ&w=800",
+          "publishedAt": "2021-04-06T07:17:00Z",
+          "content": "SEOUL (Reuters) - Fans of LG Electronics smartphones rued the loss of more affordable Android-based devices after the South Korean tech company said on Monday it would quit the business, with some pr… [+1710 chars]"
+      }, {
+          "source": {
+              "id": "the-washington-post",
+              "name": "The Washington Post"
+          },
+          "author": "Loveday Morris",
+          "title": "Europe’s vaccine divide: As scientists scramble for answers to AstraZeneca blood clot puzzle, some nations opt for caution - The Washington Post",
+          "description": "The cases of brain clots remain very rare. That is just one challenge for researchers.",
+          "url": "https://www.washingtonpost.com/world/europe/astrazeneca-blood-clot-dilemma-europe/2021/04/05/a8091e4e-914f-11eb-aadc-af78701a30ca_story.html",
+          "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/2257PTUT3II6XJ2OD5GPRH6ZJA.jpg&w=1440",
+          "publishedAt": "2021-04-06T07:00:00Z",
+          "content": "No link has been established with the vaccine, widely used in Europe and other countries, including Canada and India, and under review for possible approval in the United States.\r\nBut several teams o… [+9782 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Elliot Smith",
+          "title": "Credit Suisse takes $4.7 billion hit from Archegos hedge fund scandal; execs step down - CNBC",
+          "description": "Investment Bank CEO Brian Chin and Chief Risk and Compliance Officer Lara Warner will step down from their roles with immediate effect.",
+          "url": "https://www.cnbc.com/2021/04/06/credit-suisse-cuts-dividend-on-hit-from-hedge-fund-scandal-investment-bank-head-and-chief-risk-officer-step-down.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/105154457-Credit_Suisse_.jpg?v=1571403193",
+          "publishedAt": "2021-04-06T05:16:00Z",
+          "content": "Credit Suisse on Tuesday announced several high-level staff departures and proposed a cut to its dividend as it weighs heavy losses from the Archegos Capital saga.\r\nThe Swiss lender now expects a fir… [+2707 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Eustance Huang",
+          "title": "Airline stocks in Asia-Pacific boosted by Australia-New Zealand travel bubble, rising optimism - CNBC",
+          "description": "A number of developments, including an air travel bubble between Australia and New Zealand, buoyed airline stocks in Asia-Pacific.",
+          "url": "https://www.cnbc.com/2021/04/06/air-travel-optimism-boosts-asia-pacific-airline-stocks.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/106687167-1599017441671-gettyimages-1228279816-urn_newsml_dpa_com_20090101_200831-99-370303-2.jpeg?v=1617684085",
+          "publishedAt": "2021-04-06T04:43:00Z",
+          "content": "SINGAPORE Asia-Pacific airline stocks were on the move in Tuesday trade after a flurry of announcements largely boosted the outlook for international air travel.\r\nShares of Australia's Qantas Airways… [+1466 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "INSIDER"
+          },
+          "author": "Cheryl Teh",
+          "title": "Pfizer halts shipment of 700,000 COVID vaccines to Israel after the country reportedly failed to make payment - Insider",
+          "description": "The Jerusalem Post reported Pfizer halted a shipment of 700,000 COVID vaccine doses after Israel failed to pay for its most recent shipment of 2.5 million doses.",
+          "url": "https://www.insider.com/pfizer-halts-shipment-of-covid-vaccines-after-israel-doesnt-pay-2021-4",
+          "urlToImage": "https://i.insider.com/606bd17ba7d803001963edf4?width=1200&format=jpeg",
+          "publishedAt": "2021-04-06T04:41:18Z",
+          "content": "Pfizer halted a shipment of 700,000 COVID vaccines scheduled to arrive in Israel on Sunday following the country's failure to pay for the last 2.5 million doses shipped there.\r\nAccording to the Jerus… [+2071 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KCRA Sacramento"
+          },
+          "author": "Jonathan Ayestas",
+          "title": "UC Davis to allow anyone ages 16 and older to get COVID-19 vaccine - KCRA Sacramento",
+          "description": "Starting Tuesday, anyone ages 16 or older — whether or not you're already a patient with the health care provider — can sign up for a COVID-19 vaccine appointment with UC Davis.",
+          "url": "https://www.kcra.com/article/uc-davis-anyone-ages-16-older-covid-vaccine/36032192",
+          "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/vaccine-1605922879.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+          "publishedAt": "2021-04-06T04:30:00Z",
+          "content": "SACRAMENTO, Calif. —UC Davis this week will expand eligibility for the COVID-19 vaccine to any patients and nonpatients ages 16 and older, the health care provider said Monday.\r\nStarting Tuesday, any… [+439 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Emma Graham",
+          "title": "Fintech start-up Stripe enters the Middle East with UAE launch - CNBC",
+          "description": "Online payments company Stripe opens its first Middle East office in Dubai, in the United Arab Emirates.",
+          "url": "https://www.cnbc.com/2021/04/06/fintech-start-up-stripe-enters-the-middle-east-with-uae-launch.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/106841969-1613634733524-gettyimages-1229046630-UAE_SLUMP.jpeg?v=1613633940",
+          "publishedAt": "2021-04-06T04:03:00Z",
+          "content": "One of Silicon Valley's most valuable private fintech companies has chosen Dubai for its first expansion into the Middle East and North Africa.\r\nOnline payments company Stripe is expanding into the M… [+3540 chars]"
+      }]
+    },
+
+    {
+      "name": "entertainment",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Melissa Roberto",
+          "title": "DMX's family, supporters held prayer vigil as he remains hospitalized - Fox News",
+          "description": "DMX's family members and supporters gathered on Monday for a prayer vigil outside of the New York hospital where he remained on life support.",
+          "url": "https://www.foxnews.com/entertainment/dmx-vigil-family-supporters-prayer-hospitalized",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/04/dmx-ap1.jpg",
+          "publishedAt": "2021-04-06T11:36:47Z",
+          "content": "DMX's family members and supporters gathered for a prayer vigil on Monday outside of the New York hospital where he remained on life support.\r\nThe 50-year-old rap legend was admitted to the hospital … [+2645 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Deadline"
+          },
+          "author": "Andreas Wiseman",
+          "title": "Paul Ritter Dies: ‘Friday Night Dinner’ & ‘Chernobyl’ Star Was 54 - Deadline",
+          "description": "UK stage and screen actor Paul Ritter, best known for long-running Channel4 comedy series Friday Night Dinner, has died of a brain tumour aged 54, his agent has confirmed. Ritter’s prolific small screen output included key roles in 2019 HBO hit Chernobyl, ITV…",
+          "url": "https://deadline.com/2021/04/paul-ritter-friday-night-dinner-chernobyl-dead-brain-tumor-1234728365/",
+          "urlToImage": "https://deadline.com/wp-content/uploads/2021/04/Paul-Ritter.jpg?w=650",
+          "publishedAt": "2021-04-06T10:33:00Z",
+          "content": "UK stage and screen actor Paul Ritter, best known for long-running Channel4 comedy series Friday Night Dinner, has died of a brain tumour aged 54, his agent has confirmed.\r\nRitter’s prolific small sc… [+2393 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "The Guardian"
+          },
+          "author": "Ben Beaumont-Thomas",
+          "title": "TI and Tiny deny sexual assault allegations from three further women - The Guardian",
+          "description": "Rapper and wife reject ‘scurrilous accusations’ by women who allege the couple drugged and raped them, following similar allegations earlier this year",
+          "url": "https://amp.theguardian.com/music/2021/apr/06/ti-and-tiny-deny-sexual-assault-allegations-from-three-further-women",
+          "urlToImage": null,
+          "publishedAt": "2021-04-06T09:17:00Z",
+          "content": "RapRapper and wife reject scurrilous accusations by women who allege the couple drugged and raped them, following similar allegations earlier this year\r\nRapper TI and his wife Tiny have denied allega… [+3795 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Lyndsey Parker",
+          "title": "Kelly Clarkson reveals 'the one song in history' she’s afraid to cover: 'I'm going to leave that alone' - Yahoo Entertainment",
+          "description": "Kelly is the queen of covers, but on Monday's episode of 'The Voice,' she said there's one tune that she believes is untouchable.",
+          "url": "https://www.yahoo.com/entertainment/kelly-clarkson-reveals-the-one-song-in-history-shes-afraid-to-cover-062425123.html",
+          "urlToImage": "https://s.yimg.com/ny/api/res/1.2/EGywwOWDyZILP3rehVHwhw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0zMTM1/https://s.yimg.com/os/creatr-uploaded-images/2021-04/61012930-969d-11eb-b5e7-d62d9670ba57",
+          "publishedAt": "2021-04-06T06:52:04Z",
+          "content": "The Voice coach Kelly Clarkson is the undisputed queen of covers. She obviously came to fame interpreting other artists songs on another singing competition, American Idol, and more recently her vira… [+10283 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Vulture"
+          },
+          "author": "Halle Kiefer",
+          "title": "Jimmy Fallon Welcomes Actual Creators of TikTok Dances After Addison Rae Backlash - Vulture",
+          "description": "Following the backlash to Addison Rae’s appearance on the show.",
+          "url": "https://www.vulture.com/2021/04/fallon-welcomes-tiktok-dancers-after-addison-rae-backlash.html",
+          "urlToImage": "https://pyxis.nymag.com/v1/imgs/db8/edc/bd56f947ae50bfba610fa114d9a263f7ef-5-Tonight-Show-TikTok-Dance-Creators.1x.rsocial.w1200.jpg",
+          "publishedAt": "2021-04-06T06:44:53Z",
+          "content": "Last month, The Tonight Show Starring Jimmy Fallon invited TikTok celeb Addison Rae to visit and teach America what the kids are getting up to on TikTok. On Monday night, Jimmy Fallon welcomed the ac… [+1290 chars]"
+      }, {
+          "source": {
+              "id": "google-news",
+              "name": "Google News"
+          },
+          "author": null,
+          "title": "Jennifer Lopez's Exes, Travis Barker's Easter & Gayle's Toes - \"Nightly Pop\" 04/05/21 | E! News - E! News",
+          "description": null,
+          "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9dlY2U0JBWmZLMHfSAQA?oc=5",
+          "urlToImage": null,
+          "publishedAt": "2021-04-06T04:56:13Z",
+          "content": null
+      }, {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Nate Day",
+          "title": "Thandie Newton reclaims original name spelling, will go by Thandiwe Newton: 'Always been my name' - Fox News",
+          "description": "\"Westworld\" star Thandie Newton said she will now go by Thandiwe Newton, her birth name, after the name was misspelled on her first film role.",
+          "url": "https://www.foxnews.com/entertainment/thandie-newton-original-name-spelling-will-go-by-thandiwe-newton",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/04/Thandiwe-Newton.jpg",
+          "publishedAt": "2021-04-06T04:53:57Z",
+          "content": "Thandiwe Newton, the acclaimed actress formerly known as Thandie Newton, is getting back to her roots.\r\nThe 48-year-old \"Westworld\" star has had a long career on both the big and small screens and ha… [+2550 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Daily Mail"
+          },
+          "author": "Dailymail.com",
+          "title": "DJ Bassnectar is named in lawsuit accusing him of sex trafficking and pornography involving minors - Daily Mail",
+          "description": "In the lawsuit, the women, identified as Rachel and Alexis, are asking for damages linked to emotional distress and medical expenses.",
+          "url": "https://www.dailymail.co.uk/tvshowbiz/article-9439151/DJ-Bassnectar-named-lawsuit-accusing-sex-trafficking-pornography-involving-minors.html",
+          "urlToImage": "https://i.dailymail.co.uk/1s/2021/04/06/02/41380062-0-image-a-137_1617670843192.jpg",
+          "publishedAt": "2021-04-06T04:44:17Z",
+          "content": "Bassnectar, an EDM DJ and record producer, has been named in a lawsuit accusing him of sex trafficking and possessing pornography involving minors.\r\nBassnectar, 43, whose full name is Lorin Ashton, w… [+3725 chars]"
+      }, {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Nate Day",
+          "title": "Olivia Jade Giannulli and siblings picked up Mossimo Giannulli from jail - Fox News",
+          "description": "Olivia Jade Giannulli and her siblings picked up their father, Mossimo Giannulli, from prison when he was released early on Friday after serving about five months for participating in the college admissions scandal.",
+          "url": "https://www.foxnews.com/entertainment/olivia-jade-giannulli-siblings-picked-up-mossimo-giannulli-jail",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/04/Mossimo-Giannulli-Olivia-Jade.jpg",
+          "publishedAt": "2021-04-06T04:44:00Z",
+          "content": "Olivia Jade Giannulli and her siblings had a special errand to run Friday when their father, Mossimo Giannulli, was released from prison.\r\nThe famed designer and husband of actress Lori Loughlin was … [+2039 chars]"
+      }, {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Nate Day",
+          "title": "Pete Davidson moves out of home he shared with his mother - Fox News",
+          "description": "\"The King of Staten Island\" star Pete Davidson has moved out of the Staten Island home he shares with his mother.",
+          "url": "https://www.foxnews.com/entertainment/pete-davidson-moves-out-home-shared-with-mother",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/04/Pete-Davidson.jpg",
+          "publishedAt": "2021-04-06T04:35:09Z",
+          "content": "Pete Davidson has moved out of his mother's home.\r\nThe \"Saturday Night Live\" actor, 27, has famously lived with his mother in the Staten Island borough of New York City for some time now and has poke… [+2278 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Eonline.com"
+          },
+          "author": "Lindsay Weinberg",
+          "title": "Henry Golding and Wife Liv Lo Welcome Their First Baby Together - E! NEWS",
+          "description": "Liv Lo Golding gave birth to her and Henry Golding's first baby on March 31, she revealed. As Henry wrote of his wife, \"Your strength brought us our greatest joy.\"",
+          "url": "https://www.eonline.com/news/1255882/henry-golding-and-wife-liv-lo-welcome-their-first-baby-together",
+          "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/2020106/rs_1200x1200-201106040157-1200-Henry-Golding-Liv-Lo-LT-11620-shutterstock_editorial_10281783q.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "publishedAt": "2021-04-06T02:57:00Z",
+          "content": "He said they had the nursery all ready to go, but they know there will be a learning curve as new parents. \"I think you have to learn on the fly in some respects. It's a marathon. So we're going to t… [+1174 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Eonline.com"
+          },
+          "author": "Ryan Gajewski",
+          "title": "Katharine McPhee and Baby Boy Rennie Rock Matching Swimsuits in New Photo - E! NEWS",
+          "description": "Katharine McPhee enjoyed a photo opp with newborn son Rennie as they joined other family members in modeling Sara Foster's new swimwear collection. See the group pic, below.",
+          "url": "https://www.eonline.com/news/1255883/katharine-mcphee-and-baby-boy-rennie-rock-matching-swimsuits-in-new-photo",
+          "urlToImage": "https://akns-images.eonline.com/eol_images/Entire_Site/202135/rs_1200x1200-210405192945-1200-Katharine-McPhee-mp.jpg?fit=around%7C1080:1080&output-quality=90&crop=1080:1080;center,top",
+          "publishedAt": "2021-04-06T02:47:00Z",
+          "content": "Katharine McPhee and her family members are ready to make a splash.\r\nThe 37-year-old Smash performer took some time from her busy schedule as a new mom to model her stepdaughter Sara Foster's swimwea… [+852 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Lyndsey Parker",
+          "title": "Out-and-proud contestant Beane slips 'small moment' of 'defiance to the norm' into breakout 'Idol' performance - Yahoo Entertainment",
+          "description": "\"You made us turn around on every note to say, ‘Hey, I’m here.’ And we noticed exactly what you were doing,\" said Lionel Richie.",
+          "url": "https://www.yahoo.com/entertainment/out-and-proud-contestant-beane-breakout-idol-performance-023451805.html",
+          "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/1a1ce1a0-95e2-11eb-b7fa-6a68a110f016",
+          "publishedAt": "2021-04-06T02:41:13Z",
+          "content": "As American Idol Season 19s top 24 shows continued apace Monday, charming crooner Beane was paired with classical crossover superstar Josh Groban during the celebrity duets round, and it was a match … [+17483 chars]"
+      }, {
+          "source": {
+              "id": "ars-technica",
+              "name": "Ars Technica"
+          },
+          "author": "Jennifer Ouellette",
+          "title": "Celebrate First Contact Day with this Star Trek: Discovery S4 trailer - Ars Technica",
+          "description": "\"Federation or non-Federation, this anomaly threatens us equally.\"",
+          "url": "https://arstechnica.com/gaming/2021/04/celebrate-first-contact-day-with-this-star-trek-discovery-s4-trailer/",
+          "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2021/04/stdisco1-760x380.jpg",
+          "publishedAt": "2021-04-06T01:56:35Z",
+          "content": "47 with 39 posters participating\r\nSonequa Martin-Green revealed the first trailer for the fourth season of Star Trek: Discovery, as part of First Contact Day.\r\nActress Sonequa Martin-Green, who plays… [+5334 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "The Advocate"
+          },
+          "author": "KATELYN UMHOLTZ | Staff writer",
+          "title": "Watch: Louisiana man arrested during $15K Disney trip reconsiders refusing the temperature check - The Advocate",
+          "description": "A heated argument at Disney World started after a man refused to have his temperature taken and ended with him being escorted out of the park and arrested by Orange",
+          "url": "https://www.theadvocate.com/baton_rouge/news/coronavirus/article_ce16c720-9678-11eb-b1a5-77eb40544bb0.html",
+          "urlToImage": "https://bloximages.newyork1.vip.townnews.com/theadvocate.com/content/tncms/assets/v3/editorial/1/f2/1f22c450-95a4-11eb-96f8-d36f399f0790/606a571299412.image.jpg?resize=800%2C532",
+          "publishedAt": "2021-04-06T01:38:00Z",
+          "content": "A heated argument at Disney World started after a man refused to have his temperature taken and ended with him being escorted out of the park and arrested by Orange County deputies two months ago. \r\n… [+1168 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Daily Mail"
+          },
+          "author": "Cassie Carpenter",
+          "title": "Paris Jackson to appear in Hulu's teen rom-com Sex Appeal with Margaret Cho and Fortune Feimster - Daily Mail",
+          "description": "The Michael Jackson heiress - who turned 23 last Saturday - will likely play a teenager in director Talia Osteen's movie surrounding a STEM conference ('nerd prom')",
+          "url": "https://www.dailymail.co.uk/tvshowbiz/article-9439081/Paris-Jackson-appear-Hulus-teen-rom-com-Sex-Appeal-Margaret-Cho-Fortune-Feimster.html",
+          "urlToImage": "https://i.dailymail.co.uk/1s/2021/04/06/01/41380240-0-image-a-64_1617670627979.jpg",
+          "publishedAt": "2021-04-06T00:55:39Z",
+          "content": "On Monday, Paris Jackson confirmed she scored an acting role in Hulu's Sex Appeal starring Mika Abdalla and Jake Short as a long-distance teenage couple.\r\nThe Michael Jackson heiress - who turned 23 … [+3346 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Times"
+          },
+          "author": "Michael Paulson",
+          "title": "LA Stage Alliance Disbands After Awards Ceremony Blunder - The New York Times",
+          "description": "The organization that runs the annual competition honoring theater work in Los Angeles imploded after it misidentified an Asian-American actor.",
+          "url": "https://www.nytimes.com/2021/04/05/theater/la-stage-alliance-collapse.html",
+          "urlToImage": "https://static01.nyt.com/images/2021/04/05/arts/05LASTAGE2/05LASTAGE2-facebookJumbo.jpg",
+          "publishedAt": "2021-04-06T00:51:35Z",
+          "content": "Many of the regions theaters, which had been speaking up in support of diversity, equity and inclusion, first in response to the unrest over racial injustice last summer, and then again in response t… [+3153 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Health.com"
+          },
+          "author": "Karen Pallarito",
+          "title": "Rapper DMX Is in a ‘Vegetative State’ After Suffering a Heart Attack—Here’s What That Means - Health.com",
+          "description": "The 50-year-old rapper's friends and family are \"just praying\" for his recovery.",
+          "url": "https://www.health.com/mind-body/dmx-vegetative-state-meaning",
+          "urlToImage": "https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=%5B1080%2C360%5D&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F12%2F2021%2F04%2F05%2FDMX-GettyImages-671390124.jpg",
+          "publishedAt": "2021-04-06T00:45:00Z",
+          "content": "Earl Simmons, better known as the multi-platinum rapper DMX, remains hospitalized in a vegetative state after suffering a heart attack over the weekend, according to media reports.\r\nThe 50-year-old a… [+4739 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Page Six"
+          },
+          "author": "Carlos Greer",
+          "title": "Tom Brady and Gisele Bündchen trade beaches for Disney World - Page Six",
+          "description": "They traded beaches for Disney.",
+          "url": "https://pagesix.com/2021/04/05/tom-brady-and-gisele-bundchen-take-kids-to-disney-world/",
+          "urlToImage": "https://pagesix.com/wp-content/uploads/sites/3/2021/04/brady-bundchen-take-kids-to-disney-135.jpg?quality=90&strip=all&w=1200",
+          "publishedAt": "2021-04-06T00:40:00Z",
+          "content": "Tom Brady and Gisele Bündchen have traded tropical beaches for lightsabers and castles in Orlando, Florida, on Monday. \r\nThe Tampa Buccaneers quarterback, 43, and his supermodel wife, 40, were spotte… [+1669 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNET"
+          },
+          "author": "Gael Fashingbauer Cooper",
+          "title": "Watch the delightfully schlocky Soviet version of Lord of the Rings - CNET",
+          "description": "The fantasy film aired on Soviet TV in 1992, then disappeared, which is probably for the best.",
+          "url": "https://www.cnet.com/news/watch-the-delightfully-schlocky-soviet-version-of-lord-of-the-rings/",
+          "urlToImage": "https://www.cnet.com/a/img/bjRw3XnLP3RTjVYR5UOICzzjOTc=/1200x630/2021/04/05/93330437-db99-4114-88c6-054fdf9bc43d/soviet-lord-of-the-rings.png",
+          "publishedAt": "2021-04-06T00:23:00Z",
+          "content": "YouTube screenshot by Gael Fashingbauer Cooper/CNET\r\nWhile fans of J.R.R. Tolkien's Lord of the Rings saga await the mega-bucks Amazon series, they can indulge in a campier version of the famed fanta… [+1117 chars]"
+      }]
+    },
+
+    {
+      "name": "health",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": null,
+              "name": "WCVB Boston"
+          },
+          "author": "Matt Reed",
+          "title": "Boston Medical Center clinic gives COVID-19 vaccinations to ineligible residents - WCVB Boston",
+          "description": "Several Massachusetts residents who did not meet the state's eligibility requirement received COVID-19 vaccinations at a clinic in Dorchester on Monday.",
+          "url": "https://www.wcvb.com/article/boston-medical-center-clinic-gives-covid-19-vaccinations-to-ineligible-residents/36034216",
+          "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/vlcsnap-2021-04-06-05h22m53s583-1617701887.png?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+          "publishedAt": "2021-04-06T12:16:00Z",
+          "content": "BOSTON — Several Massachusetts residents who did not meet the state's eligibility requirement received COVID-19 vaccinations at a clinic in Dorchester on Monday.\r\nYoung people went to the clinic at t… [+869 chars]"
+      }, {
+          "source": {
+              "id": "the-wall-street-journal",
+              "name": "The Wall Street Journal"
+          },
+          "author": "Peter Loftus",
+          "title": "Covid-19 Vaccine Developed By U.S. Army Begins Human Testing - The Wall Street Journal",
+          "description": "The vaccine has shown preliminary signs of protecting against new strains, Army researchers say",
+          "url": "https://www.wsj.com/articles/covid-19-vaccine-developed-by-u-s-army-begins-human-testing-11617706803",
+          "urlToImage": "https://images.wsj.net/im-320787/social",
+          "publishedAt": "2021-04-06T11:00:00Z",
+          "content": "The U.S. Army will start testing among adult volunteers an Army-developed Covid-19 vaccine that researchers say may protect against a variety of coronavirus variants.Army doctors plan to start testin… [+3629 chars]"
+      }, {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "Associated Press",
+          "title": "CDC inquiry sought on HIV outbreak in West Virginia's largest county - Fox News",
+          "description": "U.S. Sen. Joe Manchin on Monday submitted a congressional inquiry with the Centers for Disease Control and Prevention regarding an HIV outbreak in West Virginia's largest county.",
+          "url": "https://www.foxnews.com/health/cdc-inquiry-sought-hiv-outbreak-west-virginias-largest-county",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/04/HIV_WVa_AP.jpg",
+          "publishedAt": "2021-04-06T10:55:57Z",
+          "content": "CHARLESTON, W.Va. U.S. Sen. Joe Manchin on Monday submitted a congressional inquiry with the Centers for Disease Control and Prevention regarding an HIV outbreak in West Virginia's largest county.\r\nT… [+3789 chars]"
+      }, {
+          "source": {
+              "id": "ars-technica",
+              "name": "Ars Technica"
+          },
+          "author": "John Timmer",
+          "title": "Want to worry about the next pandemic? Spillover.global has you covered - Ars Technica",
+          "description": "A research collaboration has evaluated hundreds of viruses based on human risk.",
+          "url": "https://arstechnica.com/science/2021/04/want-to-worry-about-the-next-pandemic-spillover-global-has-you-covered/",
+          "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2021/04/SteveJordan_GettyIimages_HAZMATGuys_Cropped-1-760x380.jpeg",
+          "publishedAt": "2021-04-06T10:45:07Z",
+          "content": "Enlarge/ Researchers with Franceville interdisciplinary Medical Research Centre (CIRMF, Centre Interdisciplinaire Medical de Recherches de Franceville) collect samples from a bat on November 25, 2020… [+5687 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "HuffPost"
+          },
+          "author": "Lee Moran",
+          "title": "Infectious Disease Expert Explains Why Next COVID-19 Wave In US Is Inevitable - HuffPost",
+          "description": "It's likely too late to stop this upcoming surge, warned Michael Osterholm.",
+          "url": "https://www.huffpost.com/entry/michael-osterholm-inevitable-new-wave-coronavirus_n_606c1818c5b6c00165c52ac1",
+          "urlToImage": "https://img.huffingtonpost.com/asset/5f8c7c2a24000029019acdfe.png?cache=czgiwx1aqk&ops=1778_1000",
+          "publishedAt": "2021-04-06T10:08:00Z",
+          "content": "Infectious disease expert Michael Osterholm on Monday warned of the inevitability of another wave of coronavirus infections in the United States.\r\nWhile vaccination is important, it is obviously a cr… [+1756 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "NPR"
+          },
+          "author": "",
+          "title": "Woman Gets New Trachea In Groundbreaking Transplant Surgery : Shots - Health News - NPR",
+          "description": "A medical team in New York City says it has performed the first complete surgical transplant of a trachea. These kinds of transplants are one of the last big transplant challenges.",
+          "url": "https://www.npr.org/sections/health-shots/2021/04/06/981735718/woman-gets-new-windpipe-in-groundbreaking-transplant-surgery",
+          "urlToImage": "https://media.npr.org/assets/img/2021/03/26/trachea_transplant_023_wide-4017cb370714ad8095312e99f666eccc36e86878.jpg?s=1400",
+          "publishedAt": "2021-04-06T09:15:00Z",
+          "content": "Mount Sinai's Dr. Eric Genden with patient Sonia Sein after performing her tracheal transplant. A trachea is basically a tube that transports air to and from the lungs.\r\nClaudia Paul/Mount Sinai Heal… [+6776 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Times"
+          },
+          "author": "Lauren Leatherby",
+          "title": "As Variants Have Spread, Progress Against the Virus in U.S. Has Stalled - The New York Times",
+          "description": "Vaccinations have topped three million per day, but cases have risen again amid the presence of more-contagious variants, restriction rollbacks and more travel.",
+          "url": "https://www.nytimes.com/interactive/2021/04/06/us/variants-cases-spread.html",
+          "urlToImage": "https://static01.nyt.com/images/2021/04/05/us/variants-cases-spread-promo-1617667420406/variants-cases-spread-promo-1617667420406-facebookJumbo.jpg",
+          "publishedAt": "2021-04-06T09:00:10Z",
+          "content": "United States coronavirus cases have increased again after hitting a low point late last month, and some of the states driving the upward trend have also been hit hardest by variants, according to an… [+7473 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "ScienceAlert"
+          },
+          "author": "David Nield",
+          "title": "More Than 4,000 Blood Tests Suggest Our Bodies Age in 3 Distinct Shifts - ScienceAlert",
+          "description": "In terms of biological aging, the body seems to shift gears three times during our lifespans, research from 2019 suggests – with 34 years, 60 years, and 78 years being the key thresholds.",
+          "url": "https://www.sciencealert.com/more-than-4-000-blood-tests-suggest-our-bodies-age-in-3-distinct-shifts",
+          "urlToImage": "https://www.sciencealert.com/images/2019-12/processed/ageing-stages_web_1024.jpg",
+          "publishedAt": "2021-04-06T08:48:45Z",
+          "content": "In terms of biological aging, the body seems to shift gears three times during our lifespans, research from 2019 suggests with 34 years, 60 years, and 78 years being the key thresholds.\r\nIn other wor… [+3568 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KOMO News"
+          },
+          "author": "Nick Popham and Tammy Mutasa, KOMO News Reporters",
+          "title": "Health experts anticipating possible fourth COVID-19 surge in Washington state - KOMO News",
+          "description": "Rising case counts in Washington state have experts anticipating a potential fourth surge in this pandemic that could lead to some counties taking a step back in phases. \"If we weren't getting vaccinated, we would be in a world of hurt right now,\" said Dr. Na…",
+          "url": "https://komonews.com/news/coronavirus/health-experts-anticipating-possible-fourth-covid-19-surge-in-washington-state",
+          "urlToImage": "https://static-40.sinclairstoryline.com/resources/media/0803c71a-7f35-48a9-8913-afd4e1b8903e-large16x9_thumb_66990.png?1617678108533",
+          "publishedAt": "2021-04-06T06:00:00Z",
+          "content": null
+      }, {
+          "source": {
+              "id": null,
+              "name": "KCRA Sacramento"
+          },
+          "author": "Jonathan Ayestas",
+          "title": "UC Davis to allow anyone ages 16 and older to get COVID-19 vaccine - KCRA Sacramento",
+          "description": "Starting Tuesday, anyone ages 16 or older — whether or not you're already a patient with the health care provider — can sign up for a COVID-19 vaccine appointment with UC Davis.",
+          "url": "https://www.kcra.com/article/uc-davis-anyone-ages-16-older-covid-vaccine/36032192",
+          "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/vaccine-1605922879.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+          "publishedAt": "2021-04-06T04:30:00Z",
+          "content": "SACRAMENTO, Calif. —UC Davis this week will expand eligibility for the COVID-19 vaccine to any patients and nonpatients ages 16 and older, the health care provider said Monday.\r\nStarting Tuesday, any… [+439 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KARE11.com"
+          },
+          "author": "Heidi Wigdahl",
+          "title": "Vaccinated Minnesota nurse stuck in Mexico after testing positive for COVID - KARE11.com",
+          "description": "\"You could test positive and you could get it and now I'm looking at being here potentially 19 days after my arrival,\" Diane Schmidt of Delano said.",
+          "url": "https://www.kare11.com/article/news/health/coronavirus/vaccinated-minnesota-nurse-stuck-in-mexico-after-testing-positive-for-covid/89-0b170675-00cc-413d-a7d3-eb365a201f36",
+          "urlToImage": "https://media.kare11.com/assets/KARE/images/9c9f6783-17c2-419e-b81d-259c7ab31b74/9c9f6783-17c2-419e-b81d-259c7ab31b74_1140x641.png",
+          "publishedAt": "2021-04-06T03:35:00Z",
+          "content": "Diane Schmidt of Delano has been sitting in a hotel room in Mexico since Thursday, unable to leave. \r\n\"This could be a long week and a half if I really have to stay that long,\" Schmidt said. \r\nOn Mar… [+3364 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "NBC Chicago"
+          },
+          "author": "NBC Chicago",
+          "title": "Cook County Vaccine: 30K Appointments Released Monday Evening - NBC Chicago",
+          "description": "Cook County Health will release 30,000 first-dose COVID vaccine appointments Monday evening for individuals in Phases 1A, 1B and 1C.",
+          "url": "https://www.nbcchicago.com/news/coronavirus/cook-county-vaccine-30k-appointments-to-be-released-monday-evening/2478907/",
+          "urlToImage": "https://i1.wp.com/media.nbcchicago.com/2021/04/GettyImages-1309140485.jpg?quality=85&resize=1200%2C675&strip=all&ssl=1",
+          "publishedAt": "2021-04-06T03:05:39Z",
+          "content": "Cook County Health released 30,000 first-dose COVID vaccine appointments Monday evening for individuals in Phases 1A, 1B and 1C. \r\nThe appointments were released at 6 p.m. and can be booked on the Co… [+1596 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KCRA Sacramento"
+          },
+          "author": "Emily Maher",
+          "title": "Demand for COVID-19 vaccine continues to outpace supply - KCRA Sacramento",
+          "description": "Some county officials continue to worry about an increasing demand for the COVID-19 vaccine as eligibility is set to expand even further April 15.",
+          "url": "https://www.kcra.com/article/demand-covid-vaccine-outpace-supply/36031137",
+          "urlToImage": "https://kubrick.htvapps.com/vidthumb/9e6dbe3d-779e-4270-9236-de987084ad54/9e6dbe3d-779e-4270-9236-de987084ad54_image.jpg?crop=0.786xw:0.786xh;0,0&resize=1200:*",
+          "publishedAt": "2021-04-06T02:53:00Z",
+          "content": "Vaccine supply remains one of the biggest challenges of getting Californians vaccinated.\r\nPeople lined up for their appointments at the Grounds in Roseville. It's one of the Placer County sites opera… [+1953 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Post"
+          },
+          "author": "Tamar Lapin",
+          "title": "Low risk of catching COVID from surfaces, CDC says in updated guidance - New York Post ",
+          "description": "The Centers for Disease Control and Prevention said Monday there is no significant risk of catching the coronavirus from a surface or object. The CDC clarified its position in a guidance update tha…",
+          "url": "https://nypost.com/2021/04/05/low-risk-of-catching-covid-from-surfaces-new-cdc-guidelines/",
+          "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2021/04/cdc-sign.jpg?quality=90&strip=all&w=1200",
+          "publishedAt": "2021-04-06T01:41:00Z",
+          "content": "The Centers for Disease Control and Prevention said Monday there is no significant risk of catching the coronavirus from a surface or object.\r\nThe CDC clarified its position in a guidance update that… [+2073 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KOCO Oklahoma City"
+          },
+          "author": "KOCO Staff",
+          "title": "Elementary school student in Ponca City tests positive for tuberculosis, district says - KOCO Oklahoma City",
+          "description": "An elementary school student in Ponca City has tested positive for tuberculosis, according to district officials.",
+          "url": "https://www.koco.com/article/elementary-school-student-in-ponca-city-tests-positive-for-tuberculosis-district-says/36031079",
+          "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/38672532-tuberculosis-jpg-1547852289.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+          "publishedAt": "2021-04-06T00:42:00Z",
+          "content": "PONCA CITY, Okla. —An elementary school student in Ponca City has tested positive for tuberculosis, according to district officials.\r\nPonca City Public Schools officials said they were informed that … [+2326 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KGO-TV"
+          },
+          "author": "Liz Kreutz",
+          "title": "New 'double mutant' COVID-19 variant identified in Bay Area, Stanford doctor explains their findings - KGO-TV",
+          "description": "A double mutant COVID-19 variant was identified in the Bay Area, and Stanford's Dr. Palinsky answered questions on its impact on Monday, April 5, 2021.",
+          "url": "https://abc7news.com/double-mutant-stanford-team-doctor-palinsky-covid-19-variant/10489220/",
+          "urlToImage": "https://cdn.abcotvs.com/dip/images/10489210_040521-kgo-double-mutant-img-2.jpg?w=1600",
+          "publishedAt": "2021-04-06T00:35:07Z",
+          "content": "SAN FRANCISCO (KGO) -- There's been confirmation of the very first case of that new COVID-19 variant, found right here in the Bay Area.A Stanford team of researchers identified the strain, originatin… [+2234 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KABC-TV"
+          },
+          "author": null,
+          "title": "Riverside County opens vaccine eligibility to age 16+ Tuesday - KABC-TV",
+          "description": "Hundreds of thousands of Riverside County residents will be able to sign up for their vaccine shot starting Tuesday, as the county expands the eligibility to people ages 16 and older.",
+          "url": "https://abc7.com/riverside-county-vaccine-eligibility-rules-vaccines-when-can-i-get-my/10489231/",
+          "urlToImage": "https://cdn.abcotvs.com/dip/images/10479304_040321-cc-ap-vaccine-file-img.jpeg?w=1600",
+          "publishedAt": "2021-04-06T00:35:02Z",
+          "content": "RIVERSIDE, Calif. (KABC) -- Starting Tuesday, Riverside County residents who are age 16 and older will be eligible to receive the COVID-19 vaccine at the four county-run clinics.Riverside County heal… [+3659 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "KSL.com"
+          },
+          "author": "Nancy Lapid, Reuters",
+          "title": "COVID-19 study shows that vaccinating adults appears to protect children around them - KSL.com",
+          "description": "The following is a roundup of some of the latest scientific studies on the novel coronavirus and efforts to find treatments and vaccines for COVID-19, the illness caused by the virus.",
+          "url": "https://www.ksl.com/article/50140434/covid-19-study-shows-that-vaccinating-adults-appears-to-protect-children-around-them",
+          "urlToImage": "https://img.ksl.com/slc/2817/281788/28178828.JPG?filter=ksl/responsive_story_lg",
+          "publishedAt": "2021-04-06T00:25:48Z",
+          "content": "NEW YORK (Reuters) The following is a roundup of some of the latest scientific studies on the novel coronavirus and efforts to find treatments and vaccines for COVID-19, the illness caused by the vir… [+5085 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "HuffPost"
+          },
+          "author": "David Moye",
+          "title": "Dr. Drew Denounces Vaccine Passports And Gets Dragged By Twitter Users - HuffPost",
+          "description": "The medical doctor and media personality didn't seem to realize that vaccinations have been required for international travel for decades.",
+          "url": "https://www.huffpost.com/entry/dr-drew-vaccine-passports-twitter_n_606b940fc5b6c55118b685ef",
+          "urlToImage": "https://img.huffingtonpost.com/asset/606b9d81250000713e1da2d1.jpeg?cache=0vfat9qlnu&ops=1778_1000",
+          "publishedAt": "2021-04-06T00:14:00Z",
+          "content": "Dr. Drew Pinskys take on vaccine passports earned him a failing grade from Twitter users on Monday.\r\nIt happened after the medical doctor and media personality suggested on Twitter that requiring vac… [+3323 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "NBC Chicago"
+          },
+          "author": "Shelby Bremer",
+          "title": "Walgreens to Change COVID Vaccine Scheduler for Some Second Doses After Complaints - NBC Chicago",
+          "description": "Walgreens on Monday said it planned to change the COVID vaccine scheduler on its website following complaints that the pharmacy wasn’t adhering to federal…",
+          "url": "https://www.nbcchicago.com/news/local/walgreens-to-change-covid-vaccine-scheduler-for-some-second-doses-after-complaints/2478712/",
+          "urlToImage": "https://i0.wp.com/media.nbcchicago.com/2021/02/GettyImages-1230914650.jpg?quality=85&resize=1200%2C675&strip=all&ssl=1",
+          "publishedAt": "2021-04-06T00:03:05Z",
+          "content": "Walgreens on Monday said it planned to change the COVID vaccine scheduler on its website following complaints that the pharmacy wasn't adhering to federal health officials' recommended timeline for s… [+5466 chars]"
+      }]
+    },
+
+    {
+      "name": "science",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": null,
+              "name": "Www.rfi.fr"
+          },
+          "author": "RFI",
+          "title": "NASA's Ingenuity helicopter survives first night alone on Mars - RFI",
+          "description": "",
+          "url": "https://www.rfi.fr/en/nasa-s-ingenuity-helicopter-survives-first-night-alone-on-mars",
+          "urlToImage": "https://s.rfi.fr/media/display/f3f1cdf8-96a2-11eb-af6c-005056a964fe/w:1280/p:16x9/4438e7677198de0102e057eeb1081fb7b080cfd2.jpg",
+          "publishedAt": "2021-04-06T06:40:19Z",
+          "content": "Washington (AFP)\r\nNASA's Ingenuity mini-helicopter has survived its first night alone on the frigid surface of Mars, the US space agency said, hailing it as \"a major milestone\" for the tiny craft as … [+2965 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "ScienceAlert"
+          },
+          "author": "Michelle Starr",
+          "title": "China's Mars Probe Just Sent Haunting Photos of The Red Planet - ScienceAlert",
+          "description": "China's Mars probe, Tianwen-1, has been hanging around Mars in a parking orbit for nearly two whole months now, preparing for its rover landing in May.",
+          "url": "https://www.sciencealert.com/we-can-t-get-enough-of-tianwen-1-s-new-latest-photos-of-mars",
+          "urlToImage": "https://www.sciencealert.com/images/2021-04/processed/mars-cresc-head_1024.jpg",
+          "publishedAt": "2021-04-06T02:40:34Z",
+          "content": "China's Mars probe, Tianwen-1, has been hanging around Mars in a parking orbit for nearly two whole months now, preparing for its rover landing in May.\r\nBut it's not just sitting there in orbit twidd… [+1933 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Matthew Hart",
+          "title": "Dino-Killing Asteroid May Have Formed Earth’s Rainforests - Yahoo Lifestyle",
+          "description": "A team of scientists in Panama says that the Chicxulub impactor that wiped out the dinosaurs also gave rise to modern, flowering rainforests. The post Dino...",
+          "url": "https://www.yahoo.com/lifestyle/dino-killing-asteroid-may-formed-211004558.html",
+          "urlToImage": "https://s.yimg.com/uu/api/res/1.2/FfuBS3m42bUnzuhvqCr65g--~B/aD0xMTMyO3c9OTAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/nerdist_761/7906e467433ddf71f8dd36d5d45d7e2e",
+          "publishedAt": "2021-04-05T21:10:04Z",
+          "content": "The asteroid that wiped out the dinosaurs at the end of the Cretaceous Period annihilated much of life on Earth. And while we know how that story goes, a team of scientists is now adding a new chapte… [+2719 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Phys.Org"
+          },
+          "author": "Leah Burrows",
+          "title": "Size of raindrops can help identify potentially habitable planets outside our solar system - Phys.org",
+          "description": "One day, humankind may step foot on another habitable planet. That planet may look very different from Earth, but one thing will feel familiar—the rain.",
+          "url": "https://phys.org/news/2021-04-size-raindrops-potentially-habitable-planets.html",
+          "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2021/raindrops.jpg",
+          "publishedAt": "2021-04-05T20:51:59Z",
+          "content": "One day, humankind may step foot on another habitable planet. That planet may look very different from Earth, but one thing will feel familiarthe rain.\r\nIn a recent paper, Harvard researchers found t… [+3629 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Phys.Org"
+          },
+          "author": "Isabella Backman",
+          "title": "Model reveals surprising disconnect between physical characteristics and genetic ancestry in certain populations - Phys.org",
+          "description": "A new study by Stanford University biologists finds an explanation for the idea that physical characteristics such as skin pigmentation are \"only skin deep.\" Using genetic modeling, the team has found that when two populations with distinct traits combine ove…",
+          "url": "https://phys.org/news/2021-04-reveals-disconnect-physical-characteristics-genetic.html",
+          "urlToImage": "https://scx2.b-cdn.net/gfx/news/hires/2017/population.jpg",
+          "publishedAt": "2021-04-05T20:24:41Z",
+          "content": "A new study by Stanford University biologists finds an explanation for the idea that physical characteristics such as skin pigmentation are \"only skin deep.\" Using genetic modeling, the team has foun… [+5022 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "WKRN News 2"
+          },
+          "author": "Mary Mays",
+          "title": "Look up! The International Space Station will fly over tonight - WKRN News 2",
+          "description": "A mostly clear evening sky will give Middle Tennesseans the perfect view of the ISS.",
+          "url": "https://www.wkrn.com/weather-headlines/look-up-the-international-space-station-will-fly-over-tonight/",
+          "urlToImage": "https://www.wkrn.com/wp-content/uploads/sites/73/2020/09/d1aac0b81f834c65a37a04def0290630.jpg?w=1280",
+          "publishedAt": "2021-04-05T20:02:27Z",
+          "content": "NASHVILLE, Tenn. (WKRN)  While the International Space Station (ISS) passes by often, conditions are not always ideal for viewing. \r\nThat won’t be the case Monday night! A mostly clear evening sky wi… [+597 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNET"
+          },
+          "author": "Eric Mack",
+          "title": "Elon Musk reveals what made SpaceX's Starship SN11 prototype explode - CNET",
+          "description": "SpaceX has sent four prototypes of its eventual Mars rocket to big-booster heaven.",
+          "url": "https://www.cnet.com/news/elon-musk-reveals-what-made-spacexs-starship-sn11-prototype-explode/",
+          "urlToImage": "https://www.cnet.com/a/img/rj-5IIHwVS5QOvF9ql6hUjSWMcs=/1200x630/2021/04/05/79ba3b56-ccdd-4fa8-98b0-79edd7752d14/51006496043-f7e03ce21d-k.jpg",
+          "publishedAt": "2021-04-05T19:53:00Z",
+          "content": "Starship prototype SN10 comes in for a landing. \r\nSpaceX\r\nThe latest SpaceX Starship prototype, called SN11, met an explosive end last week like its three predecessors. But the conditions around the … [+2621 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "WOODTV.com"
+          },
+          "author": "Emily Schuitema",
+          "title": "Watching the Skies: Moon moves by Jupiter, Saturn - WOODTV.com",
+          "description": "Early each morning through Thursday, look up to spot the moon passing by the two largest planets in our solar system.",
+          "url": "https://www.woodtv.com/weather/watching-the-skies/watching-the-skies-moon-moves-by-jupiter-saturn/",
+          "urlToImage": "https://www.woodtv.com/wp-content/uploads/sites/51/2021/04/thumbnail_Worm-Moon-and-an-owl-Grand-Haven-Sandy-Bruce2.jpg?w=1280",
+          "publishedAt": "2021-04-05T19:11:14Z",
+          "content": "GRAND RAPIDS, Mich. (WOOD) Early each morning through Thursday, look up to spot the moon passing by the two largest planets in our solar system. \r\nThe waning moon will move by Jupiter and Saturn. Loo… [+933 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "PetaPixel"
+          },
+          "author": null,
+          "title": "New Photo of the Veil Nebula Shows Incredible Detail - PetaPixel",
+          "description": "Stunning.",
+          "url": "https://petapixel.com/2021/04/05/new-photo-of-the-veil-nebula-shows-incredible-detail/",
+          "urlToImage": "https://petapixel.com/assets/uploads/2021/04/New-Photo-of-the-Veil-Nebula-Shows-Incredible-Detail.jpg",
+          "publishedAt": "2021-04-05T16:50:47Z",
+          "content": "NASA/ESA Hubble Space Telescope has re-released an image of the Veil Nebula that it originally featured back in 2015. This time, significantly more detail has been made visible thanks to new processi… [+2775 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Phys.Org"
+          },
+          "author": "Science X staff",
+          "title": "This hydrogen fuel machine could be the ultimate guide to self-improvement - Phys.org",
+          "description": "Three years ago, scientists at the University of Michigan discovered an artificial photosynthesis device made of silicon and gallium nitride (Si/GaN) that harnesses sunlight into carbon-free hydrogen for fuel cells with twice the efficiency and stability of s…",
+          "url": "https://phys.org/news/2021-04-hydrogen-fuel-machine-ultimate-self-improvement.html",
+          "urlToImage": "https://scx2.b-cdn.net/gfx/news/2021/thishydrogen.jpg",
+          "publishedAt": "2021-04-05T15:00:01Z",
+          "content": "Three years ago, scientists at the University of Michigan discovered an artificial photosynthesis device made of silicon and gallium nitride (Si/GaN) that harnesses sunlight into carbon-free hydrogen… [+6919 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Gizmodo.com"
+          },
+          "author": "George Dvorsky",
+          "title": "Burnt Chunk of SpaceX Falcon 9 Rocket Found on a Farmer’s Field in Washington - Gizmodo",
+          "description": "The failed deorbiting of a SpaceX Falcon 9 second stage late last month produced a spectacular light show over the Pacific Northwest, but the incident resulted in a large part of the rocket crashing onto a farmer’s field.",
+          "url": "https://gizmodo.com/burnt-chunk-of-spacex-falcon-9-rocket-found-on-a-farmer-1846618832",
+          "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/mcxbjlqnzjvgywr6abpv.jpg",
+          "publishedAt": "2021-04-05T14:46:00Z",
+          "content": "The failed deorbiting of a SpaceX Falcon 9 second stage late last month produced a spectacular light show over the Pacific Northwest, but the incident resulted in a large part of the rocket crashing … [+2207 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "EL PAÍS"
+          },
+          "author": "Juan Miguel Hernández Bonilla",
+          "title": "Spanish astrophysicists discover new region of Milky Way - EL PAÍS in English",
+          "description": "Researchers detected the Cepheus spur, a bridge of massive blue stars, while creating the most accurate map of the galaxy to date",
+          "url": "https://english.elpais.com/usa/2021-04-05/spanish-astrophysicists-discover-new-region-of-milky-way.html",
+          "urlToImage": "https://images.english.elpais.com/resizer/t3GCDKDvN64eotx0D31JD1pU728=/1200x0/filters:focal(495x302:505x312)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/OLMGVB6ELFWLRXTHFDIAG4OLEA.jpg",
+          "publishedAt": "2021-04-05T14:21:00Z",
+          "content": "A team of researchers from the Spanish Astrobiology Center (CAB) has presented the most accurate map of the Milky Way to date, and described the existence of the Cepheus spur, a formation of blue sta… [+6763 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Jalopnik"
+          },
+          "author": "Jason Torchinsky",
+          "title": "NASA Is Going To Crash A Probe Right Smack Dab Into An Asteroid For A Really Good Reason - Jalopnik",
+          "description": "Normally, NASA likes its probes to make contact with other objects in space in a very controlled manner. You want to land a rover on Mars, not drop a rover on Mars, for example. The Double Asteroid Redirection Test (DART) is different. This time, NASA is goin…",
+          "url": "https://jalopnik.com/nasa-is-going-to-crash-a-probe-right-smack-dab-into-an-1846610267",
+          "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/kqcfaeqcxxyjpcroyu7g.png",
+          "publishedAt": "2021-04-05T13:45:00Z",
+          "content": "Normally, NASA likes its probes to make contact with other objects in space in a very controlled manner. You want to land a rover on Mars, not drop a rover on Mars, for example. The Double Asteroid R… [+2647 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "EurekAlert"
+          },
+          "author": null,
+          "title": "Humans were apex predators for two million years - EurekAlert",
+          "description": "Researchers at Tel Aviv University were able to reconstruct the nutrition of stone age humans.",
+          "url": "https://www.eurekalert.org/pub_releases/2021-04/tu-hwa040421.php",
+          "urlToImage": "https://www.eurekalert.org/multimedia/pub/web/261010_web.jpg",
+          "publishedAt": "2021-04-05T13:35:50Z",
+          "content": "Researchers at Tel Aviv University were able to reconstruct the nutrition of stone age humans. In a paper published in the Yearbook of the American Physical Anthropology Association, Dr. Miki Ben-Dor… [+6943 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Spaceflight Now"
+          },
+          "author": null,
+          "title": "SpaceX's Crew Dragon capsule swaps docking ports on space station – Spaceflight Now - Spaceflight Now",
+          "description": null,
+          "url": "https://spaceflightnow.com/2021/04/05/spacexs-crew-dragon-capsule-swaps-docking-ports-on-international-space-station/",
+          "urlToImage": null,
+          "publishedAt": "2021-04-05T13:28:22Z",
+          "content": "The Crew Dragon “Resilience” spacecraft closes in for docking Monday at the International Space Station. Credit: NASA TV/Spaceflight Now\r\nIn the home stretch of nearly a half-year on the Internationa… [+5853 chars]"
+      }, {
+          "source": {
+              "id": "the-next-web",
+              "name": "The Next Web"
+          },
+          "author": "Justin Pot",
+          "title": "How to split your working hours in Google Calendar - The Next Web",
+          "description": "Welcome to TNW Basics, a collection of tips, guides, and advice on how to easily get the most out of your gadgets, apps, and other stuff.\r\nThe workday evolved in 2020, and tools are ...",
+          "url": "https://thenextweb.com/basics/2021/04/05/how-to-split-your-working-hours-in-google-calendar-syndication/",
+          "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2021%2F04%2Fgoogle-calendar.jpg&signature=122f4b00025e8eae9cca671bb812423a",
+          "publishedAt": "2021-04-05T13:00:04Z",
+          "content": "Welcome to TNW Basics, a collection of tips, guides, and advice on how to easily get the most out of your gadgets, apps, and other stuff.\r\nThe workday evolved in 2020, and tools are adapting to accom… [+2370 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Live Science"
+          },
+          "author": "Brandon Specktor",
+          "title": "Spooky 'spiders on Mars' finally explained after two decades - Livescience.com",
+          "description": "",
+          "url": "https://www.livescience.com/spiders-on-mars-explained-dry-ice.html",
+          "urlToImage": "https://cdn.mos.cms.futurecdn.net/rnK6EamZfQVBXiQuBW6vFd-1200-80.jpg",
+          "publishedAt": "2021-04-05T11:45:07Z",
+          "content": "Ziggy played guitar\r\n, and scientists in the U.K. played with a big chunk of dry ice to try to figure out what's behind the strange alien patterns known as the \"spiders on Mars\r\n.\"\r\nThose patterns, v… [+3356 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Space.com"
+          },
+          "author": "Meghan Bartels",
+          "title": "NASA's InSight lander detects two medium marsquakes on the Red Planet - Space.com",
+          "description": "",
+          "url": "https://www.space.com/mars-insight-lander-detects-two-sizable-marsquakes",
+          "urlToImage": "https://cdn.mos.cms.futurecdn.net/XV3GjhWCfJcuLxZEHF7Vin-1200-80.jpeg",
+          "publishedAt": "2021-04-05T10:49:33Z",
+          "content": "NASA's InSight lander\r\n on Mars has detected two more crisp quakes on the Red Planet, both stemming from the same region where the mission's previous best observations originated.\r\nThe robotic geophy… [+3228 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Space.com"
+          },
+          "author": "Samantha Mathewson",
+          "title": "NASA selects 9 scientists to join 2022 Korea Pathfinder Lunar Orbiter mission - Space.com",
+          "description": "",
+          "url": "https://www.space.com/nasa-joins-korea-pathfinder-lunar-orbiter",
+          "urlToImage": "https://cdn.mos.cms.futurecdn.net/VXXNQUxipTnFJbsCQbncaj-1200-80.jpeg",
+          "publishedAt": "2021-04-05T10:47:52Z",
+          "content": "Nine U.S. scientists will join South Korea's first lunar orbiter mission launching next year. \r\nThe Korea Pathfinder Lunar Orbiter (KPLO) is scheduled to launch on a SpaceX Falcon 9 rocket\r\n in Augus… [+3613 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "SciTechDaily"
+          },
+          "author": null,
+          "title": "First James Webb Space Telescope General Observer Scientific Programs Selected - SciTechDaily",
+          "description": "The General Observer scientific observations for the NASA/ESA/CSA James Webb Space Telescope’s first year of operation have been selected. Proposals from ESA member states comprise 33% of the total number of selected proposals and correspond to 30% of the ava…",
+          "url": "https://scitechdaily.com/first-james-webb-space-telescope-general-observer-scientific-programs-selected/",
+          "urlToImage": "https://scitechdaily.com/images/James-Webb-Space-Telescope-Artists-Impression-scaled.jpg",
+          "publishedAt": "2021-04-05T02:36:00Z",
+          "content": "The James Webb Space Telescope is a space observatory to see further into the Universe than ever before. It is designed to answer outstanding questions about the Universe and to make breakthrough dis… [+3705 chars]"
+      }]
+    },
+
+    {
+      "name": "sports",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": null,
+              "name": "HuffPost"
+          },
+          "author": "Lee Moran",
+          "title": "'Jeopardy!' Contestant Trolls Guest Host Aaron Rodgers With Green Bay Packers Ding - HuffPost",
+          "description": "“That is a great question, should be correct,\" the Packers quarterback said with a laugh.",
+          "url": "https://www.huffpost.com/entry/aaron-rodgers-jeopardy-host-joke_n_606c339fc5b6832c793b6572",
+          "urlToImage": "https://img.huffingtonpost.com/asset/606c38bb270000b735c852e2.png?cache=dpc9e4qkut&ops=1778_1000",
+          "publishedAt": "2021-04-06T10:48:00Z",
+          "content": "Aaron Rodgers was amusingly reminded of a controversial Green Bay Packers moment during his debut as guest host of Jeopardy!\r\nIn the episode that aired Monday, Packers quarterback Rodgers asked conte… [+1551 chars]"
+      }, {
+          "source": {
+              "id": "associated-press",
+              "name": "Associated Press"
+          },
+          "author": "Hyung-jin Kim",
+          "title": "EXPLAINER: Why is North Korea skipping the Tokyo Olympics? - Associated Press",
+          "description": "SEOUL, South Korea (AP) — North Korea, citing the coronavirus, has become the world's first country to drop out of the Tokyo Olympics.  It's true that the North is extremely sensitive about...",
+          "url": "https://apnews.com/article/public-health-seoul-tokyo-health-south-korea-adb2cf84470dfcf7118d18e292449fd7",
+          "urlToImage": "https://storage.googleapis.com/afs-prod/media/23cad8af38d04a21918422ab31ebf067/2907.jpeg",
+          "publishedAt": "2021-04-06T10:41:08Z",
+          "content": "SEOUL, South Korea (AP) North Korea, citing the coronavirus, has become the worlds first country to drop out of the Tokyo Olympics. \r\nIts true that the North is extremely sensitive about COVID-19, kn… [+4692 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "cleveland.com"
+          },
+          "author": "Nathan Baird, cleveland.com",
+          "title": "Who leads Ohio State football’s quarterback competition halfway through spring? Buckeye Bits - cleveland.com",
+          "description": "Ohio State coach Ryan Day said no one has separated yet in the quarterback competition between C.J. Stroud, Jack Miller and Kyle McCord.",
+          "url": "https://www.cleveland.com/osu/2021/04/who-leads-ohio-state-footballs-quarterback-competition-halfway-through-spring-buckeye-bits.html",
+          "urlToImage": "https://www.cleveland.com/resizer/G6newbDaR2cNVIv0cUtviyI6KnA=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/VWZRT2U5AFEIDHVTIXSLFTLTHU.jpg",
+          "publishedAt": "2021-04-06T10:04:15Z",
+          "content": "COLUMBUS, Ohio Ohio State football coach Ryan Day insists, halfway through spring camp, that no separation exists in his three-way quarterback battle.\r\nSo read what you will into the rotation reporte… [+4471 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "nj.com"
+          },
+          "author": "Darryl Slater | NJ Advance Media for NJ.com",
+          "title": "NFL Draft 2021: UPDATED 1st-round mock after Jets trade Sam Darnold to Panthers, target Zach Wilson; Justin F - NJ.com",
+          "description": "The 2021 NFL Draft is fast approaching, and it looks like the New York Jets will pick BYU quarterback Zach Wilson, after they traded Sam Darnold to the Carolina Panthers.",
+          "url": "https://www.nj.com/jets/2021/04/nfl-draft-2021-updated-1st-round-mock-after-jets-trade-sam-darnold-to-panthers-target-zach-wilson-justin-fields-jamarr-chase-sliding.html",
+          "urlToImage": "https://www.nj.com/resizer/de9SMiyudXe3lSsGFGPsnyNygnY=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/MGUDFQ2BMZBYTOLFDHDTOUBLJI.jpg",
+          "publishedAt": "2021-04-06T10:01:39Z",
+          "content": "The Jets on Monday traded quarterback Sam Darnold to the Panthers.\r\nSo they wont be trading down from the No. 2 overall pick in the 2021 NFL Draft. Theyll surely take BYU quarterback Zach Wilson ther… [+4534 chars]"
+      }, {
+          "source": {
+              "id": "fox-news",
+              "name": "Fox News"
+          },
+          "author": "David Aaro",
+          "title": "'Woke' MLB moving All-Star Game from 51% Black Atlanta to 76% White Denver, critics note - Fox News",
+          "description": "Opponents of MLB's decision Monday to move the 2021 All-Star Game to Denver because of Georgia's new voting law suggest the move could end up hurting Atlanta's Black residents rather than helping them.",
+          "url": "https://www.foxnews.com/politics/all-star-game-census-denver-atlanta",
+          "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2021/04/Coors-Field.jpg",
+          "publishedAt": "2021-04-06T09:07:04Z",
+          "content": "Opponents of MLB's decision Monday to move the 2021 All-Star Game to Denver because of Georgia's new voting law suggest the move could end up hurting Atlanta's Black residents rather than helping the… [+4032 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "The Phinsider"
+          },
+          "author": "Kdog92",
+          "title": "Miami Dolphins News 4/5/21: Would The Dolphins Consider Drafting Penei Sewell? - The Phinsider",
+          "description": "Welcome to the Splash Zone, the quickest way to get your day started off right. We bring you a rundown of Miami Dolphins news from the last 24 hours.",
+          "url": "https://www.thephinsider.com/the-splash-zone-miami-dolphins-news/2021/4/6/22367170/the-splash-zone-4-6-21-would-the-miami-dolphins-consider-drafting-penei-sewell-nfl-draft",
+          "urlToImage": "https://cdn.vox-cdn.com/thumbor/AYi1tuP1c_FxlddOL5eFDoxwCsc=/0x0:4913x2572/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22199844/1182182596.jpg",
+          "publishedAt": "2021-04-06T09:00:00Z",
+          "content": "Would the Dolphins consider Penei Sewell? Well the option should be on the table, but I just dont see it happening. The Dolphins drafted three o-lineman last year in Austin Jackson, Robert Hunt, and … [+2346 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "NPR"
+          },
+          "author": null,
+          "title": "Baylor Defeats Gonzaga To Win Its 1st Men's NCAA Basketball Championship - NPR",
+          "description": "The Gonzaga Bulldogs went into the championship game undefeated. But after the final buzzer, it was the Baylor Bears who were victorious. Baylor beat Gonzaga 86-70.",
+          "url": "https://www.npr.org/2021/04/06/984641991/baylor-defeats-gonzaga-to-win-its-1st-mens-ncaa-basketball-championship",
+          "urlToImage": "https://media.npr.org/assets/img/2021/04/06/gettyimages-1311026400_wide-2a493540ba71cd87cf40832027c33e66f6d7cedd.jpg?s=1400",
+          "publishedAt": "2021-04-06T06:12:00Z",
+          "content": "Baylor players Adam Flagler #10, Matthew Mayer #24 and Jackson Moffatt #13 celebrate after defeating the Gonzaga Bulldogs in the National Championship game of the 2021 NCAA Men's Basketball Tournamen… [+1232 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "MLB.com"
+          },
+          "author": "AJ Cassavell",
+          "title": "Tatis injures shoulder while striking out - MLB.com",
+          "description": "SAN DIEGO -- Fernando Tatis Jr. took one vicious swing at an Anthony DeSclafani curveball on Monday and crumpled to the dirt in agony -- agony quickly felt by the Padres, their fans, and, frankly, the sport as a whole.\nTatis -- San Diego’s dazzling 22-year-ol…",
+          "url": "https://www.mlb.com/news/fernando-tatis-jr-injured-on-strikeout",
+          "urlToImage": "https://img.mlbstatic.com/mlb-images/image/private/t_2x1/t_w1536/mlb/ccjvslmzfcbuoke2ms7t.jpg",
+          "publishedAt": "2021-04-06T06:11:16Z",
+          "content": "SAN DIEGO -- Fernando Tatis Jr. took one vicious swing at an Anthony DeSclafani curveball on Monday and crumpled to the dirt in agony -- agony quickly felt by the Padres, their fans, and, frankly, th… [+4266 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "redlegnation.com"
+          },
+          "author": null,
+          "title": "Reds win third straight game with an exclamation point from Rob Manfred's nemesis - redlegnation.com",
+          "description": "The Cincinnati Reds got another big night from Nick Castellanos in a win over the Pittsburgh Pirates on Monday night.",
+          "url": "https://www.redlegnation.com/2021/04/05/cincinnati-reds-win-third-straight-game-with-an-exclamation-point-from-rob-manfreds-nemesis/",
+          "urlToImage": "https://www.redlegnation.com/wp-content/uploads/2020/07/castellanoswalkoff.jpg",
+          "publishedAt": "2021-04-06T05:48:45Z",
+          "content": "It has only been four games, but the energy and passion from the 2021 Cincinnati Reds is palpable. Since a nightmare first inning on Opening Day, the Reds have played inspired baseball. They have com… [+4004 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Jack Baer",
+          "title": "Multiple trash cans thrown onto field during Astros road game - Yahoo Sports",
+          "description": "The Astros' first visit to Los Angeles with fans in attendance is going as expected.",
+          "url": "https://sports.yahoo.com/astros-angels-trash-can-fans-angel-stadium-mlb-052434396.html",
+          "urlToImage": "https://s.yimg.com/ny/api/res/1.2/LZbAvY6p4btfJK_4LnwMsA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTIwMDA7aD0xNTQ4/https://s.yimg.com/os/creatr-uploaded-images/2021-04/d276c800-9697-11eb-a7ff-57bcb1af22fe",
+          "publishedAt": "2021-04-06T05:24:34Z",
+          "content": "Major League Baseballs decision to pull its All-Star Game out of Atlanta will cost an estimated $100 million loss in tourism revenue for the area, according to a local travel and tourism bureau. This… [+2307 chars]"
+      }, {
+          "source": {
+              "id": "google-news",
+              "name": "Google News"
+          },
+          "author": null,
+          "title": "Coyotes @ Kings 4/5/21 | NHL Highlights - NHL",
+          "description": null,
+          "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VEowODZpSVFiZWPSAQA?oc=5",
+          "urlToImage": null,
+          "publishedAt": "2021-04-06T05:22:28Z",
+          "content": null
+      }, {
+          "source": {
+              "id": null,
+              "name": "Daily Beast"
+          },
+          "author": "Corbin Smith",
+          "title": "Paul Pierce: Fired by ESPN for Living His Stripper-Loving Truth - Daily Beast",
+          "description": "The future NBA Hall of Famer and TV analyst was canned by ESPN after livestreaming a drunken poker game with twerking strippers on his Instagram. What’s the problem here, exactly?",
+          "url": "https://www.thedailybeast.com/paul-pierce-was-fired-by-espn-for-living-his-stripper-loving-truth",
+          "urlToImage": "https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_1665,w_2960,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1617685346/Screen_Shot_2021-04-05_at_10.58.46_PM_zf5u2m",
+          "publishedAt": "2021-04-06T05:05:47Z",
+          "content": "As a certified social media expert, I speak from experience when I tell you, the reader, that the best follows on the entire internet are ex-athletes on Instagram. Forty-something-year-old men, who h… [+6007 chars]"
+      }, {
+          "source": {
+              "id": "google-news",
+              "name": "Google News"
+          },
+          "author": null,
+          "title": "NHL Game Highlights | Maple Leafs vs. Flames – Apr. 5, 2021 - SPORTSNET",
+          "description": null,
+          "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9TWFQTThiV3BrN2_SAQA?oc=5",
+          "urlToImage": null,
+          "publishedAt": "2021-04-06T05:02:51Z",
+          "content": null
+      }, {
+          "source": {
+              "id": null,
+              "name": "Mavs Moneyball"
+          },
+          "author": "Ben Zajdel",
+          "title": "Stats Rundown: 3 numbers from a dominant Mavericks win over the Jazz - Mavs Moneyball",
+          "description": "The Mavericks hit all their shots against the West’s best team.",
+          "url": "https://www.mavsmoneyball.com/2021/4/6/22369158/stats-rundown-3-numbers-from-a-dominant-mavericks-win-over-the-jazz",
+          "urlToImage": "https://cdn.vox-cdn.com/thumbor/JMmJGO5-dwgSQ4N9HrA8erQPA_g=/0x0:3600x1885/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/22423249/1232134934.jpg",
+          "publishedAt": "2021-04-06T05:00:00Z",
+          "content": "The Dallas Mavericksdefeated the Utah Jazz 111-103 Monday night. The Mavericks led pretty much wire to wire, taking the lead in the first quarter and never relinquishing it. Kristaps Porzingis didnt … [+2812 chars]"
+      }, {
+          "source": {
+              "id": "google-news",
+              "name": "Google News"
+          },
+          "author": null,
+          "title": "March Madness 2021: One Shining Moment - Bleacher Report",
+          "description": null,
+          "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9X3NtR3BHQlJLMlHSAQA?oc=5",
+          "urlToImage": null,
+          "publishedAt": "2021-04-06T04:17:20Z",
+          "content": null
+      }, {
+          "source": {
+              "id": null,
+              "name": "Arizona Sports"
+          },
+          "author": "Kellan Olson",
+          "title": "Confident Ayton, clutch Booker help Suns put away pesky Rockets - Arizona Sports",
+          "description": "The Phoenix Suns needed some key contributions on Monday to beat a shorthanded Houston Rockets team that gave the Suns their best shot.",
+          "url": "https://arizonasports.com/story/2607299/confident-ayton-clutch-booker-help-suns-put-away-pesky-rockets/",
+          "urlToImage": "https://arizonasports.com/wp-content/uploads/2021/04/ap_4334f7f3b12e42208fd4557c1b5fe820-839x1024-1.jpg",
+          "publishedAt": "2021-04-06T04:08:00Z",
+          "content": "Phoenix Suns center Deandre Ayton (22) dunks against Houston Rockets guard Kevin Porter Jr. (3) during the third quarter of an NBA basketball game in Houston, Monday, April 5, 2021. (Troy Taormina/Po… [+6184 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Minneapolis Star Tribune"
+          },
+          "author": "Mark Craig",
+          "title": "Vikings cornerback Jeff Gladney is arrested and accused of assaulting a woman - Minneapolis Star Tribune",
+          "description": "The second-year player faces a third-degree felony assault charge for an altercation that occurred on Friday.",
+          "url": "https://www.startribune.com/vikings-cornerback-jeff-gladney-is-arrested-and-accused-of-assaulting-a-woman/600042528/",
+          "urlToImage": "https://chorus.stimg.co/22422825/gladneyaction.jpg?h=630&w=1200&fit=crop&bg=999&crop=faces",
+          "publishedAt": "2021-04-06T04:07:30Z",
+          "content": "Vikings cornerback Jeff Gladney turned himself in to Dallas County Jail in Texas on Monday after an arrest warrant was issued on a family violence assault charge involving an altercation with a woman… [+2883 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CBS Sports"
+          },
+          "author": "",
+          "title": "College basketball rankings: UCLA is No. 1 in never-too-early 2021-22 Top 25 And 1 preseason rankings - CBS Sports",
+          "description": "The Bruins are just ahead of No. 2 Gonzaga in the first CBS Sports preseason rankings for next season",
+          "url": "https://www.cbssports.com/college-basketball/news/college-basketball-rankings-ucla-is-no-1-in-never-too-early-2021-22-top-25-and-1-preseason-rankings/",
+          "urlToImage": "https://sportshub.cbsistatic.com/i/r/2021/04/06/46c55d57-2c12-45cc-b985-2e6d4f9aed35/thumbnail/1200x675/5604cdfa8d1241623f512ea9345d9800/ucla-2022.jpg",
+          "publishedAt": "2021-04-06T03:52:00Z",
+          "content": "It's literally never been more difficult than it is right now to try to project how college basketball will look next season because of the expected addition of a one-time transfer waiver that'll all… [+11004 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "ESPN"
+          },
+          "author": null,
+          "title": "Baylor vs. Gonzaga - Game Recap - April 5, 2021 - ESPN",
+          "description": "Get a recap of the Baylor Bears vs. Gonzaga Bulldogs basketball game.",
+          "url": "https://www.espn.com/mens-college-basketball/recap?gameId=401310865",
+          "urlToImage": "https://s.espncdn.com/stitcher/sports/basketball/mens-college-basketball/events/401310865.png?templateId=espn.com.share.1",
+          "publishedAt": "2021-04-06T03:49:37Z",
+          "content": "INDIANAPOLIS -- Corey Kispert greeted his coach with a hug on the sideline as he checked out for the last time, then soon wrapped his arms around Jalen Suggs as his teammate broke down in tears.\r\nDis… [+3826 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Post"
+          },
+          "author": "Ryan Dunleavy",
+          "title": "Julius Randle shades Nets player after another blown Knicks chance - New York Post ",
+          "description": "Julius Randle notched another triple-double, but he allowed a big 3 and missed a big 2. In his first trip to Barclays Center since his teammates had to hold him back from confronting referee Scott …",
+          "url": "https://nypost.com/2021/04/05/julius-randle-shades-nets-player-after-another-blown-knicks-chance/",
+          "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2021/04/Tom-Thibodeau-and-Julius-Randle-during-the-Knicks-Nets-game-on-Monday..jpg?quality=90&strip=all&w=1200",
+          "publishedAt": "2021-04-06T03:42:00Z",
+          "content": "Julius Randle notched another triple-double, but he allowed a big 3 and missed a big 2.\r\nIn his first trip to Barclays Center since his teammates had to hold him back from confronting referee Scott F… [+2702 chars]"
+      }]
+    },
+
+    {
+      "name": "technology",
+      "status": "ok",
+      "totalResults": 20,
+      "articles": [{
+          "source": {
+              "id": null,
+              "name": "Nintendo Life"
+          },
+          "author": "Nintendo Life",
+          "title": "PSA: You Should Be More Of A Vicious Killer In Monster Hunter Rise - Nintendo Life",
+          "description": "Don't catch 'em all",
+          "url": "https://www.nintendolife.com/news/2021/04/psa_you_should_be_more_of_a_vicious_killer_in_monster_hunter_rise",
+          "urlToImage": "https://images.nintendolife.com/dc1d762b1a1c7/1280x720.jpg",
+          "publishedAt": "2021-04-06T11:00:00Z",
+          "content": "Monster Hunter Rise has been out a little while, and lots of people are playing it. While there are some solo hunters quietly playing through the 'story' and having a jolly time, for many it's all ab… [+808 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "GamesRadar+"
+          },
+          "author": "Hirun Cryer",
+          "title": "Battlefield 6 rumor claims the game is coming to Xbox Game Pass on day one - Gamesradar",
+          "description": "Could EA DICE's shooter be preparing to launch on Xbox's subscription service?",
+          "url": "https://www.gamesradar.com/battlefield-6-rumour-claims-the-game-is-coming-to-xbox-game-pass-on-day-one/",
+          "urlToImage": "https://cdn.mos.cms.futurecdn.net/LaJcSmVhhJ69mWrM6JftVg-1200-80.jpg",
+          "publishedAt": "2021-04-06T10:11:20Z",
+          "content": "Battlefield 6 could launch on Xbox Game Pass on day one according to a new rumor.\r\nThe claim comes from the Xbox-centric podcast, Xbox Era, just below, in which a commentator reveals that Battlefield… [+1883 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Android Police"
+          },
+          "author": null,
+          "title": "WhatsApp working on natively transferring chat history between Android and iOS - Android Police",
+          "description": "Back in the days, switching to a new phone meant you'd lose most of your local data. Over time, it became easier to transfer your files, settings, and",
+          "url": "https://www.androidpolice.com/2021/04/06/whatsapp-working-on-natively-transferring-chat-history-between-android-and-ios/",
+          "urlToImage": "https://www.androidpolice.com/wp-content/uploads/2020/10/20/whatsapp-generic.png",
+          "publishedAt": "2021-04-06T09:48:00Z",
+          "content": "Back in the days, switching to a new phone meant you'd lose most of your local data. Over time, it became easier to transfer your files, settings, and contacts, provided you'd stay on the same ecosys… [+1288 chars]"
+      }, {
+          "source": {
+              "id": "engadget",
+              "name": "Engadget"
+          },
+          "author": "https://www.engadget.com/about/editors/steve-dent",
+          "title": "Sony's LED Bravia TVs with 'cognitive intelligence' start at $1299 | Engadget - Engadget",
+          "description": "Sony has unveiled its first LED models with the Cognitive Processor XR that are more reasonably priced than the OLED models.",
+          "url": "https://www.engadget.com/sonys-led-bravia-t-vs-with-cognitive-intelligence-start-at-1299-094036566.html",
+          "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/32c84470-96b3-11eb-afff-bbf95c70cd27",
+          "publishedAt": "2021-04-06T09:48:00Z",
+          "content": "Sony's latest trick for Bravia TVs is something called \"cognitive intelligence\" that can enhance parts of an image depending on what's going on. The first 4K TVs it released with the tech were high-e… [+1385 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Nintendo Life"
+          },
+          "author": "Nintendo Life",
+          "title": "Rumour: Smash Ultimate Fans Think Fighters Pass Vol. 2 Might Get A Bonus Seventh Character - Nintendo Life",
+          "description": "And here's the evidence...",
+          "url": "https://www.nintendolife.com/news/2021/04/rumour_smash_ultimate_fans_think_fighters_pass_vol_2_might_get_a_bonus_seventh_character",
+          "urlToImage": "https://images.nintendolife.com/d3f800b497677/1280x720.jpg",
+          "publishedAt": "2021-04-06T09:45:00Z",
+          "content": "Could we be getting a bonus fighter as one last surprise?\r\nIt feels like it's actually been a good long while since we last sat down and mulled over a Super Smash Bros. Ultimate rumour likely because… [+2109 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "ZDNet"
+          },
+          "author": "Liam Tung",
+          "title": "This old programming language is suddenly getting more popular again - ZDNet",
+          "description": "Apple's Objective-C finally exits the top 20 list of popular programming languages tracked by Tiobe, but a 'dinosaur' language has had an unexpected boost.",
+          "url": "https://www.zdnet.com/article/this-old-programming-language-is-suddenly-getting-more-popular-again/",
+          "urlToImage": "https://www.zdnet.com/a/hub/i/r/2019/09/06/51901e77-3281-4aab-8207-f409e9fac8ac/thumbnail/770x578/7c84c15bbf6dc9943b3dc129100443c5/istock-698430010.jpg",
+          "publishedAt": "2021-04-06T09:12:28Z",
+          "content": "Objective-C, the programming language superseded by Apple's Swift for iOS and macOS app development, has finally dropped off the top 20 most popular languages, according to the April 2021 edition of … [+2159 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Times"
+          },
+          "author": "Vanessa Friedman",
+          "title": "Will.i.am. and Honeywell Unveil $299 Face Mask - The New York Times",
+          "description": "Will.i.am and Honeywell introduce the first connected mask. Think sneakers meet smartphones.",
+          "url": "https://www.nytimes.com/2021/04/06/style/william-face-mask.html",
+          "urlToImage": "https://static01.nyt.com/images/2021/04/06/fashion/06WILLIAM-MASK-1/06WILLIAM-MASK-1-facebookJumbo.jpg",
+          "publishedAt": "2021-04-06T09:00:16Z",
+          "content": "After all, what are shoes, Will.i.am said, but protective equipment for the feet? Weve just forgotten that was their original purpose because shoes have become a form of self-expression. You could no… [+2099 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Nintendo Life"
+          },
+          "author": "Nintendo Life",
+          "title": "UK Charts: Super Mario 3D All-Stars Remains In Top Ten Despite Being Discontinued - Nintendo Life",
+          "description": "Balan Wonderworld nowhere to be seen",
+          "url": "https://www.nintendolife.com/news/2021/04/uk_charts_super_mario_3d_all-stars_remains_in_top_ten_despite_being_discontinued",
+          "urlToImage": "https://images.nintendolife.com/f81654939b240/1280x720.jpg",
+          "publishedAt": "2021-04-06T09:00:00Z",
+          "content": "UK physical chart data is now in for the week ending 3rd April, revealing that Super Mario 3D All-Stars has managed to stay in the top ten for another week despite being discontinued by Nintendo.\r\nTh… [+821 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Notebookcheck.net"
+          },
+          "author": "Codrut Nistor",
+          "title": "NVIDIA silently resurrects the GeForce GTX 1080 Ti - Notebookcheck.net",
+          "description": "Introduced in early March 2017 with a price tag that read US$699 and discontinued in the meantime, the NVIDIA GeForce GTX 1080 Ti is now apparently being produced again. For now, it looks like older units that were sent for RMA are being replaced with brand-n…",
+          "url": "https://www.notebookcheck.net/NVIDIA-silently-resurrects-the-GeForce-GTX-1080-Ti.531040.0.html",
+          "urlToImage": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/NVIDIA_GeForce_GTX_1080_Ti_Founders_Edition.jpg",
+          "publishedAt": "2021-04-06T08:26:43Z",
+          "content": "Introduced by NVIDIA as its flagship Pascal-based product, the GeForce GTX 1080 Ti, back in early March 2017. Now, more than four years since the release of that iconic card that provided a massive j… [+1263 chars]"
+      }, {
+          "source": {
+              "id": "engadget",
+              "name": "Engadget"
+          },
+          "author": "https://www.engadget.com/about/editors/steve-dent",
+          "title": "Apple TV might support game-friendly 120Hz refresh rates at 4K | Engadget - Engadget",
+          "description": "The next Apple TV model might support 120Hz refresh rates, presumably at 4K.",
+          "url": "https://www.engadget.com/apple-tv-might-support-game-friendly-120-hz-refresh-rates-075827098.html",
+          "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-04/980f3e20-96a8-11eb-bfff-7a2f6301e5a1",
+          "publishedAt": "2021-04-06T07:58:54Z",
+          "content": "The next Apple TV model might support 120Hz refresh rates, presumably at 4K, according to a report from 9to5Mac. References to \"120Hz\" and \"supports120Hz\" appear in the latest tvOS 14.5 beta, suggest… [+1031 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "XDA Developers"
+          },
+          "author": "Pranob Mehrotra",
+          "title": "Google Pixel 5 sees massive GPU performance gains with April 2021 update - XDA Developers",
+          "description": "The Android 2021 update for the Google Pixel 5 improves its gaming performance substantially. Google Pixel 4a 5G may also see similar gains.",
+          "url": "https://www.xda-developers.com/google-pixel-5-massive-gpu-performance-gains-april-2021-update/",
+          "urlToImage": "https://www.xda-developers.com/files/2020/09/Google-Pixel-5-Green-3-Feature-Image_7.jpg",
+          "publishedAt": "2021-04-06T05:15:00Z",
+          "content": "The latest software update for the Google Pixel lineup recently started rolling out to users. The update includes a host of connectivity, camera, and stability improvements for the entire lineup, alo… [+1877 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": "Yahoo Sports Staff",
+          "title": "The Rush: Baylor wins first NCAA title, the Jets trade Darnold & the Rangers pretend there’s no pandemic - Yahoo Sports",
+          "description": "Baylor ended Gonzaga’s undefeated run by blasting them in the NCAA final, the Jets ship their starting QB to the NFC and the Rangers fill their stadium for...",
+          "url": "https://sports.yahoo.com/the-rush-baylor-wins-first-ncaa-title-the-jets-trade-darnold-the-rangers-pretend-theres-no-pandemic-045948872.html",
+          "urlToImage": "https://s.yimg.com/hd/cp-video-transcode/prod/2021-04/06/606be88cae808b38306d0d8c/606be88cae808b38306d0d8d_o_U_v2.jpg",
+          "publishedAt": "2021-04-06T04:59:00Z",
+          "content": "WATCH THE VIDEO ABOVE to see todays piping-hot, fresh-outta-the-oven episode of THE RUSH with Jared Quay! Well let you know everything you didnt know you needed to know about sports. Other stuff too.… [+438 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "autoevolution"
+          },
+          "author": "Bogdan Popa",
+          "title": "The First Major Google Maps Alternative Launches on Android Auto - autoevolution",
+          "description": "One of the biggest changes that Google introduced for Android Auto last year allowed for more developers to add support for the car-optimized experience in their own software, thus paving the way for a larger ecosystem of apps behind the wheel.",
+          "url": "https://www.autoevolution.com/news/the-first-major-google-maps-alternative-launches-on-android-auto-158833.html",
+          "urlToImage": "https://s1.cdn.autoevolution.com/images/news/the-first-major-google-maps-alternative-launches-on-android-auto-158833-7.jpg",
+          "publishedAt": "2021-04-06T04:58:00Z",
+          "content": "By opening up Android Auto for third-party developers, Google essentially allowed software makers to release alternatives even to its own apps, including here Google Maps, which right now continues t… [+1467 chars]"
+      }, {
+          "source": {
+              "id": "ign",
+              "name": "IGN"
+          },
+          "author": "Adam Bankhurst",
+          "title": "Engineer Builds the World's Largest Playable Switch and Donates It to a Children's Hospital - IGN - IGN",
+          "description": "Space software engineer Michael Pick has created the world's largest playable Nintendo Switch, complete with a 650% larger, 4K display, and then he donated it to a children's hospital for the kids to enjoy.",
+          "url": "https://www.ign.com/articles/engineer-builds-the-worlds-largest-playable-switch-and-donates-it-to-a-childrens-hospital",
+          "urlToImage": "https://assets1.ignimgs.com/2021/04/06/switch-1617682682180.png?width=1280",
+          "publishedAt": "2021-04-06T04:30:57Z",
+          "content": "Space software engineer Michael Pick has not only created the world's largest playable Nintendo Switch, he also donated it to the Monroe Carell Jr. Children's Hospital at Vanderbilt for the kids to e… [+2089 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Tom's Guide"
+          },
+          "author": "Kate Kozuch",
+          "title": "iPhone Flip could be the most durable foldable phone yet — here’s how - Tom's Guide",
+          "description": "Apple just updated a key foldable iPhone patent",
+          "url": "https://www.tomsguide.com/news/iphone-flip-could-be-the-most-durable-foldable-phone-yet-heres-how",
+          "urlToImage": "https://cdn.mos.cms.futurecdn.net/6qyHmGjzPxYE6JTo6HMjFE-1200-80.jpg",
+          "publishedAt": "2021-04-06T04:01:52Z",
+          "content": "The iPhone Flip or another future foldable iPhone could feature a unique, crack-resistant display made of mixed materials  not just flexible glass. According to an updated patent, Apple has proposed … [+2254 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Gematsu"
+          },
+          "author": "Sal Romano",
+          "title": "Wizardry VA launches in 2022, teaser trailer - Gematsu",
+          "description": "Wizardry VA, the tentatively titled 3D dungeon RPG revival of the Wizardry series, will launch for iOS and Android in 2022 worldwide, publisher Drecom and developer Studio 2Pro announced.",
+          "url": "https://www.gematsu.com/2021/04/wizardry-va-launches-in-2022-teaser-trailer",
+          "urlToImage": "https://www.gematsu.com/wp-content/uploads/2021/04/Wizardry-VA_04-05-21.jpg",
+          "publishedAt": "2021-04-06T03:33:21Z",
+          "content": "Wizardry VA, the tentatively titled 3D dungeon RPG revival of the Wizardry series, will launch for iOS and Android in 2022 worldwide, publisher Drecom and developer Studio 2Pro announced. \r\nThe game … [+175 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "New York Post"
+          },
+          "author": "Noah Manskar",
+          "title": "Winklevoss twins slam Facebook as their crypto business booms - Fox Business",
+          "description": "Tyler and Cameron Winklevoss waged a famous legal battle against Mark Zuckerberg over Facebook’s beginnings. Now, they’re predicting the social network’s demise. The Harvard-educa…",
+          "url": "https://nypost.com/2021/04/05/winklevoss-twins-slam-facebook-as-their-crypto-business-booms/",
+          "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2021/04/Winklevoss-twins-001.jpg?quality=90&strip=all&w=1200",
+          "publishedAt": "2021-04-06T02:58:12Z",
+          "content": "Tyler and Cameron Winklevoss waged a famous legal battle against Mark Zuckerberg over Facebook’s beginnings. Now, they’re predicting the social network’s demise.\r\nThe Harvard-educated twins — who wer… [+3354 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "Kotaku"
+          },
+          "author": "Luke Plunkett",
+          "title": "Global PS5, Xbox & GPU Shortage Partially Blamed On $1 Part - Kotaku",
+          "description": "As we talked about last week, the global supply shortage affecting all kinds of products, from consoles to phones to cars, is down to a lack of semiconductors. More specifically, though, some of the biggest culprits is a shortage tiny parts that costs around …",
+          "url": "https://kotaku.com/global-ps5-xbox-gpu-shortage-partially-blamed-on-1-1846624546",
+          "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/j7p3rxib3sezfi6yahyp.jpg",
+          "publishedAt": "2021-04-06T02:31:17Z",
+          "content": "As we talked about last week, the global supply shortage affecting all kinds of products, from consoles to phones to cars, is down to a lack of semiconductors. More specifically, though, some of the … [+1303 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "EventHubs"
+          },
+          "author": "Dakota 'DarkHorse' Hills",
+          "title": "Guilty Gear Strive's second open beta test confirmed and lobby changes detailed - EventHubs",
+          "description": "A second open beta test for Guilty Gear Strive following the game's delay last month, and now we finally seem to have confirmation of the next iteration's existence.Arc System Works has now released the Developer's Backyard ...",
+          "url": "https://www.eventhubs.com/news/2021/apr/05/guilty-gear-second-beta/",
+          "urlToImage": "https://media.eventhubs.com/images/2021/04/05-guilty-gear-second-betat.webp",
+          "publishedAt": "2021-04-06T01:52:26Z",
+          "content": "A second open beta test for Guilty Gear Strive following the game's delay last month, and now we finally seem to have confirmation of the next iteration's existence.\r\nArc System Works has now release… [+1767 chars]"
+      }, {
+          "source": {
+              "id": null,
+              "name": "CNET"
+          },
+          "author": "Shara Tibken",
+          "title": "LG will shut down smartphone business in July to focus on smart home, robotics - CNET",
+          "description": "It's the end of an era for the one-time phone giant, which has struggled to compete with Apple, Samsung and Chinese brands.",
+          "url": "https://www.cnet.com/news/lg-will-shut-down-smartphone-business-in-july-to-focus-smart-home-robotics/",
+          "urlToImage": "https://www.cnet.com/a/img/JaMCCSTvVZzVovh0hCSRNWARiIM=/1200x630/2020/09/24/f6041c84-3000-42ca-810a-2d32e4ea5543/lg-wing-phone-7868.jpg",
+          "publishedAt": "2021-04-06T01:45:05Z",
+          "content": "LG has experimented with different designs for its phones, like the the LG Wing, to try to attract buyers. \r\nAngela Lang/CNET\r\nLG on Sunday became the latest legacy phone-maker to exit \"the incredibl… [+4535 chars]"
+      }]
+    }
+  ]
+}
