@@ -69,7 +69,7 @@ export class SettingsDialogComponent implements OnInit {
 
   constructor(
     private newsapi: NewsApiService, 
-    private articlesCategoryService: ArticlesCategoryService, 
+    private articlesCategoryService: ArticlesCategoryService,
     public dialogRef: MatDialogRef<SettingsDialogComponent>) { }
 
   ngOnInit() {
@@ -82,7 +82,9 @@ export class SettingsDialogComponent implements OnInit {
   }
 
   activateCountry(alpha2code: string) {
-    this.articlesCategoryService.a2cChanged.next(alpha2code);
+    this.articlesCategoryService.countryCodeChanged.next(alpha2code);
+    localStorage.setItem('countryCode', alpha2code);
+    this.dialogRef.close();
   }
 
 }

@@ -31,16 +31,16 @@
             <div class="container">
                 <div class="sources row">
                     <div class="source-notice col-md-6 col-lg-6 pt-4 pb-4">
-                        <p>Pick your favourite news outlet articles like CNN, BBC and their top headlines to display.</p>
+                        <p>Browse news from different countries under categories like Business, Science and Technology </p>
                         <div class="source-info-box row g-0">
                             <div class="col-1"><svg class="bi" width="18" height="18" fill="currentColor"><use xlink:href="bootstrap-icons.svg#info-circle"/></svg></div>
-                            <div class="col-11"><p>Sources cannot mix with "country" and "category" for browsing articles.</p></div>
+                            <div class="col-11"><p>Country option is not yet supported on "Search" and "News Sources"</p></div>
                         </div>
                     </div>
                     <div class="source-background-theme col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
                             <div class="source col-md-2 col-lg-2" *ngFor="let list of countryList">
-                                <a routerLink="/articles/category/general/{{list.alpha2code}}" (click)="activateCountry(list.alpha2code)">
+                                <a routerLink="/articles/category/general" (click)="activateCountry(list.alpha2code)">
                                     <div class="source-image" 
                                     matTooltip="{{list.name | uppercase}}" 
                                     [ngStyle]="{'background-image': 'url(https://newsapi.org/images/flags/'+list.alpha2code+'.svg)'}">

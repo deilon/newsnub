@@ -1,5 +1,6 @@
 import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Injectable({
@@ -7,7 +8,7 @@ import { map } from 'rxjs/operators';
 })
 export class NewsApiService {
 
-  api_key = '316c5a6943494e88ae1793572a9f21e9';
+  api_key = '4d25e3a2d2334c299a5e47b6a037ace1';
   
 
   constructor(private http: HttpClient) { }

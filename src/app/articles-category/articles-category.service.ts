@@ -6,7 +6,7 @@ import { Injectable } from '@angular/core';
 })
 export class ArticlesCategoryService {
 
-    a2cChanged = new Subject();
+    countryCodeChanged = new Subject();
     constructor() { }
 
 }

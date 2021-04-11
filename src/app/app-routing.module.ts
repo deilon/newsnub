@@ -7,8 +7,8 @@ import { ArticlesSearchComponent } from './articles-search/articles-search.compo
 import { ArticlesSourceComponent } from './articles-source/articles-source.component';
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: 'articles/category/general/us', pathMatch: 'full' },
-    { path: 'articles/category/:category/:country', component: ArticlesCategoryComponent },
+    { path: '', redirectTo: 'articles/category/general', pathMatch: 'full' },
+    { path: 'articles/category/:category', component: ArticlesCategoryComponent },
     { path: 'articles/source/:source', component: ArticlesSourceComponent },
     { path: 'articles/search/:query', component: ArticlesSearchComponent }
 ];
