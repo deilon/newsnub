@@ -107,12 +107,11 @@ p {
 .header {
     padding: 30px 0;
     .greetings {
-        button {
-            outline: none;
-            border: none;
-            background: none;
+        #toggleBtn {
             margin-right: 10px;
             float: left;
+            width: none;
+            cursor: pointer;
             svg {
                 color: $darkFont;
             }

@@ -1,7 +1,11 @@
 <section class="articles-settings-description">
     <div class="container">
       <div class="row">
-        <div class="col">This is category component!!!!!!!! you are in {{countryCode}}</div>
+        <div class="col align-self-center"> 
+          <p id="category-settings">
+           Top Headlines in <span id="country-flag" [ngStyle]="{'background-image': 'url(https://newsapi.org/images/flags/'+countryCode+'.svg)'}"></span>
+          </p> 
+        </div>
         <div class="col">
           <pagination-template *ngIf="totalItems > itemsPerPage" #pg="paginationApi" (pageChange)="getPage(p = $event)">
             <ul >

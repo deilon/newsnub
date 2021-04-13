@@ -44,3 +44,21 @@ ul {
         }
     }
 }
+
+// Country Flag
+#category-settings {
+    font-family: $defaultFont;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 !important;
+}
+#country-flag {
+    width: 25px;
+    height: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+}
