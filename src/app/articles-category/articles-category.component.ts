@@ -81,7 +81,7 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
 
   // Mockup API for testing
   getDummyCategoryArticles() {
-    this.route.params.subscribe(
+    this.articlesCategorySubscription = this.route.params.subscribe(
       (params: Params) => {
           this.category = params['category'];
           this.p = 1; // reset page 
