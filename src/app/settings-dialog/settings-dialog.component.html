@@ -3,19 +3,19 @@
         
         <mat-tab label="Sources">
             <div class="container">
-                <div class="sources row">
-                    <div class="source-notice col-md-6 col-lg-6 pt-4 pb-4">
+                <div class="dialog-information row">
+                    <div class="dialog-notice col-md-6 col-lg-6 pt-4 pb-4">
                         <p>Pick your favourite news outlet articles like CNN, BBC and their top headlines to display.</p>
-                        <div class="source-info-box row g-0">
+                        <div class="dialog-info-box row g-0">
                             <div class="col-1"><svg class="bi" width="18" height="18" fill="currentColor"><use xlink:href="bootstrap-icons.svg#info-circle"/></svg></div>
                             <div class="col-11"><p>Sources cannot mix with "country" and "category" for browsing articles.</p></div>
                         </div>
                     </div>
-                    <div class="source-background-theme col-md-6 col-lg-6">
+                    <div class="dialog-background-theme col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
-                            <div class="source col-md-2 col-lg-2" *ngFor="let source of sources">
+                            <div class="dialog col-md-2 col-lg-2" *ngFor="let source of sources">
                                 <a routerLink="/articles/source/{{source.id}}" (click)="closeOnSourceClick()">
-                                    <div class="source-image" 
+                                    <div class="dialog-image" 
                                     matTooltip="{{source.name | uppercase}}" 
                                     [ngStyle]="{'background-image': 'url(../../../../assets/source-images/'+ source.id +'.png)'}">
                                     </div>
@@ -29,19 +29,19 @@
 
         <mat-tab label="Countries">
             <div class="container">
-                <div class="sources row">
-                    <div class="source-notice col-md-6 col-lg-6 pt-4 pb-4">
+                <div class="dialog-information row">
+                    <div class="dialog-notice col-md-6 col-lg-6 pt-4 pb-4">
                         <p>Browse news from different countries under categories like Business, Science and Technology </p>
-                        <div class="source-info-box row g-0">
+                        <div class="dialog-info-box row g-0">
                             <div class="col-1"><svg class="bi" width="18" height="18" fill="currentColor"><use xlink:href="bootstrap-icons.svg#info-circle"/></svg></div>
                             <div class="col-11"><p>Country option is not yet supported on "Search" and "News Sources"</p></div>
                         </div>
                     </div>
-                    <div class="source-background-theme col-md-6 col-lg-6">
+                    <div class="dialog-background-theme col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
-                            <div class="source col-md-2 col-lg-2" *ngFor="let list of countryList">
+                            <div class="dialog col-md-2 col-lg-2" *ngFor="let list of countryList">
                                 <a routerLink="/articles/category/general" (click)="activateCountry(list.alpha2code)">
-                                    <div class="source-image" 
+                                    <div class="dialog-image" 
                                     matTooltip="{{list.name | uppercase}}" 
                                     [ngStyle]="{'background-image': 'url(https://newsapi.org/images/flags/'+list.alpha2code+'.svg)'}">
                                     </div>
@@ -54,7 +54,36 @@
         </mat-tab>
 
 
-        <mat-tab label="Themes"> Content 3 </mat-tab>
+        <mat-tab label="Themes"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="backdrop-theme-manager">
+                            <div id="light-theme" class="theme-toggle" (click)="toggleTheme('light')">
+                                <div class="theme-toggle-content">
+                                    <span>
+                                        <svg class="bi" width="20" height="20" fill="currentColor">
+                                            <use xlink:href="bootstrap-icons.svg#check-circle"/>
+                                        </svg>
+                                    </span>
+                                    Light
+                                </div>
+                            </div>
+                            <div id="dark-theme" class="theme-toggle" (click)="toggleTheme('dark')">
+                                <div class="theme-toggle-content">
+                                    <span>
+                                        <svg class="bi" width="20" height="20" fill="currentColor">
+                                            <use xlink:href="bootstrap-icons.svg#check-circle"/>
+                                        </svg>
+                                    </span>
+                                    Dark
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </mat-tab>
 
     </mat-tab-group>
 </mat-dialog-content>

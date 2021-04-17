@@ -1,12 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialogRef } from '@angular/material';
 import { ArticlesCategoryService } from '../articles-category/articles-category.service';
 import { NewsApiService } from '../news-api.service';
+import { ThemeService } from '../themes/themes.service';
 
 @Component({
   selector: 'app-settings-dialog',
   templateUrl: './settings-dialog.component.html',
-  styleUrls: ['./settings-dialog.component.scss']
+  styleUrls: ['./settings-dialog.component.scss'],
+  encapsulation: ViewEncapsulation.None
 })
 export class SettingsDialogComponent implements OnInit {
 
@@ -70,7 +72,8 @@ export class SettingsDialogComponent implements OnInit {
   constructor(
     private newsapi: NewsApiService, 
     private articlesCategoryService: ArticlesCategoryService,
-    public dialogRef: MatDialogRef<SettingsDialogComponent>) { }
+    public dialogRef: MatDialogRef<SettingsDialogComponent>,
+    private themeService: ThemeService) { }
 
   ngOnInit() {
 		//load news sources
@@ -85,6 +88,14 @@ export class SettingsDialogComponent implements OnInit {
     this.articlesCategoryService.countryCodeChanged.next(alpha2code);
     localStorage.setItem('countryCode', alpha2code);
     this.dialogRef.close();
+  }
+
+  toggleTheme(theme: string) {
+    if (theme == 'light') {
+      this.themeService.setLightTheme();
+    } else if (theme == 'dark') {
+      this.themeService.setDarkTheme();
+    }
   }
 
 }

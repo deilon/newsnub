@@ -15,7 +15,7 @@ ul {
         cursor: pointer;
         a {
             text-decoration: none;
-            color: $darkFont !important;
+            color: var(--fgPrimaryColor) !important;
             display: block;
         }
         svg {
@@ -34,13 +34,13 @@ ul {
     }
 
     .current-page { 
-        background: $lightBg;
+        background: var(--backdropColor);
         font-weight: 700;
     }
 
     .disabled-page {
         a {
-            color: $lightFont !important;
+            color: var(--fgSecondaryColor) !important;
         }
     }
 }
@@ -50,6 +50,7 @@ ul {
     font-family: $defaultFont;
     font-weight: 600;
     font-size: 14px;
+    color: var(--fgPrimaryColor);
     margin: 0 !important;
 }
 #country-flag {

@@ -1,12 +1,14 @@
 
-    $whiteThemeBg: #FFFF;
+$defaultFont: 'Nunito';
 
-    $darkFont: #313237;
-    $lightFont: #788D9B;
-    $defaultFont: 'Nunito';
-    
-    $lightBg: #F2F4F8;
-    $blueBg: #5A7AFF;
-    $lightMat: #F4F7F9;
+$lightBackgroundColor: #FFFFFF;
+$lightThemePrimaryColor: #313237;
+$lightThemeSecondaryColor: #788D9B;
+$lightThemeBackdropColor: #EEEEF0;
+$lightThemeBackgroundShadow: 0px 6px 31px -30px #000000;
 
-    // $infoColor: #CFE2FF;
+$darkBackgroundColor: #18191A;
+$darkThemePrimaryColor: #F1F2F3;
+$darkThemeSecondaryColor: #656C70;
+$darkThemeBackdropColor: #242526;
+$darkThemeBackgroundShadow: 0px 6px 31px -30px #FFFFFF;

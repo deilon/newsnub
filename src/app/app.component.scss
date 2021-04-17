@@ -9,6 +9,7 @@ mat-sidenav {
     border: none;
     padding: 20px;
     font-family: $defaultFont;
+    background: var(--backgroundColor);
 
     .profile-image {
         margin-top: 10px;
@@ -25,12 +26,12 @@ mat-sidenav {
             display: block;
         }
         .sidenav-date {
-            color: $darkFont;
+            color: var(--fgPrimaryColor);
             font-weight: 700;
             font-size: 16px;
         }
         .sidenav-time {
-            color: $lightFont;
+            color: var(--fgSecondaryColor);
             font-size: 13px;
             font-weight: 600;
         }
@@ -43,13 +44,13 @@ mat-sidenav {
             margin-bottom: 30px;
             font-weight: 700;
             font-size: 15px;
-            color: $lightFont;
+            color: var(--fgSecondaryColor);
             display: block;
             cursor: pointer;
             text-decoration: none;
             span {
                 padding: 3px;
-                background: $lightBg;
+                background: var(--backdropColor);
                 border-radius: 6px;
                 display: inline-block;
                 width: 30px;
@@ -58,7 +59,7 @@ mat-sidenav {
                 margin-right: 10px;
                 vertical-align: middle;
                 svg {
-                    color: $lightFont;
+                    color: var(--fgSecondaryColor);
                     font-weight: bold;
                     display: inline-block;
                     margin: auto;
@@ -66,19 +67,19 @@ mat-sidenav {
             }
         }
         .active-category {
-            color: $darkFont;
+            color: var(--fgPrimaryColor);
             span {
-                background: $blueBg;
+                background: var(--accentColor);
                 svg {
-                    color: $whiteThemeBg;
+                    color: #FFFFFF;
                 }
             }
         }
     }
     
     #more-settings {
-        background: $blueBg;
-        color: #FFF;
+        background: var(--accentColor);
+        color: #FFFFFF;
         text-decoration: none;
         padding: 10px;
         width: 100%;
@@ -92,7 +93,7 @@ mat-sidenav {
     }
 }
 mat-sidenav-content {
-    background: $whiteThemeBg;
+    background: var(--backgroundColor);
     overflow-y: hidden;
 }
 
@@ -101,7 +102,7 @@ p {
 }
 
 .bi {
-    color: $darkFont;
+    color: var(--fgPrimaryColor);
 }
 
 .header {
@@ -113,16 +114,16 @@ p {
             width: none;
             cursor: pointer;
             svg {
-                color: $darkFont;
+                color: var(--fgPrimaryColor);
             }
         }
         p {
             font-family: $defaultFont;
-            color: $darkFont;
+            color: var(--fgPrimaryColor);
             font-size: 25px;
             font-weight: 700;
             span {
-                color: $lightFont;
+                color: var(--fgSecondaryColor);
                 font-weight: 600;
             }
         }
@@ -133,11 +134,11 @@ p {
         
         input {
             border: none;
-            background: $lightBg;
+            background: var(--backdropColor);
             font-family: $defaultFont;
             font-size: 14px;
             font-weight: 600;
-            color: $lightFont;
+            color: var(--fgPrimaryColor);
             padding: 12px 25px 12px 15px;
             margin-right: -10px;
             width: 260px;
@@ -145,22 +146,35 @@ p {
         }
         input:focus {
             outline: none;
+            background: var(--backdropColor);
         }
         input::placeholder {
             font-family: $defaultFont;
             font-size: 14px;
             font-weight: 600;
-            color: $lightFont;
+            color: var(--fgSecondaryColor);
         }
         input::-ms-input-placeholder {
             font-family: $defaultFont;
             font-size: 14px;
             font-weight: 600;
-            color: $lightFont;
+            color: var(--fgSecondaryColor);
+        }
+        // override user-agent styles on input
+        input:-webkit-autofill,
+        input:-webkit-autofill:hover,
+        input:-webkit-autofill:focus,
+        textarea:-webkit-autofill,
+        textarea:-webkit-autofill:hover,
+        textarea:-webkit-autofill:focus,
+        select:-webkit-autofill,
+        select:-webkit-autofill:hover,
+        select:-webkit-autofill:focus {
+            transition-delay: 99999s;
         }
         button {
             border: none;
-            background: $blueBg;
+            background: var(--accentColor);
             padding: 10.5px 12px;
             width: 50px;
             border-radius: 5px;

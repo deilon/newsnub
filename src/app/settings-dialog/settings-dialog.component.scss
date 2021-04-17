@@ -1,35 +1,35 @@
 @import "../../variables";
 
-.sources {
+.dialog-information {
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: $defaultFont;
 
-    .source-notice > p {
+    .dialog-notice > p {
         font-size: 16px;
         font-weight: 600;
-        color: $darkFont;
+        color: var(--fgPrimaryColor);
         padding: 5px;
     }
-    .source-info-box {
-        background: $blueBg;
-        color: $whiteThemeBg;
+    .dialog-info-box {
+        background: var(--accentColor);
+        color: #FFFFFF;
         padding: 10px;
         border-radius: 5px;
         p {
             margin: 0;
             font-size: 14px;
-            color: $whiteThemeBg;
+            color: #FFFFFF;
         }
     }
 
-    .source-background-theme {
-        background: $lightMat;
+    .dialog-background-theme {
+        background: var(--backdropColor);
     }
 
-    .source {
+    .dialog {
 
-        .source-image {
+        .dialog-image {
             height: 50px;
             width: 50px;
             margin-bottom: 15px;
@@ -44,4 +44,40 @@
         
     }
 
+}
+
+.backdrop-theme-manager {
+    padding: 10px;
+    border-radius: 5px;
+    background: var(--backdropColor);
+    margin-top: 20px;
+}
+
+.theme-toggle {
+    font-family: $defaultFont;
+    font-size: 17px;
+    display: inline-block;
+    width: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.theme-toggle-content {
+    vertical-align: middle;
+    font-weight: 600;
+    span {
+        margin-right: 20px;
+    }
+}
+
+#light-theme {
+    background: $lightBackgroundColor;
+    color: $lightThemePrimaryColor;
+}
+#dark-theme {
+    background: $darkBackgroundColor;
+    color: $darkThemePrimaryColor;
 }
