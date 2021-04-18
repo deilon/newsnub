@@ -2,7 +2,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MatDialogRef } from '@angular/material';
 import { ArticlesCategoryService } from '../articles-category/articles-category.service';
 import { NewsApiService } from '../news-api.service';
-import { ThemesService } from '../themes/themes.service';
+import { ThemeService } from '../theme/theme.service';
 
 @Component({
   selector: 'app-settings-dialog',
@@ -73,7 +73,7 @@ export class SettingsDialogComponent implements OnInit {
     private newsapi: NewsApiService, 
     private articlesCategoryService: ArticlesCategoryService,
     public dialogRef: MatDialogRef<SettingsDialogComponent>,
-    private themesService: ThemesService) { }
+    private themeService: ThemeService) { }
 
   ngOnInit() {
 		//load news sources
@@ -92,9 +92,9 @@ export class SettingsDialogComponent implements OnInit {
 
   toggleTheme(theme: string) {
     if (theme == 'light') {
-      this.themesService.setLightTheme();
+      this.themeService.setLightTheme();
     } else if (theme == 'dark') {
-      this.themesService.setDarkTheme();
+      this.themeService.setDarkTheme();
     }
   }
 

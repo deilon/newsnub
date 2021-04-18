@@ -12,7 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/shared.module';
-import { ThemesModule } from './themes/themes.module';
+import { ThemeModule } from './theme/theme.module';
 
 // Components
 import { SettingsDialogComponent } from './settings-dialog/settings-dialog.component';
@@ -37,7 +37,7 @@ import { ArticlesSearchComponent } from './articles-search/articles-search.compo
     AppRoutingModule,
     HttpClientModule,
     SharedModule,
-    ThemesModule
+    ThemeModule
     
   ],
   providers: [],
