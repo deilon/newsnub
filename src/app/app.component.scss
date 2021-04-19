@@ -7,9 +7,20 @@ mat-sidenav {
     left: 0;
     right: 1;
     border: none;
-    padding: 20px;
     font-family: $defaultFont;
     background: var(--backgroundColor);
+
+    .sidenav-flex {
+        display: flex;
+        flex-flow: column;
+        flex-grow: 1;
+        flex-basis: 0%;
+        height: 100vh;
+        padding: 20px 20px 0px 20px;
+        position: relative;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
 
     .profile-image {
         margin-top: 10px;
@@ -39,6 +50,7 @@ mat-sidenav {
 
     .categories {
         margin-top: 40px;
+        flex: 1 1 auto;
         .category {
             width: 200px;
             margin-bottom: 30px;
@@ -78,18 +90,24 @@ mat-sidenav {
     }
     
     #more-settings {
-        background: var(--accentColor);
-        color: #FFFFFF;
-        text-decoration: none;
-        padding: 10px;
-        width: 100%;
-        display: block;
-        text-align: center;
-        font-weight: 600;
-        border-radius: 6px;
-        border: none;
-        outline: none;
-        cursor: pointer;
+        position: sticky;
+        bottom: 0;
+        background: var(--backgroundColor);
+        padding-bottom: 20px;
+        button {
+            background: var(--accentColor);
+            color: #FFFFFF;
+            text-decoration: none;
+            padding: 10px;
+            width: 100%;
+            display: block;
+            text-align: center;
+            font-weight: 600;
+            border-radius: 6px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
     }
 }
 mat-sidenav-content {
