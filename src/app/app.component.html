@@ -10,8 +10,8 @@
         <img src="assets/me.jpg" alt="">
       </div>
       <div class="date-and-time">
-        <span class="sidenav-date">Feb 02, 2020</span>
-        <span class="sidenav-time">08:43 am</span>
+        <span class="sidenav-date">{{ currentDate | date: 'mediumDate'}}</span>
+        <span class="sidenav-time">{{ currentDate | date: 'hh:mm a' | lowercase }}</span>
       </div>
       <!-- Change to categories instead :) -->
       <div class="categories">
@@ -60,9 +60,7 @@
         <div class="row d-flex flex-row justify-content-between align-items-center">
             <div class="col greetings">
               <span id="toggleBtn" (click)="sidenav.toggle()"><svg class="bi" width="25" height="25" fill="currentColor"><use xlink:href="bootstrap-icons.svg#three-dots-vertical"/></svg></span>
-              <p>
-                Good Morning, <span>Deilon</span>
-              </p> 
+              <p>{{greetings}}, <span>Deilon</span></p> 
             </div>
             <div class="col search">
               <form #f="ngForm" (ngSubmit)="onSubmit(f)" class="d-flex flex-row justify-content-end align-items-center">

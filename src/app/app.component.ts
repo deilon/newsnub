@@ -12,12 +12,17 @@ import { ThemeService } from './theme/theme.service';
 })
 export class AppComponent {
 
+  currentDate = new Date();
+  greetings: string;
+
   constructor(
     public dialog: MatDialog, 
     private router: Router,
     private themeService: ThemeService) { }
 
   ngOnInit() {
+    this.setDateAndTime();
+    this.greet();
     this.setTheme();
   }
 
@@ -37,6 +42,22 @@ export class AppComponent {
       this.themeService.setLightTheme();
     } else if (localStorage.getItem('currentTheme') == 'dark') {
       this.themeService.setDarkTheme();
+    }
+  }
+
+  setDateAndTime() {
+    setInterval(() => {
+      this.currentDate = new Date();
+    }, 1000);
+  }
+
+  greet() {
+    if(this.currentDate.getHours() < 12) {
+      this.greetings = "Good Morning";
+    } else if (this.currentDate.getHours() < 17) {
+      this.greetings = "Good Afternoon";
+    } else {
+      this.greetings = "Good Evening";
     }
   }
 
