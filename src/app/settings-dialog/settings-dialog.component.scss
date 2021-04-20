@@ -1,5 +1,18 @@
 @import "../../variables";
 
+.myapp-custom-colors .mat-dialog-container {
+    background: var(--backgroundColor);
+}
+.myapp-custom-colors .mat-tab-label {
+    color: var(--fgPrimaryColor);
+    font-family: $defaultFont;
+    font-weight: 600;
+}
+
+.myapp-custom-colors .mat-tab-group.mat-primary .mat-ink-bar {
+    background-color: var(--accentColor);
+}
+
 .dialog-information {
     padding-top: 15px;
     padding-bottom: 15px;

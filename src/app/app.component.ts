@@ -28,6 +28,7 @@ export class AppComponent {
   openDialog() {
     const dialogRef = this.dialog.open(SettingsDialogComponent, {
       width: '900px',
+      panelClass: 'myapp-custom-colors'
     });
   }
 
