@@ -18,12 +18,7 @@ export class AppComponent {
     private themeService: ThemeService) { }
 
   ngOnInit() {
-    // Set Current theme for the app
-    if (localStorage.getItem('currentTheme') == 'light') {
-      this.themeService.setLightTheme();
-    } else if (localStorage.getItem('currentTheme') == 'dark') {
-      this.themeService.setDarkTheme();
-    }
+    this.setTheme();
   }
 
   openDialog() {
@@ -34,6 +29,15 @@ export class AppComponent {
 
   onSubmit(f: NgForm) {
     this.router.navigate(['/articles/search/' + f.value.search ]);
+  }
+
+  setTheme() {
+    // Set Current theme for the app
+    if (localStorage.getItem('currentTheme') == 'light') {
+      this.themeService.setLightTheme();
+    } else if (localStorage.getItem('currentTheme') == 'dark') {
+      this.themeService.setDarkTheme();
+    }
   }
 
 }
