@@ -12,7 +12,7 @@ export const light: Theme = {
         "--backdropColor":    "#EEEEF0",
     
         "--accentColor": "#5A7AFF",
-        "--backgroundShadow": "0px 6px 31px -30px #000000"
+        "--backgroundShadow": "0px 2px 63px -49px  #000000"
     }
 }
 
@@ -25,6 +25,6 @@ export const dark: Theme = {
         "--backdropColor":    "#242526",
     
         "--accentColor": "#5A7AFF",
-        "--backgroundShadow": "0px 6px 31px -30px #FFFFFF"
+        "--backgroundShadow": "0px 2px 63px -49px  #FFFFFF"
     }
 }
