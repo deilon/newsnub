@@ -93,8 +93,10 @@ export class SettingsDialogComponent implements OnInit {
   toggleTheme(theme: string) {
     if (theme == 'light') {
       this.themeService.setLightTheme();
+      localStorage.setItem('currentTheme', 'light');
     } else if (theme == 'dark') {
       this.themeService.setDarkTheme();
+      localStorage.setItem('currentTheme', 'dark');
     }
   }
 

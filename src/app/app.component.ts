@@ -3,6 +3,7 @@ import { NgForm } from '@angular/forms';
 import { MatDialog } from '@angular/material';
 import { Router } from '@angular/router';
 import { SettingsDialogComponent } from './settings-dialog/settings-dialog.component';
+import { ThemeService } from './theme/theme.service';
 
 @Component({
   selector: 'app-root',
@@ -13,10 +14,16 @@ export class AppComponent {
 
   constructor(
     public dialog: MatDialog, 
-    private router: Router) { }
+    private router: Router,
+    private themeService: ThemeService) { }
 
   ngOnInit() {
-    
+    // Set Current theme for the app
+    if (localStorage.getItem('currentTheme') == 'light') {
+      this.themeService.setLightTheme();
+    } else if (localStorage.getItem('currentTheme') == 'dark') {
+      this.themeService.setDarkTheme();
+    }
   }
 
   openDialog() {

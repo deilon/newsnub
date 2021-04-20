@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
+    
+    // LIGHT THEME (DEFAULT)
     --backgroundColor: #FFFFFF;
     --fgPrimaryColor:  #313237;
     --fgSecondaryColor: #788D9B;
@@ -9,6 +11,7 @@
     --accentColor: #5A7AFF;
     --backgroundShadow: 0px 6px 31px -30px #000000;
 
+    // DARK THEME
     // --backgroundColor: #18191A;
     // --fgPrimaryColor: #F1F2F3;
     // --fgSecondaryColor: #656C70;
