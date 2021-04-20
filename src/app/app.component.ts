@@ -22,7 +22,6 @@ export class AppComponent {
 
   ngOnInit() {
     this.setDateAndTime();
-    this.greet();
     this.setTheme();
   }
 
@@ -48,6 +47,7 @@ export class AppComponent {
   setDateAndTime() {
     setInterval(() => {
       this.currentDate = new Date();
+      this.greet();
     }, 1000);
   }
 
