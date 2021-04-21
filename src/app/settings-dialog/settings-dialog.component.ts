@@ -12,6 +12,7 @@ import { ThemeService } from '../theme/theme.service';
 })
 export class SettingsDialogComponent implements OnInit {
 
+  activeTheme = localStorage.getItem('currentTheme');
   sources: Array<any>;
   countryList: any = [
     { alpha2code: 'ae', name: 'United Arab Emirates'  },
@@ -98,6 +99,11 @@ export class SettingsDialogComponent implements OnInit {
       this.themeService.setDarkTheme();
       localStorage.setItem('currentTheme', 'dark');
     }
+    this.setThemeProperty();
+  }
+
+  setThemeProperty() {
+    this.activeTheme = localStorage.getItem('currentTheme');
   }
 
 }

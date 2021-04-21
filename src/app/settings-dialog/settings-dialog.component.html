@@ -58,9 +58,17 @@
                 <div class="row">
                     <div class="col">
                         <div class="backdrop-theme-manager">
-                            <div id="light-theme" class="theme-toggle" (click)="toggleTheme('light')">
+                            <div id="light-theme" 
+                                [ngClass]="{'active-theme': activeTheme == 'light'}" 
+                                class="theme-toggle" 
+                                (click)="toggleTheme('light')">
                                 <div class="theme-toggle-content">
-                                    <span>
+                                    <span *ngIf="activeTheme == 'light'" style="color: var(--accentColor)">
+                                        <svg class="bi" width="20" height="20" fill="currentColor">
+                                            <use xlink:href="bootstrap-icons.svg#check-circle-fill"/>
+                                        </svg>
+                                    </span>
+                                    <span *ngIf="activeTheme != 'light'">
                                         <svg class="bi" width="20" height="20" fill="currentColor">
                                             <use xlink:href="bootstrap-icons.svg#check-circle"/>
                                         </svg>
@@ -68,9 +76,17 @@
                                     Light
                                 </div>
                             </div>
-                            <div id="dark-theme" class="theme-toggle" (click)="toggleTheme('dark')">
+                            <div id="dark-theme" 
+                                [ngClass]="{'active-theme': activeTheme == 'dark'}"
+                                class="theme-toggle" 
+                                (click)="toggleTheme('dark')">
                                 <div class="theme-toggle-content">
-                                    <span>
+                                    <span *ngIf="activeTheme == 'dark'" style="color: var(--accentColor);">
+                                        <svg class="bi" width="20" height="20" fill="currentColor">
+                                            <use xlink:href="bootstrap-icons.svg#check-circle-fill"/>
+                                        </svg>
+                                    </span>
+                                    <span *ngIf="activeTheme != 'dark'">
                                         <svg class="bi" width="20" height="20" fill="currentColor">
                                             <use xlink:href="bootstrap-icons.svg#check-circle"/>
                                         </svg>

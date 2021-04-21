@@ -65,24 +65,30 @@
     background: var(--backdropColor);
     margin-top: 20px;
 }
-
+.active-theme {
+    border: 2px solid var(--accentColor);
+}
 .theme-toggle {
     font-family: $defaultFont;
     font-size: 17px;
     display: inline-block;
     width: 150px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin: 10px;
     border-radius: 5px;
     text-align: center;
     cursor: pointer;
 }
 .theme-toggle-content {
-    vertical-align: middle;
     font-weight: 600;
+    vertical-align: middle;
     span {
+        display: inline-block;
         margin-right: 20px;
+        padding: 7px 9px;
+        border-radius: 50%;
+        vertical-align: middle;
     }
 }
 
@@ -90,7 +96,15 @@
     background: $lightBackgroundColor;
     color: $lightThemePrimaryColor;
 }
+#light-theme:hover span {
+    background: $lightThemeBackdropColor;
+    transition: 0.5s;
+}
 #dark-theme {
     background: $darkBackgroundColor;
     color: $darkThemePrimaryColor;
+}
+#dark-theme:hover span {
+    background: $darkThemeBackdropColor;
+    transition: 0.5s;
 }
