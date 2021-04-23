@@ -33,7 +33,9 @@ export class AppComponent {
   }
 
   onSubmit(f: NgForm) {
-    this.router.navigate(['/articles/search/' + f.value.search ]);
+    if (f.value.search !== '') {
+      this.router.navigate(['/articles/search/' + f.value.search ]);
+    }
   }
 
   setTheme() {
