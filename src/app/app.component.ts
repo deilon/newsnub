@@ -22,7 +22,7 @@ export class AppComponent implements OnInit, OnDestroy {
     private router: Router,
     private themeService: ThemeService,
     changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) { 
-      this.mobileQuery = media.matchMedia('(max-width: 700px)');
+      this.mobileQuery = media.matchMedia('(max-width: 1199px)'); // Tablet view
       this._mobileQueryListener = () => changeDetectorRef.detectChanges();
       this.mobileQuery.addListener(this._mobileQueryListener);
     }
