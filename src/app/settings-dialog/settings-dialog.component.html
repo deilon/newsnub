@@ -13,7 +13,7 @@
                     </div>
                     <div class="dialog-background-theme col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
-                            <div class="dialog col-md-2 col-lg-2" *ngFor="let source of sources">
+                            <div class="dialog col-3 col-sm-3 col-md-3 col-lg-2" *ngFor="let source of sources">
                                 <a routerLink="/articles/source/{{source.id}}" (click)="closeOnSourceClick()">
                                     <div class="dialog-image" 
                                     matTooltip="{{source.name | uppercase}}" 
@@ -39,7 +39,7 @@
                     </div>
                     <div class="dialog-background-theme col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
-                            <div class="dialog col-md-2 col-lg-2" *ngFor="let list of countryList">
+                            <div class="dialog col-3 col-sm-3 col-md-3 col-lg-2" *ngFor="let list of countryList">
                                 <a routerLink="/articles/category/general" (click)="activateCountry(list.alpha2code)">
                                     <div class="dialog-image" 
                                     matTooltip="{{list.name | uppercase}}" 
