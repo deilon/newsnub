@@ -2,7 +2,8 @@
 
 <mat-sidenav-container>
 
-  <mat-sidenav #sidenav mode="side" opened>
+  <mat-sidenav #sidenav opened [mode]="mobileQuery.matches ? 'over' : 'side'"
+  [fixedInViewport]="mobileQuery.matches">
 
     <div class="sidenav-flex">
 

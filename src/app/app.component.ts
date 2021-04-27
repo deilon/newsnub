@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit, OnDestroy } from '@angular/core';
+import {MediaMatcher} from '@angular/cdk/layout';
 import { NgForm } from '@angular/forms';
 import { MatDialog } from '@angular/material';
 import { Router } from '@angular/router';
@@ -10,19 +11,29 @@ import { ThemeService } from './theme/theme.service';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-
+export class AppComponent implements OnInit, OnDestroy {
+  mobileQuery: MediaQueryList;
+  private _mobileQueryListener: () => void;
   currentDate = new Date();
   greetings: string;
 
   constructor(
     public dialog: MatDialog, 
     private router: Router,
-    private themeService: ThemeService) { }
+    private themeService: ThemeService,
+    changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) { 
+      this.mobileQuery = media.matchMedia('(max-width: 700px)');
+      this._mobileQueryListener = () => changeDetectorRef.detectChanges();
+      this.mobileQuery.addListener(this._mobileQueryListener);
+    }
 
   ngOnInit() {
     this.setDateAndTime();
     this.setTheme();
+  }
+
+  ngOnDestroy() {
+    this.mobileQuery.removeListener(this._mobileQueryListener);
   }
 
   openDialog() {
