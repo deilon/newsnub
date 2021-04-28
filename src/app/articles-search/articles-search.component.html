@@ -2,7 +2,7 @@
     <div class="container">
       <div class="row">
         <div class="col"></div>
-        <div class="col">
+        <div class="col-12">
           <pagination-template *ngIf="totalItems > itemsPerPage" #pg="paginationApi" (pageChange)="getPage(p = $event)">
             <ul >
               <!-- Prev -->
