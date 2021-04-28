@@ -3,11 +3,11 @@
   
     <div class="container">
       <div class="row">
-        <div class="col-xl-6 col-md-6 mb-4" *ngFor="let article of articles | paginate: { itemsPerPage: itemsPerPage, currentPage: p, totalItems: totalItems }">
+        <div class="col-xl-6 col-lg-6 col-md-12 mb-4" *ngFor="let article of articles | paginate: { itemsPerPage: itemsPerPage, currentPage: p, totalItems: totalItems }">
           <div class="article row g-0">
-            <div *ngIf="article.urlToImage != null" class="article-image col" [ngStyle]="{'background-image': 'url(' + article.urlToImage + ')'}"></div>
-            <div *ngIf="article.urlToImage == null" class="article-image col" [ngStyle]="{'background-image': 'url(assets/nullimage.jpg)'}"></div>
-            <div class="article-details col">
+            <div *ngIf="article.urlToImage != null" class="article-image col-12 col-sm-6" [ngStyle]="{'background-image': 'url(' + article.urlToImage + ')'}"></div>
+            <div *ngIf="article.urlToImage == null" class="article-image col-12 col-sm-6" [ngStyle]="{'background-image': 'url(assets/nullimage.jpg)'}"></div>
+            <div class="article-details col-12 col-sm-6">
               <span class="article-category">{{ category | titlecase }}</span>
               <a href={{article.url}} target="_blank" class="article-title pt-2">{{article.title}}</a>
               <div class="article-source d-flex flex-row align-items-center">

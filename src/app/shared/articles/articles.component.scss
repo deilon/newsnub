@@ -37,7 +37,6 @@
 
         .article-details {
             padding: 20px;
-            width: 50%;
             box-sizing: border-box;
 
             .article-category {
@@ -98,4 +97,18 @@
         }
     }
 
+}
+
+// Adjust height of article card on md breakpoint
+@media (min-width: 768px) and (max-width: 991px) {
+    .article-image {
+        height: 250px;
+    }
+}
+
+// Adjust height of article card on md breakpoint
+@media (max-width: 575px) {
+    .article-image {
+        height: 250px;
+    }
 }
