@@ -7,8 +7,8 @@
             Top Headlines
           </p> 
         </div>
-        <div class="col-12 col-sm-6 pt-3 pb-3 d-flex justify-content-sm-end">
-          <pagination-template *ngIf="totalItems > itemsPerPage" #pg="paginationApi" (pageChange)="getPage(p = $event)">
+        <div *ngIf="totalItems > itemsPerPage" class="col-12 col-sm-6 pt-3 pb-3 d-flex justify-content-sm-end">
+          <pagination-template #pg="paginationApi" (pageChange)="getPage(p = $event)">
             <ul>
               <!-- Prev -->
               <li [class.disabled-page]="pg.isFirstPage()" style="margin-right: 10px">
