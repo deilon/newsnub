@@ -2,16 +2,16 @@
 
 ul {
     list-style-type: none;
-    float: right;
     font-family: $defaultFont;
     font-size: 14px;
     font-weight: 600;
     margin: 0 !important;
+    padding: 0 !important;
 
     li {
         display: inline-block;
         box-sizing: border-box;
-        margin: 7px;
+        margin-right: 7px;
         cursor: pointer;
         a {
             text-decoration: none;
@@ -51,7 +51,7 @@ ul {
     font-weight: 600;
     font-size: 14px;
     color: var(--fgPrimaryColor);
-    margin: 0 !important;
+    margin: 0 7px !important;
 }
 #country-flag {
     width: 20px;
