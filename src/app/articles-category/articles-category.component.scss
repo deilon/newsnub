@@ -1,50 +1,5 @@
 @import "../../variables";
 
-ul {
-    list-style-type: none;
-    font-family: $defaultFont;
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0 !important;
-    padding: 0 !important;
-
-    li {
-        display: inline-block;
-        box-sizing: border-box;
-        margin-right: 7px;
-        cursor: pointer;
-        a {
-            text-decoration: none;
-            color: var(--fgPrimaryColor) !important;
-            display: block;
-        }
-        svg {
-            margin: 0 3px;
-        }
-    }
-
-    .pages {
-        vertical-align: middle;
-        border-radius: 5px;
-        a {
-            border-radius: 5px;
-            padding: 4px 10px;
-            vertical-align: middle;
-        }
-    }
-
-    .current-page { 
-        background: var(--backdropColor);
-        font-weight: 700;
-    }
-
-    .disabled-page {
-        a {
-            color: var(--fgSecondaryColor) !important;
-        }
-    }
-}
-
 // Country Flag
 #category-settings {
     font-family: $defaultFont;
