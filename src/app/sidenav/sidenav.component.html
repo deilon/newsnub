@@ -1,0 +1,47 @@
+
+    <div class="sidenav-flex">
+
+        <div class="profile-image">
+          <img src="assets/me.jpg" alt="">
+        </div>
+        <div class="date-and-time">
+          <span class="sidenav-date">{{ currentDate | date: 'mediumDate'}}</span>
+          <span class="sidenav-time">{{ currentDate | date: 'hh:mm a' | lowercase }}</span>
+        </div>
+        
+        <div class="categories">
+          <a routerLink="/articles/category/general" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#house"/></svg></span>
+            Home
+          </a>
+          <a routerLink="/articles/category/business" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#building"/></svg></span>
+            Business
+          </a>
+          <a routerLink="/articles/category/entertainment" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#play"/></svg></span>
+            Enterntainment
+          </a>
+          <a routerLink="/articles/category/health" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#heart"/></svg></span>
+            Health
+          </a>
+          <a routerLink="/articles/category/science" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#lightbulb"/></svg></span>
+            Science
+          </a>
+          <a routerLink="/articles/category/sports" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#trophy"/></svg></span>
+            Sports
+          </a>
+          <a routerLink="/articles/category/technology" routerLinkActive="active-category" class="category">
+            <span><svg class="bi" width="16" height="16" fill="currentColor"><use xlink:href="bootstrap-icons.svg#cpu"/></svg></span>
+            Technology
+          </a>
+        </div>
+  
+        <div id="more-settings">
+          <button (click)="openDialog()">Settings</button>
+        </div>
+  
+      </div>

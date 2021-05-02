@@ -18,6 +18,7 @@ import { SettingsDialogComponent } from './settings-dialog/settings-dialog.compo
 import { ArticlesSourceComponent } from './articles-source/articles-source.component';
 import { ArticlesCategoryComponent } from './articles-category/articles-category.component';
 import { ArticlesSearchComponent } from './articles-search/articles-search.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ArticlesSearchComponent } from './articles-search/articles-search.compo
     SettingsDialogComponent,
     ArticlesSourceComponent,
     ArticlesCategoryComponent,
-    ArticlesSearchComponent
+    ArticlesSearchComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,

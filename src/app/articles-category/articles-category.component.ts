@@ -32,6 +32,8 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
       this.checkCurrentCountry();
       this.countryCodeSubscription();
       this.getCategoryArticles();
+
+      // For Testing purposes :)
       // this.getDummyCategoryArticles();
   }
 

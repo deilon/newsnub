@@ -1,5 +1,5 @@
 import { ChangeDetectorRef, Component, OnInit, OnDestroy } from '@angular/core';
-import {MediaMatcher} from '@angular/cdk/layout';
+import { MediaMatcher } from '@angular/cdk/layout';
 import { NgForm } from '@angular/forms';
 import { MatDialog } from '@angular/material';
 import { Router } from '@angular/router';
@@ -12,11 +12,12 @@ import { ThemeService } from './theme/theme.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit, OnDestroy {
+
   mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
-  currentDate = new Date();
-  greetings: string;
 
+  greetings: string;
+  
   constructor(
     public dialog: MatDialog, 
     private router: Router,
@@ -28,7 +29,7 @@ export class AppComponent implements OnInit, OnDestroy {
     }
 
   ngOnInit() {
-    this.setDateAndTime();
+    this.greet();
     this.setTheme();
   }
 
@@ -58,21 +59,18 @@ export class AppComponent implements OnInit, OnDestroy {
     }
   }
 
-  setDateAndTime() {
-    setInterval(() => {
-      this.currentDate = new Date();
-      this.greet();
-    }, 1000);
-  }
-
+  // Set up greet hours
   greet() {
-    if(this.currentDate.getHours() < 12) {
-      this.greetings = "Good Morning";
-    } else if (this.currentDate.getHours() < 17) {
-      this.greetings = "Good Afternoon";
-    } else {
-      this.greetings = "Good Evening";
-    }
+    setInterval(() => {
+      let currentDate = new Date();
+      if(currentDate.getHours() < 12) {
+        this.greetings = "Good Morning";
+      } else if (currentDate.getHours() < 17) {
+        this.greetings = "Good Afternoon";
+      } else {
+        this.greetings = "Good Evening";
+      }
+    }, 1000);
   }
 
 }
