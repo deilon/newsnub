@@ -1,9 +1,7 @@
 import { ChangeDetectorRef, Component, OnInit, OnDestroy } from '@angular/core';
 import { MediaMatcher } from '@angular/cdk/layout';
 import { NgForm } from '@angular/forms';
-import { MatDialog } from '@angular/material';
 import { Router } from '@angular/router';
-import { SettingsDialogComponent } from './settings-dialog/settings-dialog.component';
 import { ThemeService } from './theme/theme.service';
 
 @Component({
@@ -19,7 +17,6 @@ export class AppComponent implements OnInit, OnDestroy {
   greetings: string;
   
   constructor(
-    public dialog: MatDialog, 
     private router: Router,
     private themeService: ThemeService,
     changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) { 
@@ -35,13 +32,6 @@ export class AppComponent implements OnInit, OnDestroy {
 
   ngOnDestroy() {
     this.mobileQuery.removeListener(this._mobileQueryListener);
-  }
-
-  openDialog() {
-    const dialogRef = this.dialog.open(SettingsDialogComponent, {
-      width: '900px',
-      panelClass: 'myapp-custom-colors'
-    });
   }
 
   onSubmit(f: NgForm) {
