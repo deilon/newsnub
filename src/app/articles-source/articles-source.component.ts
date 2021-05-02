@@ -20,18 +20,22 @@ export class ArticlesSourceComponent implements OnInit {
   constructor(private newsapi: NewsApiService, private route: ActivatedRoute) { }
 
   ngOnInit() {
-      this.route.params.subscribe(
-        (params: Params) => {
-            this.newsapi.initSourceArticles(params['source'], this.p, this.itemsPerPage)
-            .subscribe(
-              (data: any) => {
-                this.articles = data.articles,
-                this.totalItems = data.totalResults
-              }
-            );
-            this.source = params['source']
-        }
-      );
+    this.getSourceArticles();
+  }
+
+  getSourceArticles() {
+    this.route.params.subscribe(
+      (params: Params) => {
+          this.newsapi.initSourceArticles(params['source'], this.p, this.itemsPerPage)
+          .subscribe(
+            (data: any) => {
+              this.articles = data.articles,
+              this.totalItems = data.totalResults
+            }
+          );
+          this.source = params['source']
+      }
+    );
   }
 
   getPage(page) {
