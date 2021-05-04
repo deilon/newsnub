@@ -12,8 +12,7 @@ const appRoutes: Routes = [
     { path: 'articles/category/:category', component: ArticlesCategoryComponent },
     { path: 'articles/source/:source', component: ArticlesSourceComponent },
     { path: 'articles/search/:query', component: ArticlesSearchComponent },
-    { path: 'page-not-found', component: NotFoundComponent },
-    { path: '**', redirectTo: 'page-not-found' }
+    { path: '**', component: NotFoundComponent }
 ];
 
 @NgModule({
