@@ -1,5 +1,5 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ActivatedRoute, Params } from '@angular/router';
+import { ActivatedRoute, Params, Router } from '@angular/router';
 import { DummyApiService } from '../dummy-api.service';
 import { NewsApiService } from '../news-api.service';
 import { ArticlesCategoryService } from './articles-category.service';
@@ -14,19 +14,21 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
 
   articlesCategorySubscription: Subscription;
 
-  constructor(
-    private newsapi: NewsApiService, 
-    private dummyApi: DummyApiService, 
-    private articlesCategoryService: ArticlesCategoryService, 
-    private route: ActivatedRoute) { }
-
   articles: Array<any>;
+  availableCategories = ['general', 'business', 'entertainment', 'health', 'science', 'sports', 'technology'];
   category: string;
 
   p: number = 1;
   totalItems: number;
   itemsPerPage = 20;
   countryCode: string;
+
+  constructor(
+    private newsapi: NewsApiService, 
+    private dummyApi: DummyApiService, 
+    private articlesCategoryService: ArticlesCategoryService, 
+    private route: ActivatedRoute,
+    private router: Router) { }
 
   ngOnInit() {
       this.checkCurrentCountry();
@@ -69,13 +71,12 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
       (params: Params) => {
           this.category = params['category'];
           this.p = 1; // reset page 
-          if (this.category != null) {
+          if (this.category != null && this.availableCategories.includes(this.category)) {
             this.newsapi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
               .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
-          } else {
-            this.category = 'general';
-            this.newsapi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
-              .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
+          } else if (!this.availableCategories.includes(this.category)) {
+            // redirect for invalid parameter
+            this.router.navigate(['articles/category/general']);
           }
       }
     );
@@ -87,13 +88,12 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
       (params: Params) => {
           this.category = params['category'];
           this.p = 1; // reset page 
-          if (this.category != null) {
+          if (this.category != null && this.availableCategories.includes(this.category)) {
             this.dummyApi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
               .subscribe((data: any) => { this.articles = data[0].articles, this.totalItems = data[0].totalResults });
-          } else {
-            this.category = 'general';
-            this.dummyApi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
-              .subscribe((data: any) => { this.articles = data[0].articles, this.totalItems = data[0].totalResults });
+          } else if (!this.availableCategories.includes(this.category)) {
+            // redirect for invalid parameter
+            this.router.navigate(['articles/category/general']);
           }
       }
     );
