@@ -1,0 +1,6 @@
+@import "../../variables";
+
+p, h1 {
+    color: var(--fgPrimaryColor);
+    font-family: $defaultFont;
+}

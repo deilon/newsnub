@@ -19,6 +19,7 @@ import { ArticlesSourceComponent } from './articles-source/articles-source.compo
 import { ArticlesCategoryComponent } from './articles-category/articles-category.component';
 import { ArticlesSearchComponent } from './articles-search/articles-search.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SidenavComponent } from './sidenav/sidenav.component';
     ArticlesSourceComponent,
     ArticlesCategoryComponent,
     ArticlesSearchComponent,
-    SidenavComponent
+    SidenavComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
