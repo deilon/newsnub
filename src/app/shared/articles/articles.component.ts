@@ -11,7 +11,7 @@ export class ArticlesComponent implements OnInit {
   @Input() category: String;
   @Input() totalItems: number;
   @Input() itemsPerPage: number;
-  @Input() p: number;
+  @Input() pageNumber: number;
 
   constructor() { }
 

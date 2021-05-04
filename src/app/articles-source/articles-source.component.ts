@@ -9,11 +9,10 @@ import { NewsApiService } from '../news-api.service';
 })
 export class ArticlesSourceComponent implements OnInit {
 
+  source: string;
   articles: Array<any>;
   category = "Top Headline";
-  source: string;
-
-  p: number = 1;
+  pageNumber: number = 1;
   totalItems: number;
   itemsPerPage = 20;
 
@@ -26,7 +25,7 @@ export class ArticlesSourceComponent implements OnInit {
   getSourceArticles() {
     this.route.params.subscribe(
       (params: Params) => {
-          this.newsapi.initSourceArticles(params['source'], this.p, this.itemsPerPage)
+          this.newsapi.initSourceArticles(params['source'], this.pageNumber, this.itemsPerPage)
           .subscribe(
             (data: any) => {
               this.articles = data.articles,
@@ -39,8 +38,8 @@ export class ArticlesSourceComponent implements OnInit {
   }
 
   getPage(page) {
-    this.p = page;
-    this.newsapi.initSourceArticles(this.source, this.p, this.itemsPerPage)
+    this.pageNumber = page;
+    this.newsapi.initSourceArticles(this.source, this.pageNumber, this.itemsPerPage)
     .subscribe(
       (data: any) => {
         this.articles = data.articles, 

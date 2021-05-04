@@ -9,11 +9,10 @@ import { NewsApiService } from '../news-api.service';
 })
 export class ArticlesSearchComponent implements OnInit {
 
+  query: string;
   articles: Array<any>;
   category = "Everything";
-  query: string;
-
-  p: number = 1;
+  pageNumber: number = 1;
   totalItems: number;
   itemsPerPage = 20;
 
@@ -28,8 +27,8 @@ export class ArticlesSearchComponent implements OnInit {
     this.route.params.subscribe(
       (params: Params) => {
         this.query = params['query'];
-        this.p = 1; // reset page
-        this.newsapi.searchArticle(this.query, this.p, this.itemsPerPage)
+        this.pageNumber = 1; // reset page
+        this.newsapi.searchArticle(this.query, this.pageNumber, this.itemsPerPage)
           .subscribe(
             (data: any) => {
               this.articles = data.articles, 
@@ -41,8 +40,8 @@ export class ArticlesSearchComponent implements OnInit {
   }
 
   getPage(page) {
-    this.p = page;
-    this.newsapi.searchArticle(this.query, this.p, this.itemsPerPage)
+    this.pageNumber = page;
+    this.newsapi.searchArticle(this.query, this.pageNumber, this.itemsPerPage)
     .subscribe(
       (data: any) => {
         this.articles = data.articles, 

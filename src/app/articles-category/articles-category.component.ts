@@ -14,14 +14,13 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
 
   articlesCategorySubscription: Subscription;
 
-  articles: Array<any>;
   availableCategories = ['general', 'business', 'entertainment', 'health', 'science', 'sports', 'technology'];
+  countryCode: string;
+  articles: Array<any>;
   category: string;
-
-  p: number = 1;
+  pageNumber: number = 1;
   totalItems: number;
   itemsPerPage = 20;
-  countryCode: string;
 
   constructor(
     private newsapi: NewsApiService, 
@@ -33,15 +32,15 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
   ngOnInit() {
       this.checkCurrentCountry();
       this.countryCodeSubscription();
-      // this.getCategoryArticles();
+      this.getCategoryArticles();
 
       // For Testing purposes :)
-      this.getDummyCategoryArticles();
+      // this.getDummyCategoryArticles();
   }
 
   getPage(page) {
-    this.p = page;
-    this.newsapi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
+    this.pageNumber = page;
+    this.newsapi.initArticles(this.category, this.pageNumber, this.itemsPerPage, this.countryCode)
     .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
   }
 
@@ -70,9 +69,9 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
     this.articlesCategorySubscription = this.route.params.subscribe(
       (params: Params) => {
           this.category = params['category'];
-          this.p = 1; // reset page 
+          this.pageNumber = 1; // reset page 
           if (this.category != null && this.availableCategories.includes(this.category)) {
-            this.newsapi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
+            this.newsapi.initArticles(this.category, this.pageNumber, this.itemsPerPage, this.countryCode)
               .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
           } else if (!this.availableCategories.includes(this.category)) {
             // redirect for invalid parameter
@@ -87,9 +86,9 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
     this.articlesCategorySubscription = this.route.params.subscribe(
       (params: Params) => {
           this.category = params['category'];
-          this.p = 1; // reset page 
+          this.pageNumber = 1; // reset page 
           if (this.category != null && this.availableCategories.includes(this.category)) {
-            this.dummyApi.initArticles(this.category, this.p, this.itemsPerPage, this.countryCode)
+            this.dummyApi.initArticles(this.category, this.pageNumber, this.itemsPerPage, this.countryCode)
               .subscribe((data: any) => { this.articles = data[0].articles, this.totalItems = data[0].totalResults });
           } else if (!this.availableCategories.includes(this.category)) {
             // redirect for invalid parameter
