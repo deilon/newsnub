@@ -4,16 +4,17 @@
 .articles {
 
     position: relative;
+    overflow: hidden;
     margin-top: 20px;
     background-color: var(--backgroundColor);
 
     .backdrop-color {
-        margin-top: 70px;
+        position: absolute;
+        top: 70px;
         background: var(--backdropColor) !important;
         border-top-left-radius: 30px;
         height: 100%;
         width: 100%;
-        position: absolute;
     }
 
     .container {
