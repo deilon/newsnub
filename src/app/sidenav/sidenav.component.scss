@@ -19,6 +19,7 @@
         border-radius: 50%;
     }
 }
+
 .date-and-time {
     margin-top: 20px;
     line-height: 1.5;
@@ -40,40 +41,42 @@
 .categories {
     margin-top: 40px;
     flex: 1 1 auto;
-    .category {
-        width: 200px;
-        margin-bottom: 30px;
-        font-weight: 700;
-        font-size: 15px;
-        color: var(--fgSecondaryColor);
-        display: block;
-        cursor: pointer;
-        text-decoration: none;
-        span {
-            padding: 3px;
-            background: var(--backdropColor);
-            border-radius: 6px;
+}
+
+.category {
+    width: 200px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--fgSecondaryColor);
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    span {
+        padding: 3px;
+        background: var(--backdropColor);
+        border-radius: 6px;
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin-right: 10px;
+        vertical-align: middle;
+        svg {
+            color: var(--fgSecondaryColor);
+            font-weight: bold;
             display: inline-block;
-            width: 30px;
-            height: 30px;
-            text-align: center;
-            margin-right: 10px;
-            vertical-align: middle;
-            svg {
-                color: var(--fgSecondaryColor);
-                font-weight: bold;
-                display: inline-block;
-                margin: auto;
-            }
+            margin: auto;
         }
     }
-    .active-category {
-        color: var(--fgPrimaryColor);
-        span {
-            background: var(--accentColor);
-            svg {
-                color: #FFFFFF;
-            }
+}
+
+.active-category {
+    color: var(--fgPrimaryColor);
+    span {
+        background: var(--accentColor);
+        svg {
+            color: #FFFFFF;
         }
     }
 }

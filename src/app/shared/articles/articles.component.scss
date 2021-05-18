@@ -1,103 +1,98 @@
-
 @import "../../../variables";
 
 .articles {
-
     position: relative;
     overflow: hidden;
     margin-top: 20px;
     background-color: var(--backgroundColor);
+}
 
-    .backdrop-color {
-        position: absolute;
-        top: 70px;
-        background: var(--backdropColor) !important;
-        border-top-left-radius: 30px;
-        height: 100%;
-        width: 100%;
+.backdrop-color {
+    position: absolute;
+    top: 70px;
+    background: var(--backdropColor) !important;
+    border-top-left-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.article {
+    background: var(--backgroundColor);
+    padding: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: var(--backgroundShadow); 
+    box-shadow: var(--backgroundShadow); 
+}
+
+.article-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 15px;
+}
+
+.article-details {
+    padding: 20px;
+    box-sizing: border-box;
+
+    .article-category {
+        font-family: $defaultFont;
+        font-weight: 700;
+        color: var(--fgSecondaryColor);
     }
+    .article-title {
+        font-family: $defaultFont;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--fgPrimaryColor);
 
-    .container {
-        position: relative;
+        // Text truncation i got from google.
+        // This allows me to clamp long text into 3 lines and truncate it
+        overflow: hidden;
+        line-height: 1.5rem;
+        max-height: 8rem;
+        -webkit-box-orient: vertical;
+        display: block;
+        display: -webkit-box;
+        overflow: hidden !important;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        text-decoration: none;
     }
-
-    .article {
-
-        background: var(--backgroundColor);
-        padding: 10px;
-        border-radius: 15px;
-        -webkit-box-shadow: var(--backgroundShadow); 
-        box-shadow: var(--backgroundShadow); 
-
-        .article-image {
+    .article-title:hover {
+        text-decoration: underline;
+    }
+    .article-source {
+        padding-top: 20px;
+        .article-source-image {
+            background-position: center center;
             background-size: cover;
             background-repeat: no-repeat;
-            background-position: center center;
-            border-radius: 15px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
         }
-
-        .article-details {
-            padding: 20px;
-            box-sizing: border-box;
-
-            .article-category {
-                font-family: $defaultFont;
-                font-weight: 700;
-                color: var(--fgSecondaryColor);
-            }
-            .article-title {
-                font-family: $defaultFont;
-                font-weight: 700;
-                font-size: 18px;
-                color: var(--fgPrimaryColor);
-
-                // Text truncation i got from google.
-                // This allows me to clamp long text into 3 lines and truncate it
-                overflow: hidden;
-                line-height: 1.5rem;
-                max-height: 8rem;
-                -webkit-box-orient: vertical;
-                display: block;
-                display: -webkit-box;
-                overflow: hidden !important;
-                text-overflow: ellipsis;
-                -webkit-line-clamp: 3;
-                text-decoration: none;
-            }
-            .article-title:hover {
-                text-decoration: underline;
-            }
-            .article-source {
-                padding-top: 20px;
-                .article-source-image {
-                    background-position: center center;
-                    background-size: cover;
-                    background-repeat: no-repeat;
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                    margin-right: 10px;
-                }
-                span {
-                    line-height: 1.3;
-                }
-                .article-source-name {
-                    font-family: $defaultFont;
-                    font-weight: 700;
-                    font-size: 14px;
-                    color: var(--fgPrimaryColor);
-                }
-                .article-source-date {
-                    font-family: $defaultFont;
-                    font-size: 12px;
-                    font-weight: 700;
-                    color: var(--fgSecondaryColor);
-                }
-            }
-
+        span {
+            line-height: 1.3;
+        }
+        .article-source-name {
+            font-family: $defaultFont;
+            font-weight: 700;
+            font-size: 14px;
+            color: var(--fgPrimaryColor);
+        }
+        .article-source-date {
+            font-family: $defaultFont;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--fgSecondaryColor);
         }
     }
-
 }
 
 // Adjust height of article card on md breakpoint

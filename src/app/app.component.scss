@@ -38,85 +38,86 @@ p {
 
 .header {
     padding: 30px 0;
-    .greetings {
-        #toggleBtn {
-            margin-right: 10px;
-            float: left;
-            width: none;
-            cursor: pointer;
-            svg {
-                color: var(--fgPrimaryColor);
-            }
-        }
-        p {
-            font-family: $defaultFont;
-            color: var(--fgPrimaryColor);
-            font-size: 25px;
-            font-weight: 700;
-            span {
-                color: var(--fgSecondaryColor);
-                font-weight: 600;
-            }
-        }
-
-    }
-
-    .search {
-        
-        input {
-            border: none;
-            background: var(--backdropColor);
-            font-family: $defaultFont;
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--fgPrimaryColor);
-            padding: 12px 25px 12px 15px;
-            margin-right: -10px;
-            width: 260px;
-            border-radius: 5px;
-        }
-        input:focus {
-            outline: none;
-            background: var(--backdropColor);
-        }
-        input::placeholder {
-            font-family: $defaultFont;
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--fgSecondaryColor);
-        }
-        input::-ms-input-placeholder {
-            font-family: $defaultFont;
-            font-size: 14px;
-            font-weight: 600;
-            color: var(--fgSecondaryColor);
-        }
-        // override user-agent styles on input
-        input:-webkit-autofill,
-        input:-webkit-autofill:hover,
-        input:-webkit-autofill:focus,
-        textarea:-webkit-autofill,
-        textarea:-webkit-autofill:hover,
-        textarea:-webkit-autofill:focus,
-        select:-webkit-autofill,
-        select:-webkit-autofill:hover,
-        select:-webkit-autofill:focus {
-            transition-delay: 99999s;
-        }
-        button {
-            border: none;
-            background: var(--accentColor);
-            padding: 10.5px 12px;
-            width: 50px;
-            border-radius: 5px;
-        }
-        button:focus {
-            outline: none;
-        }
-        button img {
-            width: 15px;
-            height: 15px;
-        }
-    }
-
 }
+
+.greetings {
+    #toggleBtn {
+        margin-right: 10px;
+        float: left;
+        width: none;
+        cursor: pointer;
+        svg {
+            color: var(--fgPrimaryColor);
+        }
+    }
+    p {
+        font-family: $defaultFont;
+        color: var(--fgPrimaryColor);
+        font-size: 25px;
+        font-weight: 700;
+        span {
+            color: var(--fgSecondaryColor);
+            font-weight: 600;
+        }
+    }
+}
+
+.search {
+    
+    input {
+        border: none;
+        background: var(--backdropColor);
+        font-family: $defaultFont;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--fgPrimaryColor);
+        padding: 12px 25px 12px 15px;
+        margin-right: -10px;
+        width: 260px;
+        border-radius: 5px;
+    }
+    input:focus {
+        outline: none;
+        background: var(--backdropColor);
+    }
+    input::placeholder {
+        font-family: $defaultFont;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--fgSecondaryColor);
+    }
+    input::-ms-input-placeholder {
+        font-family: $defaultFont;
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--fgSecondaryColor);
+    }
+    // override user-agent styles on input
+    input:-webkit-autofill,
+    input:-webkit-autofill:hover,
+    input:-webkit-autofill:focus,
+    textarea:-webkit-autofill,
+    textarea:-webkit-autofill:hover,
+    textarea:-webkit-autofill:focus,
+    select:-webkit-autofill,
+    select:-webkit-autofill:hover,
+    select:-webkit-autofill:focus {
+        transition-delay: 99999s;
+    }
+    button {
+        border: none;
+        background: var(--accentColor);
+        padding: 10.5px 12px;
+        width: 50px;
+        border-radius: 5px;
+    }
+    button:focus {
+        outline: none;
+    }
+    button img {
+        width: 15px;
+        height: 15px;
+    }
+    
+}
+

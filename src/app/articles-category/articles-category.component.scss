@@ -1,6 +1,5 @@
 @import "../../variables";
 
-// Country Flag
 #category-settings {
     font-family: $defaultFont;
     font-weight: 600;
@@ -8,6 +7,7 @@
     color: var(--fgPrimaryColor);
     margin: 0 7px !important;
 }
+
 #country-flag {
     width: 20px;
     height: 20px;

@@ -1,5 +1,6 @@
 @import "../../variables";
 
+// Angular Material custom styles
 .myapp-custom-colors .mat-dialog-container {
     background: var(--backgroundColor);
 }
@@ -16,36 +17,38 @@
     background-color: var(--accentColor);
 }
 
+
+
+
 .dialog-information {
     padding-top: 15px;
     padding-bottom: 15px;
     font-family: $defaultFont;
+}
 
-    .dialog-notice > p {
-        font-size: 16px;
-        font-weight: 600;
-        color: var(--fgPrimaryColor);
-        padding: 5px;
-    }
-    .dialog-info-box {
-        background: var(--accentColor);
+.dialog-notice > p {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--fgPrimaryColor);
+    padding: 5px;
+}
+
+.dialog-info-box {
+    background: var(--accentColor);
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    p {
+        margin: 0;
+        font-size: 14px;
         color: #FFFFFF;
-        padding: 10px;
-        border-radius: 5px;
-        p {
-            margin: 0;
-            font-size: 14px;
-            color: #FFFFFF;
-        }
     }
+}
 
-    .dialog-background-theme {
-        background: var(--backdropColor);
-    }
-
-    .dialog {
-
-        .dialog-image {
+.dialog-content {
+    background: var(--backdropColor);
+    .dialog-lists {
+        .dialog-lists-image {
             height: 50px;
             width: 50px;
             margin-bottom: 15px;
@@ -57,9 +60,7 @@
             border-radius: 6px;
             cursor: pointer;
         }
-        
     }
-
 }
 
 .backdrop-theme-manager {
@@ -68,9 +69,11 @@
     background: var(--backdropColor);
     margin-top: 20px;
 }
+
 .active-theme {
     border: 2px solid var(--accentColor);
 }
+
 .theme-toggle {
     font-family: $defaultFont;
     font-size: 17px;
@@ -83,6 +86,7 @@
     text-align: center;
     cursor: pointer;
 }
+
 .theme-toggle-content {
     font-weight: 600;
     vertical-align: middle;
@@ -103,6 +107,7 @@
     background: $lightThemeBackdropColor;
     transition: 0.5s;
 }
+
 #dark-theme {
     background: $darkBackgroundColor;
     color: $darkThemePrimaryColor;

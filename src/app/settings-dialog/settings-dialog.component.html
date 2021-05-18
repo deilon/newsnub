@@ -11,11 +11,11 @@
                             <div class="col-11"><p>Sources cannot mix with "country" and "category" for browsing articles.</p></div>
                         </div>
                     </div>
-                    <div class="dialog-background-theme col-md-6 col-lg-6">
+                    <div class="dialog-content col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
-                            <div class="dialog col-3 col-sm-3 col-md-3 col-lg-2" *ngFor="let source of sources">
+                            <div class="dialog-lists col-3 col-sm-3 col-md-3 col-lg-2" *ngFor="let source of sources">
                                 <a routerLink="/articles/source/{{source.id}}" (click)="closeOnSourceClick()">
-                                    <div class="dialog-image" 
+                                    <div class="dialog-lists-image" 
                                     matTooltip="{{source.name | uppercase}}" 
                                     [ngStyle]="{'background-image': 'url(../../../../assets/source-images/'+ source.id +'.png)'}">
                                     </div>
@@ -37,11 +37,11 @@
                             <div class="col-11"><p>Country option is not yet supported on "Search" and "News Sources"</p></div>
                         </div>
                     </div>
-                    <div class="dialog-background-theme col-md-6 col-lg-6">
+                    <div class="dialog-content col-md-6 col-lg-6">
                         <div class="row g-0 pt-4 pb-4">
-                            <div class="dialog col-3 col-sm-3 col-md-3 col-lg-2" *ngFor="let list of countryList">
+                            <div class="dialog-lists col-3 col-sm-3 col-md-3 col-lg-2" *ngFor="let list of countryList">
                                 <a routerLink="/articles/category/general" (click)="activateCountry(list.alpha2code)">
-                                    <div class="dialog-image" 
+                                    <div class="dialog-lists-image" 
                                     matTooltip="{{list.name | uppercase}}" 
                                     [ngStyle]="{'background-image': 'url(https://newsapi.org/images/flags/'+list.alpha2code+'.svg)'}">
                                     </div>
