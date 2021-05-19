@@ -5,9 +5,9 @@
     background: var(--backgroundColor);
 }
 .myapp-custom-colors .mat-tab-label {
-    color: var(--fgPrimaryColor);
     font-family: $defaultFont;
     font-weight: 600;
+    color: var(--fgPrimaryColor);
 }
 .myapp-custom-colors .mat-tab-header-pagination-chevron {
     border-color: var(--fgPrimaryColor);
@@ -21,9 +21,9 @@
 
 
 .dialog-information {
+    font-family: $defaultFont;
     padding-top: 15px;
     padding-bottom: 15px;
-    font-family: $defaultFont;
 }
 
 .dialog-notice > p {

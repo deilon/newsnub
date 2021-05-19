@@ -16,9 +16,9 @@ li {
     margin-right: 7px;
     cursor: pointer;
     a {
+        display: block;
         text-decoration: none;
         color: var(--fgPrimaryColor) !important;
-        display: block;
     }
     svg {
         margin: 0 3px;

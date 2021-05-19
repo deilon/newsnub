@@ -6,9 +6,9 @@ mat-sidenav {
     bottom: 0;
     left: 0;
     right: 1;
-    border: none;
     font-family: $defaultFont;
     background: var(--backgroundColor);
+    border: none;
 }
 
 mat-sidenav-content {
@@ -28,10 +28,6 @@ mat-sidenav-content {
     flex: 1 1 auto;
 }
 
-p {
-    margin: 0 !important;
-}
-
 .bi {
     color: var(--fgPrimaryColor);
 }
@@ -44,7 +40,6 @@ p {
     #toggleBtn {
         margin-right: 10px;
         float: left;
-        width: none;
         cursor: pointer;
         svg {
             color: var(--fgPrimaryColor);
@@ -52,12 +47,12 @@ p {
     }
     p {
         font-family: $defaultFont;
-        color: var(--fgPrimaryColor);
         font-size: 25px;
         font-weight: 700;
+        color: var(--fgPrimaryColor);
         span {
-            color: var(--fgSecondaryColor);
             font-weight: 600;
+            color: var(--fgSecondaryColor);
         }
     }
 }
