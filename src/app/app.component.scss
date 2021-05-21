@@ -7,12 +7,12 @@ mat-sidenav {
     left: 0;
     right: 1;
     font-family: $defaultFont;
-    background: var(--backgroundColor);
+    background: var(--background-color);
     border: none;
 }
 
 mat-sidenav-content {
-    background: var(--backgroundColor);
+    background: var(--background-color);
     display: flex;
     flex-flow: column;
     height: 100vh;
@@ -29,7 +29,7 @@ mat-sidenav-content {
 }
 
 .bi {
-    color: var(--fgPrimaryColor);
+    color: var(--fg-primary-color);
 }
 
 .header {
@@ -42,17 +42,17 @@ mat-sidenav-content {
         float: left;
         cursor: pointer;
         svg {
-            color: var(--fgPrimaryColor);
+            color: var(--fg-primary-color);
         }
     }
     p {
         font-family: $defaultFont;
         font-size: 25px;
         font-weight: 700;
-        color: var(--fgPrimaryColor);
+        color: var(--fg-primary-color);
         span {
             font-weight: 600;
-            color: var(--fgSecondaryColor);
+            color: var(--fg-secondary-color);
         }
     }
 }
@@ -61,11 +61,11 @@ mat-sidenav-content {
     
     input {
         border: none;
-        background: var(--backdropColor);
+        background: var(--backdrop-color);
         font-family: $defaultFont;
         font-size: 14px;
         font-weight: 600;
-        color: var(--fgPrimaryColor);
+        color: var(--fg-primary-color);
         padding: 12px 25px 12px 15px;
         margin-right: -10px;
         width: 260px;
@@ -73,19 +73,19 @@ mat-sidenav-content {
     }
     input:focus {
         outline: none;
-        background: var(--backdropColor);
+        background: var(--backdrop-color);
     }
     input::placeholder {
         font-family: $defaultFont;
         font-size: 14px;
         font-weight: 600;
-        color: var(--fgSecondaryColor);
+        color: var(--fg-secondary-color);
     }
     input::-ms-input-placeholder {
         font-family: $defaultFont;
         font-size: 14px;
         font-weight: 600;
-        color: var(--fgSecondaryColor);
+        color: var(--fg-secondary-color);
     }
     // override user-agent styles on input
     input:-webkit-autofill,
@@ -101,7 +101,7 @@ mat-sidenav-content {
     }
     button {
         border: none;
-        background: var(--accentColor);
+        background: var(--accent-color);
         padding: 10.5px 12px;
         width: 50px;
         border-radius: 5px;

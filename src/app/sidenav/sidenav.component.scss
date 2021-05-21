@@ -29,12 +29,12 @@
     .sidenav-date {
         font-weight: 700;
         font-size: 16px;
-        color: var(--fgPrimaryColor);
+        color: var(--fg-primary-color);
     }
     .sidenav-time {
         font-size: 13px;
         font-weight: 600;
-        color: var(--fgSecondaryColor);
+        color: var(--fg-secondary-color);
     }
 }
 
@@ -47,7 +47,7 @@
     display: block;
     font-weight: 700;
     font-size: 15px;
-    color: var(--fgSecondaryColor);
+    color: var(--fg-secondary-color);
     width: 200px;
     margin-bottom: 30px;
     cursor: pointer;
@@ -57,7 +57,7 @@
         width: 30px;
         height: 30px;
         padding: 3px;
-        background: var(--backdropColor);
+        background: var(--backdrop-color);
         border-radius: 6px;
         text-align: center;
         margin-right: 10px;
@@ -65,16 +65,16 @@
         svg {
             display: inline-block;
             font-weight: bold;
-            color: var(--fgSecondaryColor);
+            color: var(--fg-secondary-color);
             margin: auto;
         }
     }
 }
 
 .active-category {
-    color: var(--fgPrimaryColor);
+    color: var(--fg-primary-color);
     span {
-        background: var(--accentColor);
+        background: var(--accent-color);
         svg {
             color: #FFFFFF;
         }
@@ -84,13 +84,13 @@
 #more-settings {
     position: sticky;
     bottom: 0;
-    background: var(--backgroundColor);
+    background: var(--background-color);
     padding-bottom: 20px;
     button {
         display: block;
         width: 100%;
         padding: 10px;
-        background: var(--accentColor);
+        background: var(--accent-color);
         font-weight: 600;
         color: #FFFFFF;
         text-decoration: none;

@@ -4,13 +4,13 @@
     position: relative;
     overflow: hidden;
     margin-top: 20px;
-    background-color: var(--backgroundColor);
+    background-color: var(--background-color);
 }
 
 .backdrop-color {
     position: absolute;
     top: 70px;
-    background: var(--backdropColor) !important;
+    background: var(--backdrop-color) !important;
     border-top-left-radius: 30px;
     height: 100%;
     width: 100%;
@@ -21,11 +21,11 @@
 }
 
 .article {
-    background: var(--backgroundColor);
+    background: var(--background-color);
     padding: 10px;
     border-radius: 15px;
-    -webkit-box-shadow: var(--backgroundShadow); 
-    box-shadow: var(--backgroundShadow); 
+    -webkit-box-shadow: var(--background-shadow); 
+    box-shadow: var(--background-shadow); 
 }
 
 .article-image {
@@ -42,13 +42,13 @@
     .article-category {
         font-family: $defaultFont;
         font-weight: 700;
-        color: var(--fgSecondaryColor);
+        color: var(--fg-secondary-color);
     }
     .article-title {
         font-family: $defaultFont;
         font-weight: 700;
         font-size: 18px;
-        color: var(--fgPrimaryColor);
+        color: var(--fg-primary-color);
 
         // Text truncation i got from google.
         // This allows me to clamp long text into 3 lines and truncate it
@@ -84,13 +84,13 @@
             font-family: $defaultFont;
             font-weight: 700;
             font-size: 14px;
-            color: var(--fgPrimaryColor);
+            color: var(--fg-primary-color);
         }
         .article-source-date {
             font-family: $defaultFont;
             font-size: 12px;
             font-weight: 700;
-            color: var(--fgSecondaryColor);
+            color: var(--fg-secondary-color);
         }
     }
 }

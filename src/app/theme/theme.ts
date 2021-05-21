@@ -6,25 +6,25 @@ export interface Theme {
 export const light: Theme = {
     name: "light",
     properties: {
-        "--backgroundColor": "#FFFFFF",
-        "--fgPrimaryColor":  "#313237",
-        "--fgSecondaryColor": "#788D9B",
-        "--backdropColor":    "#EEEEF0",
+        "--background-color": "#FFFFFF",
+        "--fg-primary-color":  "#313237",
+        "--fg-secondary-color": "#788D9B",
+        "--backdrop-color":    "#EEEEF0",
     
-        "--accentColor": "#5A7AFF",
-        "--backgroundShadow": "0px 2px 63px -49px  #000000"
+        "--accent-color": "#5A7AFF",
+        "--background-shadow": "0px 2px 63px -49px  #000000"
     }
 }
 
 export const dark: Theme = {
     name: "dark",
     properties: {
-        "--backgroundColor": "#18191A",
-        "--fgPrimaryColor":  "#F1F2F3",
-        "--fgSecondaryColor": "#656C70",
-        "--backdropColor":    "#242526",
+        "--background-color": "#18191A",
+        "--fg-primary-color":  "#F1F2F3",
+        "--fg-secondary-color": "#656C70",
+        "--backdrop-color":    "#242526",
     
-        "--accentColor": "#5A7AFF",
-        "--backgroundShadow": "0px 2px 63px -49px  #FFFFFF"
+        "--accent-color": "#5A7AFF",
+        "--background-shadow": "0px 2px 63px -49px  #FFFFFF"
     }
 }
