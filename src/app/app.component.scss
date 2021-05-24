@@ -24,10 +24,6 @@ mat-sidenav-content {
     overflow-x: hidden;
 }
 
-.router-section {
-    flex: 1 1 auto;
-}
-
 .bi {
     color: var(--fg-primary-color);
 }
@@ -114,5 +110,9 @@ mat-sidenav-content {
         height: 15px;
     }
     
+}
+
+.router-section {
+    flex: 1 1 auto;
 }
 
