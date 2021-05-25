@@ -44,6 +44,13 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
     .subscribe((data: any) => { this.articles = data.articles, this.totalItems = data.totalResults });
   }
 
+  // For Dummy/Fake articles-category pagination
+  getDummyPage(page) {
+    this.pageNumber = page;
+    this.newsapi.initArticles(this.category, this.pageNumber, this.itemsPerPage, this.countryCode)
+    .subscribe((data: any) => { this.articles = data[0].articles, this.totalItems = data[0].totalResults });
+  }
+
   checkCurrentCountry() {
     if (localStorage.getItem('countryCode') == null) {
       this.countryCode = 'us';
