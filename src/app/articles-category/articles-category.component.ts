@@ -32,10 +32,10 @@ export class ArticlesCategoryComponent implements OnInit, OnDestroy {
   ngOnInit() {
       this.checkCurrentCountry();
       this.countryCodeSubscription();
-      // this.getCategoryArticles();
+      this.getCategoryArticles();
 
       // For Testing purposes :)
-      this.getDummyCategoryArticles();
+      // this.getDummyCategoryArticles();
   }
 
   getPage(page) {
