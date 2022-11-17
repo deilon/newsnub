@@ -13,9 +13,14 @@
 
 .profile-image {
     margin-top: 10px;
-    img {
+    span {
         width: 45px;
         height: 45px;
+        background-image: url('../../assets/me2.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        display: block;
         border-radius: 50%;
     }
 }
