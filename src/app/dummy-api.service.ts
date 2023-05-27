@@ -15,7 +15,7 @@ export class DummyApiService {
 
   // for online hosting when you're not paying for business/commercial newsapi.org plan
   initArticles(category: string, page: number, pageSize: number, country: string) {
-    return this.http.get('https://newsnub.herokuapp.com/category?name=' + category);
+    return this.http.get('https://newsnub-db.onrender.com/category?name=' + category);
   }
   
 }
